@@ -1,0 +1,38 @@
+{
+  "name": "libertyjs-2017",
+  "version": "1.0.0",
+  "description": "LibertyJS 2017 WordPress Template",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:LibertyJS/libertyjs2017.git"
+  },
+  "author": "Jonathan Belcher",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/LibertyJS/libertyjs2017/issues"
+  },
+  "homepage": "https://github.com/LibertyJS/libertyjs2017",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "gulp": "3.9.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-postcss": "6.4.0",
+    "gulp-sourcemaps": "2.5.1",
+    "gulp-watch": "^4.3.11",
+    "postcss": "5.2.16",
+    "postcss-cssnext": "2.10.0",
+    "postcss-import": "^9.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
