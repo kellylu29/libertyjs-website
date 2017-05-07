@@ -130,10 +130,10 @@
 .ljs2017-faq__blurb h2 {
 	color: #255a8b;
 	font-size: 15.4vw;
-	font-weight: 800;
+	font-weight: 700;
 
 	@media only screen and (max-width: 750px) {
 		font-size: 16.5vw;
-		font-weight: 800;
+		font-weight: 700;
 	}
 }

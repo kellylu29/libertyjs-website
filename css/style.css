@@ -34,7 +34,7 @@ others.
 @import url( 'venue.css' );
 
 body {
-	font-family: 'proxima-nova';
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
 	overflow-x: hidden;
 }

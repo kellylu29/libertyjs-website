@@ -42,7 +42,7 @@
 .ljs2017-cta__container p {
 	color: #ffffff;
 	font-size: 1.3vw;
-	font-weight: 100;
+	font-weight: 200;
 	line-height: 1.6;
 	margin: 1.3vw 0 2.3vw;
 
@@ -81,7 +81,7 @@ p.ljs2017-cta__ticket-label {
 	border-radius: 10vw;
 	color: #ffffff;
 	font-size: 1.7vw;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.1vw;
 	line-height: 6vw;
 	margin-top: 0.9vw;
@@ -141,7 +141,7 @@ p.ljs2017-cta__ticket-label {
 	color: #ffffff;
 	font-size: 1.3vw;
 	letter-spacing: 0.1vw;
-	font-weight: 500;
+	font-weight: 400;
 	height: 5vw;
 	margin-top: 0.9vw;
 	text-align: center;
