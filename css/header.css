@@ -8,7 +8,7 @@
 }
 
 .ljs2017-header__container {
-	background-image: url( 'img/ljs2017-header-image.png' );
+	background-image: url( '/wp-content/uploads/2017/05/ljs2017-header-image.png' );
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,7 +26,7 @@
 .ljs2017-header__info-container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 29vw;
+	width: 30vw;
 
 	@media only screen and (max-width: 750px) {
 		width: 78vw;

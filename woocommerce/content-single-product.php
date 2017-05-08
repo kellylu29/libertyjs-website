@@ -79,13 +79,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<h1>2 DAYS<br> 8 WORKSHOPS<br> 30+ SPEAKERS</h1>
 		</div>
 		<div class="ljs2017-template-checkout__speakers">
-			<p>Keynote Speakers</p>
-			<p>John Maeda, Rand Fishkin, Todd Wilkens</p>
-			<p>Beka Rice, Kandace Brigleb, Zach Stepek</p>
+			<p>Keynote Speaker</p>
+			<p>Pam Selle</p>
 		</div>
 		<div class="ljs2017-footer__divider"></div>
 		<div class="ljs2017-template-checkout__info-location">
-			OCTOBER 19 &amp; 20 • SEATTLE, USA
+			NOVEMBER 16 &amp; 17 • PHILADELPHIA, USA
 		</div>
 	</div>
 </div>

@@ -47,8 +47,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="/">
 				<img
 					class="ljs2017-menu__logo"
-					src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-wooconf-logo.png"
-					alt="WooConf Logo">
+					src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-secondary-logo-black-blue.png"
+					alt="LibertyJS Logo">
 			</a>
 			<div class="ljs2017-menu__menu-logo"></div>
 			<div

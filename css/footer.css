@@ -15,10 +15,10 @@
 }
 
 .ljs2017-footer__logo {
-	width: 6vw;
+	width: 14vw;
 
 	@media only screen and (max-width: 750px) {
-		width: 15vw;
+		width: 28vw;
 	}
 }
 

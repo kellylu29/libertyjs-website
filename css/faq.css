@@ -80,7 +80,7 @@
 	border-width: 1.5vw;
 	border-top-width: 0;
 	box-sizing: border-box;
-	margin: 0 0 0 26.5vw;
+	margin: 0 0 0 51.5vw;
 	order: 1;
 	padding: 1vw 10vw 5vw;
 	position: absolute;
@@ -115,7 +115,7 @@
 .ljs2017-faq__blurb::before,
 .ljs2017-faq__blurb::after {
 	border-style: solid;
-	border-width: 0 0 15vw 10vw;
+	border-width: 0 0 13vw 9vw;
 	content: '';
 	height: 0;
 	position: absolute;

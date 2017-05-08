@@ -38,10 +38,9 @@
 }
 
 .ljs2017-menu__logo {
-	height: 50%;
-	margin: 23%;
+	margin: 31% 9%;
 	position: relative;
-	width: 50%;
+	width: 81%;
 	z-index: 1001;
 }
 
@@ -63,7 +62,7 @@
 }
 
 .ljs2017-menu__menu-logo {
-	background-color: #a46497;
+	background-color: #ffc214;
 	height: 4.2vw;
 	left: 4.2vw;
 	position: fixed;
@@ -109,7 +108,7 @@
 }
 
 .ljs2017-menu__menu-menu ul li a {
-	color: #a46497;
+	color: #0024b2;
 	text-decoration: none;
 }
 
