@@ -105,9 +105,13 @@ Template Name: Homepage
 			Chemical Heritage Foundation. Philadelphia, Pennsylvania
 		</h3>
 		<p>
-			Integer varius dui ut est ornare facilisis. Integer tempus tincidunt
-			massa, et ullamcorper nisi rhoncus id. Aenean ac mauris vel ligula iaculis
-			vehicula eu non turpis. Vivamus eu diam at mi tempus mollis at in velit.
+      315 Chestnut St, Philadelphia Pa.
+    </p>
+    <p>
+      CHF’s staff and fellows study the past in order to understand the present and inform the future. CHF focuses on the sciences and technologies of matter and materials and their effect on our modern world, in territory ranging from the physical sciences and industries, through the chemical sciences and engineering, to the life sciences and technologies.
+    </p>
+    <p>
+      CHF collects, preserves, and exhibits historical artifacts. They engage communities of scientists and engineers. We tell the stories of the people behind breakthroughs and innovations.
 		</p>
 		<a
 			href="https://goo.gl/maps/bhxmq6ZgZZ42"
