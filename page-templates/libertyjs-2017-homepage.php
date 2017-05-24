@@ -22,22 +22,21 @@ Template Name: Homepage
 	<div class="ljs2017-summary__container-top">
 		<div class="ljs2017-summary__blurb">
 			<div class="ljs2017-summary__blurb-quote">
-				This is the greatest conference about JS in the worlkd
+				This is the greatest conference about JS in the world
 			</div>
 			<div class="ljs2017-summary__blurb-name">
-				Jonathan Belcher, JavaScript Electro Wizard
+				Jonathan Belcher, LibertyJS Organizer
 			</div>
 			<div class="ljs2017-summary__blurb-location">
-				LibertyJS 2016
 			</div>
 		</div>
 		<div class="ljs2017-summary__headline">
-			<h1>2 DAYS<br> MANY WORKSHOPS<br> MORE SPEAKERS</h1>
+			<h1>2 DAYS<br> GREAT WORKSHOPS<br> AWESOME SPEAKERS</h1>
 		</div>
 	</div>
 	<div class="ljs2017-summary__summary">
 		<p>
-			<strong>the community-super-powered JavaScript tech conference</strong><br>
+			<strong>The community-super-powered JavaScript tech conference</strong><br>
       <p>LibertyJS is held annually in Philadelphia. Join the local JavaScript developer community at this two-day multi-track conference of JavaScript sessions, workshops, and our after conference social.
       </p>
       <p>
