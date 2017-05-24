@@ -37,12 +37,13 @@ Template Name: Homepage
 	</div>
 	<div class="ljs2017-summary__summary">
 		<p>
-			<strong>Headline to the summary of the conference</strong><br>
-			Donec facilisis bibendum diam, sit amet pellentesque erat hendrerit in.
-			Praesent ac tortor nisi. Praesent vel massa vel nulla varius faucibus.
-			Suspendisse nec neque accumsan, efficitur felis sed, vulputate libero.
-			Aliquam eu rhoncus nibh, eu ullamcorper arcu. Quisque ornare non nisi at
-			viverra. Donec et diam in tellus eleifend sagittis.
+			<strong>the community-super-powered JavaScript tech conference</strong><br>
+      <p>LibertyJS is held annually in Philadelphia. Join the local JavaScript developer community at this two-day multi-track conference of JavaScript sessions, workshops, and our after conference social.
+      </p>
+      <p>
+      Organized by Philadelphia JavaScript Developers, the premier JavaScript user group with over 1000 members enthusiastic about JavaScript development, LibertyJS is the active nexus for the local Philadelphia JavaScript developer scene.</p>
+
+      <p>Follow <a href="http://twitter.com/liberty_js">@liberty_js</a> to keep current with the event and schedule as it develops.</p>
 		</p>
 	</div>
 </div>
@@ -63,7 +64,7 @@ Template Name: Homepage
 			<div class="ljs2017-keynotes__keynote-jobtitle">Tag Line</div>
 			<img
 				class="ljs2017-keynotes__keynote-image"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-keynote-example.jpg"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-keynote-pam-selle.png"
 				alt="Pam Selle Image">
 		</div>
 	</div>
@@ -104,15 +105,9 @@ Template Name: Homepage
 		<h3 id="venue">
 			Chemical Heritage Foundation. Philadelphia, Pennsylvania
 		</h3>
-		<p>
-      315 Chestnut St, Philadelphia Pa.
-    </p>
     <p>
       CHF’s staff and fellows study the past in order to understand the present and inform the future. CHF focuses on the sciences and technologies of matter and materials and their effect on our modern world, in territory ranging from the physical sciences and industries, through the chemical sciences and engineering, to the life sciences and technologies.
     </p>
-    <p>
-      CHF collects, preserves, and exhibits historical artifacts. They engage communities of scientists and engineers. We tell the stories of the people behind breakthroughs and innovations.
-		</p>
 		<a
 			href="https://goo.gl/maps/bhxmq6ZgZZ42"
 			target="_blank"
