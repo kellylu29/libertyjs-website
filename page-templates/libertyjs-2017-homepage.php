@@ -75,7 +75,7 @@ Template Name: Homepage
 	</p>
 	<div class="ljs2017-cta__ticket">
 		<div class="ljs2017-cta__ticket-labels">
-			<h3>$499</h3>
+			<h3>$149</h3>
 			<p class="ljs2017-cta__ticket-label">Early bird</p>
 		</div>
 		<a
@@ -85,13 +85,13 @@ Template Name: Homepage
 
 	<div class="ljs2017-cta__ticket">
 		<div class="ljs2017-cta__ticket-labels">
-			<h3>$699</h3>
+			<h3>$249</h3>
 			<p class="ljs2017-cta__ticket-label">Regular Price</p>
 		</div>
 		<a
 			class="ljs2017-cta__ticket-purchase"
 			disabled
-			href="#">Starts 07/01</a>
+			href="#">Starts 08/01</a>
 	</div>
 </div>
 <div class="ljs2017-venue__container" id="venue">
