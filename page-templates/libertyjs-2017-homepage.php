@@ -13,7 +13,7 @@ Template Name: Homepage
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-primary-logo-white-yellow.png"
 				alt="LibertyJS Logo">
 			<div class="ljs2017-header__info-location">
-				NOVEMBER 16 &amp; 17 â€¢ PHILADELPHIA, USA
+				NOVEMBER 16 &amp; 17 • PHILADELPHIA, USA
 			</div>
 		</div>
 	</div>
@@ -63,7 +63,7 @@ Template Name: Homepage
 			<div class="ljs2017-keynotes__keynote-jobtitle">Tag Line</div>
 			<img
 				class="ljs2017-keynotes__keynote-image"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-keynote-pam-selle.png"
+				src="/wp-content/uploads/2017/05/ljs2017-keynote-pam-selle.png"
 				alt="Pam Selle Image">
 		</div>
 	</div>
@@ -120,13 +120,12 @@ Template Name: Homepage
 	<div class="ljs2017-sponsors-mobile__sponsor-large">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/Comcast_Logo.svg.png"
+			src="/wp-content/uploads/2017/05/ljs2017-Comcast_Logo.png"
 			alt="Comcast Logo">
-		<h3>SOME KIND OF SPONSOR TEXT</h3>
-		<p>
-			With some additional marketing copy here giving this sponsor
-			some extra mileage becuase they paid the big bucks
-		</p>
+      <h3>Comcast</h3>
+      <p>
+        Comcast embraces new talent every day to help them continue to create-accountgreat experiences on a number of platforms.
+      </p>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor-large">
 		<img
@@ -199,14 +198,13 @@ Template Name: Homepage
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block">
 		<div class="ljs2017-sponsors__sponsor-large">
-			<img
-				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
-				alt="Pressable Logo">
-			<h3>SOME KIND OF SPONSOR TEXT</h3>
+      <img
+  			class="ljs2017-sponsors__logo"
+  			src="/wp-content/uploads/2017/05/ljs2017-Comcast_Logo.png"
+  			alt="Comcast Logo">
+        <h3>Comcast</h3>
 			<p>
-				With some additional marketing copy here giving this sponsor
-				some extra mileage becuase they paid the big bucks
+				Comcast embraces new talent every day to help them continue to create-accountgreat experiences on a number of platforms.
 			</p>
 		</div>
 	</div>
