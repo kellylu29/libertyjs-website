@@ -120,8 +120,8 @@ Template Name: Homepage
 	<div class="ljs2017-sponsors-mobile__sponsor-large">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
-			alt="Pressable Logo">
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/Comcast_Logo.svg.png"
+			alt="Comcast Logo">
 		<h3>SOME KIND OF SPONSOR TEXT</h3>
 		<p>
 			With some additional marketing copy here giving this sponsor
