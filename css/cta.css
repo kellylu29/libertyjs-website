@@ -1,11 +1,12 @@
 .ljs2017-cta__container {
-	background-color: #3c3c3c;
-	height: 34vw;
-	margin: -30vw 0 0 43vw;
-	padding: 7.5vw 8vw;
-	position: relative;
-	width: 41vw;
-	z-index: 1;
+  background-color: #3c3c3c;
+  height: 30vw;
+  right: 0;
+  margin: -12vw 0 0 51vw;
+  padding: 5.5vw 7vw;
+  position: relative;
+  width: 35vw;
+  z-index: 1;
 
 	@media only screen and (max-width: 750px) {
 		height: inherit;
