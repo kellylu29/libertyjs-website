@@ -103,6 +103,12 @@
 	justify-content: center;
 	height: 11.2vw;
 	width: 25vw;
+  /* vvv remove when we have sponsor content vvv */
+  display: none;
+  height: 0;
+	width: 0;
+  /* ^^^ remove when we have sponsor content ^^^ */
+
 }
 
 .ljs2017-sponsors__sponsor .ljs2017-sponsors__logo {
