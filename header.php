@@ -10,13 +10,6 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5879HH');</script>
-<!-- End Google Tag Manager -->
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -55,8 +48,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				class="ljs2017-menu__menu-menu"
 				id="ljs2017-menu__menu-menu">
 				<ul>
-					<li><a href="/#about">About</a></li>
-					<li><a href="/#keynotes">Keynotes</a></li>
+					<li><a href="/speak">Speak</a></li>
+					<li><a href="/sponsor">Sponsor</a></li>
 					<li><a href="/#buy-a-ticket">Buy a Ticket</a></li>
 					<li><a href="/#venue">Venue</a></li>
 					<li><a href="/volunteer">Volunteer</a></li>
