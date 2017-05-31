@@ -126,8 +126,7 @@ Template Name: Homepage
 			alt="Comcast Logo">
       <h3>Comcast</h3>
       <p>
-        Comcast embraces new talent every day to help them continue to create
-				great experiences on a number of platforms.
+        Comcast brings together the best in media and technology. We drive innovation to create the world's best entertainment and online experiences.
       </p>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor-large">
