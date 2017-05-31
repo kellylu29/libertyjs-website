@@ -39,14 +39,9 @@
 	align-self: flex-start;
 	margin: 2vw 2.2vw 0 0;
 	width: 29vw;
-
-	@media only screen and (max-width: 750px) {
-		margin: 143vw 0 0;
-		width: 50vw;
-	}
 }
 
-.ljs2017-lastyear__image-small:last-child {
+.ljs2017-lastyear__image-small {
 	@media only screen and (max-width: 750px) {
 		display: none;
 	}
@@ -62,7 +57,7 @@
 
 	@media only screen and (max-width: 750px) {
 		height: 119vw;
-		margin: -182vw 0 55vw;
+		margin: 0 0 55vw;
 		padding: 24.5vw 8vw 0;
 		width: 84vw;
 	}

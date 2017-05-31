@@ -13,7 +13,7 @@ Template Name: Homepage
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-primary-logo-white-yellow.png"
 				alt="LibertyJS Logo">
 			<div class="ljs2017-header__info-location">
-				NOVEMBER 16 &amp; 17 • PHILADELPHIA, USA
+				NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
 			</div>
 		</div>
 	</div>
@@ -25,13 +25,14 @@ Template Name: Homepage
 				This is the greatest conference about JS in the world
 			</div>
 			<div class="ljs2017-summary__blurb-name">
-				Jonathan Belcher, LibertyJS Organizer
+				Jonathan Belcher, JavaScript Electro Wizard
 			</div>
 			<div class="ljs2017-summary__blurb-location">
+				LibertyJS Organizer
 			</div>
 		</div>
 		<div class="ljs2017-summary__headline">
-			<h1>2 DAYS<br> GREAT WORKSHOPS<br> AWESOME SPEAKERS</h1>
+			<h1>TWO DAYS<br> GREAT WORKSHOPS<br> AWESOME SPEAKERS</h1>
 		</div>
 	</div>
 	<div class="ljs2017-summary__summary">
@@ -52,7 +53,7 @@ Template Name: Homepage
 			<h2>KEYNOTES</h2>
 		</div>
 		<div class="ljs2017-keynotes__heading-all">
-			<a href="/speakers">VIEW FULL SPEAKER LINE UP</a>
+			<a href="/speak">SPEAK AT LIBERTYJS</a>
 			<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 		</div>
 
@@ -60,19 +61,16 @@ Template Name: Homepage
 	<div class="ljs2017-keynotes__keynotes">
 		<div class="ljs2017-keynotes__keynote">
 			<div class="ljs2017-keynotes__keynote-name">Pam Selle</div>
-			<div class="ljs2017-keynotes__keynote-jobtitle">Tag Line</div>
+			<div class="ljs2017-keynotes__keynote-jobtitle">Software Engineer &amp; Technology Leader</div>
 			<img
 				class="ljs2017-keynotes__keynote-image"
-				src="/wp-content/uploads/2017/05/ljs2017-keynote-pam-selle.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-keynote-pam-selle.png"
 				alt="Pam Selle Image">
 		</div>
 	</div>
 </div>
 <div class="ljs2017-cta__container" id="buy-a-ticket">
 	<h2>Secure Your Spot</h2>
-	<p>
-		Need Text
-	</p>
 	<div class="ljs2017-cta__ticket">
 		<div class="ljs2017-cta__ticket-labels">
 			<h3>$149</h3>
@@ -105,7 +103,11 @@ Template Name: Homepage
 			Chemical Heritage Foundation. Philadelphia, Pennsylvania
 		</h3>
     <p>
-      CHF’s staff and fellows study the past in order to understand the present and inform the future. CHF focuses on the sciences and technologies of matter and materials and their effect on our modern world, in territory ranging from the physical sciences and industries, through the chemical sciences and engineering, to the life sciences and technologies.
+      CHF's staff and fellows study the past in order to understand the present
+			and inform the future. CHF focuses on the sciences and technologies of
+			matter and materials and their effect on our modern world, in territory
+			ranging from the physical sciences and industries, through the chemical
+			sciences and engineering, to the life sciences and technologies.
     </p>
 		<a
 			href="https://goo.gl/maps/bhxmq6ZgZZ42"
@@ -117,20 +119,21 @@ Template Name: Homepage
 	</div>
 </div>
 <div class="ljs2017-sponsors-mobile__container">
-	<div class="ljs2017-sponsors-mobile__sponsor-large">
+	<div class="ljs2017-sponsors-mobile__sponsor-large ljs2017-sponsors__show-block">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="/wp-content/uploads/2017/05/ljs2017-Comcast_Logo.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Comcast Logo">
       <h3>Comcast</h3>
       <p>
-        Comcast embraces new talent every day to help them continue to create-accountgreat experiences on a number of platforms.
+        Comcast embraces new talent every day to help them continue to create
+				great experiences on a number of platforms.
       </p>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor-large">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Pressable Logo">
 		<h3>SOME KIND OF SPONSOR TEXT</h3>
 		<p>
@@ -141,70 +144,71 @@ Template Name: Homepage
 	<div class="ljs2017-sponsors-mobile__sponsor">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Pressable Logo">
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Pressable Logo">
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Pressable Logo">
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Pressable Logo">
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Pressable Logo">
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Pressable Logo">
 	</div>
 </div>
 <div class="ljs2017-sponsors__container">
-	<div class="ljs2017-sponsors__sponsor-block">
+	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
 		<div class="ljs2017-sponsors__sponsor-empty">
 
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
 
 		</div>
-		<div class="ljs2017-sponsors__sponsor">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
-		<div class="ljs2017-sponsors__sponsor">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 	</div>
-	<div class="ljs2017-sponsors__sponsor-block">
+	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
 		<div class="ljs2017-sponsors__sponsor-large">
       <img
   			class="ljs2017-sponsors__logo"
-  			src="/wp-content/uploads/2017/05/ljs2017-Comcast_Logo.png"
+  			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
   			alt="Comcast Logo">
         <h3>Comcast</h3>
 			<p>
-				Comcast embraces new talent every day to help them continue to create-accountgreat experiences on a number of platforms.
+				Comcast embraces new talent every day to help them continue to
+				create great experiences on a number of platforms.
 			</p>
 		</div>
 	</div>
@@ -212,13 +216,13 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
@@ -226,7 +230,7 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 	</div>
@@ -234,7 +238,7 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor-large">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 			<h3>SOME KIND OF SPONSOR TEXT</h3>
 			<p>
@@ -250,7 +254,7 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
@@ -264,25 +268,25 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 	</div>
@@ -292,13 +296,13 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
@@ -306,7 +310,7 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-sponsor-pressable.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 				alt="Pressable Logo">
 		</div>
 	</div>
@@ -318,19 +322,19 @@ Template Name: Homepage
 			<img
 				class="ljs2017-lastyear__image-large"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-1.jpg"
-				alt="Pressable Logo">
+				alt="LibertyJS 2016">
 			<img
 				class="ljs2017-lastyear__image-small"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-2.jpg"
-				alt="Pressable Logo">
+				alt="LibertyJS 2016">
 			<img
 				class="ljs2017-lastyear__image-small"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-3.jpg"
-				alt="Pressable Logo">
+				alt="LibertyJS 2016">
 			<img
 				class="ljs2017-lastyear__image-small"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-4.jpg"
-				alt="Pressable Logo">
+				alt="LibertyJS 2016">
 		</div>
 		<div class="ljs2017-lastyear__watch-container">
 			<a href="https://www.youtube.com/channel/UCbbeyEpxDT53afqFUqG-KJQ" target="_blank">
@@ -361,19 +365,20 @@ Template Name: Homepage
 			<div class="ljs2017-faq__question">
 				<h3>Who should come to LibertyJS?</h3>
 				<p>
-					Foo
+					Anyone who is interested in JavaScript. If you want to learn, play
+					with, or work with JS
 				</p>
 			</div>
 			<div class="ljs2017-faq__question">
 				<h3>Whatâ€™s included with my ticket?</h3>
 				<p>
-					Bang
+					Two days of really amazing talks and workshops. Lunch is also provided!
 				</p>
 			</div>
 			<div class="ljs2017-faq__question">
 				<h3>How can we sponsor LibertyJS?</h3>
 				<p>
-					Content
+					You can sponsor LibertyJS by going <a href="/sponsor">here</a>
 				</p>
 			</div>
 		</div>
@@ -381,7 +386,8 @@ Template Name: Homepage
 			<div class="ljs2017-faq__question">
 				<h3>Where do I apply to speak?</h3>
 				<p>
-					<a href="/speak">Over here!</a>
+					You can send us a application to speak <a href="/speak">here</a>. We
+					want you to speak so get your talk in!
 				</p>
 			</div>
 			<div class="ljs2017-faq__question">
@@ -393,9 +399,9 @@ Template Name: Homepage
 				</p>
 			</div>
 			<div class="ljs2017-faq__question">
-				<h3>Another</h3>
+				<h3>Is this the best JavaScript conference in Philadelphia?</h3>
 				<p>
-					Blah
+					Yes!
 				</p>
 			</div>
 		</div>
