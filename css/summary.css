@@ -122,13 +122,13 @@
 
 .ljs2017-summary__headline h1 {
 	color: #255a8b;
-	font-size: 3.5vw;
+	font-size: 3vw;
 	font-weight: 900;
 	line-height: 0.9;
 	margin-bottom: 1vw;
 
 	@media only screen and (max-width: 750px) {
-		font-size: 9.6vw;
+		font-size: 8.6vw;
 		line-height: 9.8vw;
 		margin-bottom: 1.1vw;
 	}
@@ -139,12 +139,14 @@
 	font-size: 1.3vw;
 	line-height: 1.6;
 	margin-left: 12vw;
+	padding: 0.6vw 0;
 	width: 42vw;
 
 	@media only screen and (max-width: 750px) {
 		font-size: 4.8vw;
 		line-height: 1.7;
-		margin: 12.5vw 0 0 9vw;
+		margin: 4.5vw 0 0 9vw;
+		padding: 0;
 		width: 80vw;
 	}
 }

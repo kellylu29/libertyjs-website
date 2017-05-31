@@ -103,12 +103,6 @@
 	justify-content: center;
 	height: 11.2vw;
 	width: 25vw;
-  /* vvv remove when we have sponsor content vvv */
-  display: none;
-  height: 0;
-	width: 0;
-  /* ^^^ remove when we have sponsor content ^^^ */
-
 }
 
 .ljs2017-sponsors__sponsor .ljs2017-sponsors__logo {
@@ -116,3 +110,27 @@
 	position: relative;
 	width: 10vw;
 }
+
+/*FLAG: No Sponsors*/
+.ljs2017-sponsors-mobile__sponsor-large,
+.ljs2017-sponsors-mobile__sponsor,
+.ljs2017-sponsors__sponsor-block {
+    display: none;
+}
+
+.ljs2017-sponsors__show {
+	display: inherit;
+}
+
+.ljs2017-sponsors__show-block {
+	display: block;
+}
+
+.ljs2017-sponsors__hide {
+	display: none;
+}
+
+.ljs2017-lastyear__container {
+    margin-top: 4vw;
+}
+/*END FLAG: No SPonsors*/
