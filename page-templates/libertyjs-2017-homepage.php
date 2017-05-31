@@ -61,10 +61,10 @@ Template Name: Homepage
 	<div class="ljs2017-keynotes__keynotes">
 		<div class="ljs2017-keynotes__keynote">
 			<div class="ljs2017-keynotes__keynote-name">Pam Selle</div>
-			<div class="ljs2017-keynotes__keynote-jobtitle">Software Engineer &amp; Technology Leader</div>
+			<div class="ljs2017-keynotes__keynote-jobtitle">Software Engineering Lead &amp; Technology Leader</div>
 			<img
 				class="ljs2017-keynotes__keynote-image"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-keynote-pam-selle.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-keynote-pam-selle.jpg"
 				alt="Pam Selle Image">
 		</div>
 	</div>
@@ -370,7 +370,7 @@ Template Name: Homepage
 				</p>
 			</div>
 			<div class="ljs2017-faq__question">
-				<h3>Whatâ€™s included with my ticket?</h3>
+				<h3>What’s included with my ticket?</h3>
 				<p>
 					Two days of really amazing talks and workshops. Lunch is also provided!
 				</p>
