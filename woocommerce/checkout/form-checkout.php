@@ -70,7 +70,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			class="fa fa-ticket"
 			aria-hidden="true"></i>
 		<div class="ljs2017-template-checkout__headline">
-			<h1>2 DAYS<br> 8 WORKSHOPS<br> 30+ SPEAKERS</h1>
+			<h1>TWO DAYS<br> GREAT WORKSHOPS<br> AWESOME SPEAKERS</h1>
 		</div>
 		<div class="ljs2017-template-checkout__speakers">
 			<p>Keynote Speaker</p>
@@ -78,7 +78,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		</div>
 		<div class="ljs2017-footer__divider"></div>
 		<div class="ljs2017-template-checkout__info-location">
-			NOVEMBER 16 &amp; 17 • PHILADELPHIA, USA
+			NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
 		</div>
 	</div>
 </div>

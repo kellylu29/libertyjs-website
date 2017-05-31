@@ -87,7 +87,7 @@ $show_customer_details = is_user_logged_in() && $order->get_user_id() === get_cu
 		</div>
 		<div class="ljs2017-footer__divider"></div>
 		<div class="ljs2017-order__info-location">
-			NOVEMBER 16 &amp; 17 • PHILADELPHIA, USA
+			NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
 		</div>
 
 	</div>

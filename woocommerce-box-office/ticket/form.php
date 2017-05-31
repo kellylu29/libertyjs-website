@@ -25,16 +25,15 @@
 			class="fa fa-ticket"
 			aria-hidden="true"></i>
 		<div class="ljs2017-template-checkout__headline">
-			<h1>2 DAYS<br> 8 WORKSHOPS<br> 30+ SPEAKERS</h1>
+			<h1>TWO DAYS<br> GREAT WORKSHOPS<br> AWESOME SPEAKERS</h1>
 		</div>
 		<div class="ljs2017-template-checkout__speakers">
 			<p>Keynote Speakers</p>
-			<p>John Maeda, Rand Fishkin, Todd Wilkens</p>
-			<p>Beka Rice, Kandace Brigleb, Zach Stepek</p>
+			<p>Pam Selle</p>
 		</div>
 		<div class="ljs2017-footer__divider"></div>
 		<div class="ljs2017-template-checkout__info-location">
-			OCTOBER 19 &amp; 20 • SEATTLE, USA
+			OCTOBER 19 &amp; 20 &middot; SEATTLE, USA
 		</div>
 	</div>
 
