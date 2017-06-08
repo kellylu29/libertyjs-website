@@ -50,7 +50,7 @@ Template Name: Homepage
 <div class="ljs2017-keynotes__container" id="keynotes">
 	<div class="ljs2017-keynotes__heading-container">
 		<div class="ljs2017-keynotes__heading">
-			<h2>KEYNOTES</h2>
+			<h2>KEYNOTE</h2>
 		</div>
 		<div class="ljs2017-keynotes__heading-all">
 			<a href="/speak">SPEAK AT LIBERTYJS</a>
