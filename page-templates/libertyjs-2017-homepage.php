@@ -53,7 +53,7 @@ Template Name: Homepage
 			<h2>KEYNOTE</h2>
 		</div>
 		<div class="ljs2017-keynotes__heading-all">
-			<a href="/speak">SPEAK AT LIBERTYJS</a>
+			<a href="https://www.papercall.io/libertyjs">SPEAK AT LIBERTYJS</a>
 			<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 		</div>
 
@@ -384,7 +384,7 @@ Template Name: Homepage
 			<div class="ljs2017-faq__question">
 				<h3>Where do I apply to speak?</h3>
 				<p>
-					You can send us a application to speak <a href="/speak">here</a>. We
+					You can send us a application to speak <a href="https://www.papercall.io/libertyjs">here</a>. We
 					want you to speak so get your talk in!
 				</p>
 			</div>
