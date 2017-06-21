@@ -19,7 +19,10 @@
 	}
 
 	function init() {
-		initializeClock( 'clockdiv', deadline );
+		var clockDivId = 'clockdiv';
+		if ( document.getElementById( clockDivId ) ) {
+			initializeClock( clockDivId, deadline );
+		}
 	}
 
 	function initializeClock( id, endtime ) {
