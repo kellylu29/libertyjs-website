@@ -103,9 +103,9 @@
 .ljs2017-menu__menu-menu ul {
 	font-size: 5vw;
 	font-weight: 900;
-	line-height: 4vw;
+	line-height: 5vw;
 	list-style: none;
-	padding: 8vw 13vw 0 0;
+	padding: 3vw 13vw 0 0;
 	text-align: right;
 
 	@media only screen and (max-width: 750px) {
@@ -120,7 +120,7 @@
 }
 
 .ljs2017-menu__menu-open .ljs2017-menu__menu-menu ul {
-	padding: 8vw 13vw 0 0;
+	padding: 3vw 13vw 0 0;
 }
 
 .ljs2017-menu__menu-open .ljs2017-menu__menu-menu {
