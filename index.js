@@ -1,4 +1,55 @@
-/* global document:true, jQuery:true */
+/* global clearInterval:true, document:true, jQuery:true, setInterval:true */
+// Countdown! Borrowed heavily from https://codepen.io/SitePoint/pen/MwNPVq
+( function() {
+	var deadline = new Date( 2017, 6, 30 );
+
+	function getTimeRemaining( endtime ) {
+		var t = Date.parse( endtime ) - Date.parse( new Date() );
+		var seconds = Math.floor( ( t / 1000 ) % 60 );
+		var minutes = Math.floor( ( t / 1000 / 60 ) % 60 );
+		var hours = Math.floor( ( t / ( 1000 * 60 * 60 ) ) % 24 );
+		var days = Math.floor( t / ( 1000 * 60 * 60 * 24 ) );
+		return {
+			total: t,
+			days: days,
+			hours: hours,
+			minutes: minutes,
+			seconds: seconds
+		};
+	}
+
+	function init() {
+		initializeClock( 'clockdiv', deadline );
+	}
+
+	function initializeClock( id, endtime ) {
+		var clock = document.getElementById( id );
+		var daysSpan = clock.querySelector( '.ljs2017-header-cta__countdown-days' );
+		var hoursSpan = clock.querySelector( '.ljs2017-header-cta__countdown-hours' );
+		var minutesSpan = clock.querySelector( '.ljs2017-header-cta__countdown-minutes' );
+		var secondsSpan = clock.querySelector( '.ljs2017-header-cta__countdown-seconds' );
+		var timeinterval;
+
+		function updateClock() {
+			var t = getTimeRemaining( endtime );
+
+			daysSpan.innerHTML = t.days;
+			hoursSpan.innerHTML = ( '0' + t.hours ).slice( -2 );
+			minutesSpan.innerHTML = ( '0' + t.minutes ).slice( -2 );
+			secondsSpan.innerHTML = ( '0' + t.seconds ).slice( -2 );
+
+			if ( t.total <= 0 ) {
+				clearInterval( timeinterval );
+			}
+		}
+
+		updateClock();
+		timeinterval = setInterval( updateClock, 1000 );
+	}
+
+	document.addEventListener( 'DOMContentLoaded', init );
+}() );
+
 ( function() {
 	function init() {
 		addMenuListener();
