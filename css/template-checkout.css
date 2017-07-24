@@ -250,6 +250,7 @@ body > .ljs2017-template-checkout__container {
 	background-color: #3c3c3c;
 	box-sizing: border-box;
 	padding-top: 16vw;
+	padding-bottom: 5vw;
 	text-align: center;
 	width: 45.5vw;
 
@@ -642,4 +643,8 @@ div.woocommerce-shipping-fields {
 
 a.button.wc-forward {
 	display: none;
+}
+
+.ljs2017-template-checkout__hidden {
+	display: none !important;
 }
