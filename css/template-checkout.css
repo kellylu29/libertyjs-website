@@ -27,8 +27,9 @@ body > .ljs2017-template-checkout__container {
 	}
 }
 
-.woocommerce-info {
-	margin: 0 auto;
+.woocommerce-info,
+.woocommerce-message {
+	margin: 1vw auto;
 	width: 82.7vw;
 
 	@media only screen and (max-width: 750px) {
@@ -549,9 +550,17 @@ h1.product_title.entry-title,
 	}
 }
 
-.woocommerce-checkout table.shop_table thead,
-.woocommerce-checkout table.shop_table tfoot {
+.woocommerce-checkout table.shop_table thead {
 	display: none;
+}
+
+.woocommerce-checkout table.shop_table tfoot tr {
+	display: none;
+}
+
+.woocommerce-checkout table.shop_table tfoot tr.cart-discount,
+.woocommerce-checkout table.shop_table tfoot tr.order-total {
+	display: table-row;
 }
 
 .woocommerce-checkout table.shop_table,
