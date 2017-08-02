@@ -39,6 +39,7 @@
 
 	@media only screen and (max-width: 750px) {
 		font-size: 9.5vw;
+    line-height: 20vw;
 	}
 }
 
