@@ -25,12 +25,10 @@ Template Name: Homepage
 	</div>
 	<div class="ljs2017-header-cta__cta-container">
 		<p>
-			<strong>Save $100</strong>
-			- get your ticket before
-			<strong>July 30th!</strong>
+			<strong>Get your ticket before they sell out!</strong>
 			<a
 				class="ljs2017-header-cta__ticket-purchase"
-				href="/product/early-bird-ticket/">
+				href="/product/ticket/">
 				Purchase
 			</a>
 		</p>
@@ -103,25 +101,14 @@ Template Name: Homepage
 </div>
 <div class="ljs2017-cta__container" id="buy-a-ticket">
 	<h2>Secure Your Spot</h2>
-	<div class="ljs2017-cta__ticket">
-		<div class="ljs2017-cta__ticket-labels">
-			<h3>$149</h3>
-			<p class="ljs2017-cta__ticket-label">Early bird</p>
-		</div>
-		<a
-			class="ljs2017-cta__ticket-purchase"
-			href="/product/early-bird-ticket/">Purchase</a>
-	</div>
 
 	<div class="ljs2017-cta__ticket">
 		<div class="ljs2017-cta__ticket-labels">
 			<h3>$249</h3>
-			<p class="ljs2017-cta__ticket-label">Regular Price</p>
 		</div>
 		<a
 			class="ljs2017-cta__ticket-purchase"
-			disabled
-			href="#">Starts 08/01</a>
+			href="/product/ticket/">Purchase</a>
 	</div>
 </div>
 <div class="ljs2017-venue__container" id="venue">

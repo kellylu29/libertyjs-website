@@ -1,6 +1,6 @@
 .ljs2017-cta__container {
   background-color: #3c3c3c;
-  height: 26vw;
+  height: 17vw;
   right: 0;
   margin: -24vw 0 0 44vw;
   padding: 5.5vw 7vw;
@@ -33,6 +33,7 @@
 	color: #ffffff;
 	font-size: 3.5vw;
 	font-weight: 900;
+  line-height: 7vw;
 	margin: 0;
 	text-transform: uppercase;
 
