@@ -84,10 +84,6 @@ Template Name: Homepage
 		<div class="ljs2017-keynotes__heading">
 			<h2>KEYNOTE</h2>
 		</div>
-		<div class="ljs2017-keynotes__heading-all">
-			<a href="https://www.papercall.io/libertyjs">SPEAK AT LIBERTYJS</a>
-			<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-		</div>
 
 	</div>
 	<div class="ljs2017-keynotes__keynotes">
@@ -413,13 +409,6 @@ Template Name: Homepage
 			</div>
 		</div>
 		<div class="ljs2017-faq__questions-column">
-			<div class="ljs2017-faq__question">
-				<h3>Where do I apply to speak?</h3>
-				<p>
-					You can send us a application to speak <a href="https://www.papercall.io/libertyjs">here</a>. We
-					want you to speak so get your talk in!
-				</p>
-			</div>
 			<div class="ljs2017-faq__question">
 				<h3>Does LibertyJS have a Code of Conduct?</h3>
 				<p>
