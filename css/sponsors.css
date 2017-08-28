@@ -142,6 +142,10 @@
 
 .ljs2017-sponsors__show {
 	display: inherit;
+
+	@media only screen and (max-width: 750px) {
+		display: block;
+	}
 }
 
 .ljs2017-sponsors__show-block {
