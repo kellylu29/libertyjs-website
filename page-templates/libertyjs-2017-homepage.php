@@ -166,23 +166,23 @@ Template Name: Homepage
 			some extra mileage becuase they paid the big bucks
 		</p>
 	</div>
-	<div class="ljs2017-sponsors-mobile__sponsor">
+	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Pressable Logo">
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
+			alt="Vistar Logo">
 	</div>
-	<div class="ljs2017-sponsors-mobile__sponsor">
+	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Pressable Logo">
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-scala-logo.png"
+			alt="Scala Logo">
 	</div>
-	<div class="ljs2017-sponsors-mobile__sponsor">
+	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Pressable Logo">
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-jornaya-logo.jpg"
+			alt="Jornaya Logo">
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
 		<img
@@ -211,17 +211,17 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor-empty">
 
 		</div>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__show">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-jornaya-logo.jpg"
+				alt="Jornaya Logo">
 		</div>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__show">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-scala-logo.png"
+				alt="Scala Logo">
 		</div>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
@@ -236,14 +236,14 @@ Template Name: Homepage
 			</p>
 		</div>
 	</div>
-	<div class="ljs2017-sponsors__sponsor-block">
+	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
+				alt="Vistar Logo">
 		</div>
-		<div class="ljs2017-sponsors__sponsor">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
@@ -251,7 +251,7 @@ Template Name: Homepage
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
 		</div>
-		<div class="ljs2017-sponsors__sponsor">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
