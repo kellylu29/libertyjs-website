@@ -132,3 +132,27 @@
 .sponsor-benefits td:first-child {
 	text-align: left;
 }
+
+/*FLAG: No Sponsors*/
+.ljs2017-sponsors-mobile__sponsor-large,
+.ljs2017-sponsors-mobile__sponsor,
+.ljs2017-sponsors__sponsor-block {
+	display: none;
+}
+
+.ljs2017-sponsors__show {
+	display: inherit;
+}
+
+.ljs2017-sponsors__show-block {
+	display: block;
+}
+
+.ljs2017-sponsors__hide {
+	display: none;
+}
+
+.ljs2017-lastyear__container {
+	margin-top: 4vw;
+}
+/*END FLAG: No SPonsors*/
