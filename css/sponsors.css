@@ -111,26 +111,24 @@
 	width: 10vw;
 }
 
-/*FLAG: No Sponsors*/
-.ljs2017-sponsors-mobile__sponsor-large,
-.ljs2017-sponsors-mobile__sponsor,
-.ljs2017-sponsors__sponsor-block {
-	display: none;
+.sponsor-benefits {
+	border: 1px solid;
+	border-collapse: collapse;
 }
-
-.ljs2017-sponsors__show {
-	display: inherit;
+.sponsor-benefits th {
+	border: 1px solid;
+	text-align: left;
+	padding: 0 5px;
+	background-color: #ccc;
 }
-
-.ljs2017-sponsors__show-block {
+.sponsor-benefits th b {
 	display: block;
 }
-
-.ljs2017-sponsors__hide {
-	display: none;
+.sponsor-benefits td {
+	border: 1px solid;
+	padding: 5px;
+	text-align: center;
 }
-
-.ljs2017-lastyear__container {
-	margin-top: 4vw;
+.sponsor-benefits td:first-child {
+	text-align: left;
 }
-/*END FLAG: No SPonsors*/
