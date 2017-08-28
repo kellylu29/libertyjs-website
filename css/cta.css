@@ -1,12 +1,12 @@
 .ljs2017-cta__container {
-  background-color: #3c3c3c;
-  height: 17vw;
-  right: 0;
-  margin: -24vw 0 0 44vw;
-  padding: 5.5vw 7vw;
-  position: relative;
-  width: 42vw;
-  z-index: 1;
+	background-color: #3c3c3c;
+	height: 17vw;
+	right: 0;
+	margin: -24vw 0 0 44vw;
+	padding: 5.5vw 7vw;
+	position: relative;
+	width: 42vw;
+	z-index: 1;
 
 	@media only screen and (max-width: 750px) {
 		height: inherit;
@@ -25,7 +25,7 @@
 
 	@media only screen and (max-width: 750px) {
 		font-size: 9.5vw;
-    padding-bottom: 11vw;
+		padding-bottom: 11vw;
 	}
 }
 
@@ -33,13 +33,13 @@
 	color: #ffffff;
 	font-size: 3.5vw;
 	font-weight: 900;
-  line-height: 7vw;
+	line-height: 7vw;
 	margin: 0;
 	text-transform: uppercase;
 
 	@media only screen and (max-width: 750px) {
 		font-size: 9.5vw;
-    line-height: 20vw;
+		line-height: 20vw;
 	}
 }
 

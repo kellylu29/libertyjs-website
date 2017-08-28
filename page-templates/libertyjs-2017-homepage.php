@@ -68,12 +68,21 @@ Template Name: Homepage
 	<div class="ljs2017-summary__summary">
 		<p>
 			<strong>The community-super-powered JavaScript tech conference</strong><br>
-      <p>LibertyJS is held annually in Philadelphia. Join the local JavaScript developer community at this two-day multi-track conference of JavaScript sessions, workshops, and our after conference social.
-      </p>
-      <p>
-      Organized by Philadelphia JavaScript Developers, the premier JavaScript user group with over 1000 members enthusiastic about JavaScript development, LibertyJS is the active nexus for the local Philadelphia JavaScript developer scene.</p>
+			<p>
+				LibertyJS is held annually in Philadelphia. Join the local JavaScript
+				developer community at this two-day multi-track conference of JavaScript
+				sessions, workshops, and our after conference social.
+			</p>
+			<p>
+				Organized by Philadelphia JavaScript Developers, the premier JavaScript
+				user group with over 1000 members enthusiastic about JavaScript
+				development, LibertyJS is the active nexus for the local Philadelphia
+				JavaScript developer scene.</p>
 
-      <p>Follow <a href="http://twitter.com/liberty_js">@liberty_js</a> to keep current with the event and schedule as it develops.</p>
+				<p>
+					Follow <a href="http://twitter.com/liberty_js">@liberty_js</a> to
+					keep current with the event and schedule as it develops.
+				</p>
 		</p>
 	</div>
 </div>
@@ -117,13 +126,13 @@ Template Name: Homepage
 		<h3 id="venue">
 			Chemical Heritage Foundation. Philadelphia, Pennsylvania
 		</h3>
-    <p>
-      CHF's staff and fellows study the past in order to understand the present
+		<p>
+			CHF's staff and fellows study the past in order to understand the present
 			and inform the future. CHF focuses on the sciences and technologies of
 			matter and materials and their effect on our modern world, in territory
 			ranging from the physical sciences and industries, through the chemical
 			sciences and engineering, to the life sciences and technologies.
-    </p>
+		</p>
 		<a
 			href="https://goo.gl/maps/bhxmq6ZgZZ42"
 			target="_blank"
@@ -139,10 +148,12 @@ Template Name: Homepage
 			class="ljs2017-sponsors-mobile__logo"
 			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
 			alt="Comcast Logo">
-      <h3>Comcast</h3>
-      <p>
-        Comcast brings together the best in media and technology. We drive innovation to create the world's best entertainment and online experiences.
-      </p>
+			<h3>Comcast</h3>
+			<p>
+				Comcast brings together the best in media and technology. We drive
+				innovation to create the world's best entertainment and online
+				experiences.
+			</p>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor-large">
 		<img
@@ -215,11 +226,11 @@ Template Name: Homepage
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
 		<div class="ljs2017-sponsors__sponsor-large">
-      <img
-  			class="ljs2017-sponsors__logo"
-  			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-  			alt="Comcast Logo">
-        <h3>Comcast</h3>
+			<img
+				class="ljs2017-sponsors__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
+				alt="Comcast Logo">
+				<h3>Comcast</h3>
 			<p>
 				Comcast brings together the best in media and technology. We drive innovation to create the world's best entertainment and online experiences.
 			</p>

@@ -5,6 +5,6 @@
 		placeholder="<?php echo esc_attr( $label ); ?>"
 		value="<?php echo esc_attr( $value ); ?>" name="<?php echo esc_attr( $name ); ?>"
 		id="<?php echo esc_attr( $id ); ?>"<?php disabled( $disabled ); ?>
-		<?php echo $required ? 'required': '' ?>
+		<?php echo $required ? 'required' : ''; ?>
 		/>
 <?php echo $after_field; ?>

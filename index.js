@@ -83,12 +83,15 @@
 		$( '.showlogin' ).parent().hide();
 		$( '.wc-forward' ).parent().hide();
 		var title = document.querySelector( 'h1.product_title.entry-title' );
-		var isTicket = document.querySelector( '.postid-181' ) ||document.querySelector( '.postid-9' );
+		var isTicket = document.querySelector( '.postid-181' ) ||
+			document.querySelector( '.postid-9' );
 		var titleText = 'Ticket Details';
 		if ( ! isTicket ) {
 			titleText = 'Sponsor Details';
 			var ticketQuantity = document.querySelector( '.wc-box-office-ticket-fields-title' );
-			var ticketAdd = document.querySelector( '.ljs2017-template-checkout__ticket-add-remove' );
+			var ticketAdd = document.querySelector(
+				'.ljs2017-template-checkout__ticket-add-remove'
+			);
 			ticketQuantity.classList.add( 'ljs2017-template-checkout__hidden' );
 			ticketAdd.classList.add( 'ljs2017-template-checkout__hidden' );
 		}

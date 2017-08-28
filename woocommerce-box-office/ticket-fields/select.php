@@ -4,7 +4,7 @@
 			<?php echo esc_html( $label ); ?>
 		</option>
 	<?php foreach ( $options as $option ) : ?>
-		<option <?php selected( $option, $value ) ?> value="<?php echo esc_attr( $option ); ?>"><?php echo esc_html( $option ); ?></option>
+		<option <?php selected( $option, $value ); ?> value="<?php echo esc_attr( $option ); ?>"><?php echo esc_html( $option ); ?></option>
 	<?php endforeach; ?>
 	</select>
 <?php echo $after_field; ?>

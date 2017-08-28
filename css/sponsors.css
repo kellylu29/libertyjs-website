@@ -115,7 +115,7 @@
 .ljs2017-sponsors-mobile__sponsor-large,
 .ljs2017-sponsors-mobile__sponsor,
 .ljs2017-sponsors__sponsor-block {
-    display: none;
+	display: none;
 }
 
 .ljs2017-sponsors__show {
@@ -131,6 +131,6 @@
 }
 
 .ljs2017-lastyear__container {
-    margin-top: 4vw;
+	margin-top: 4vw;
 }
 /*END FLAG: No SPonsors*/

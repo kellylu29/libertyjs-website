@@ -1,5 +1,3 @@
-<?php ?>
-
 <div class="ljs2017-footer__container">
 	<img
 		class="ljs2017-footer__logo"
