@@ -26,7 +26,7 @@ npm install --production
 npm run build
 
 # Delete and move files.
-find . -maxdepth 1 ! -name '.git' ! -name 'fonts' ! -name 'img' ! -name 'page-templates' ! -name 'woocommerce' ! -name 'woocommerce-box-office' ! -name 'favicon-16x16.png' ! -name 'favicon-32x32.png' ! -name 'favicon-96x96.png' ! -name 'favicon.icog' ! -name 'footer.php' ! -name 'functions.php' ! -name 'header.php' ! -name 'index.js' ! -name 'index.php' ! -name 'style.css' ! -name 'screenshot.png' -exec rm -rf {} \;
+find . -maxdepth 1 ! -name '.git' ! -name 'fonts' ! -name 'img' ! -name 'page-templates' ! -name 'woocommerce' ! -name 'woocommerce-box-office' ! -name 'archive-speakers.php' ! -name 'favicon-16x16.png' ! -name 'favicon-32x32.png' ! -name 'favicon-96x96.png' ! -name 'favicon.icog' ! -name 'footer.php' ! -name 'functions.php' ! -name 'header.php' ! -name 'index.js' ! -name 'index.php' ! -name 'style.css' ! -name 'screenshot.png' -exec rm -rf {} \;
 
 # Push to deploy.
 git config user.name "$USER_NAME"
