@@ -26,4 +26,4 @@ function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
 
-require_once 'includes/custom-post-types/speaker/class-wooconf-speaker-post-type.php';
+require_once 'includes/custom-post-types/speaker/class-libertyjs-speaker-post-type.php';
