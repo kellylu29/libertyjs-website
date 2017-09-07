@@ -33,7 +33,7 @@
 		</div>
 		<div class="ljs2017-footer__divider"></div>
 		<div class="ljs2017-template-checkout__info-location">
-			OCTOBER 19 &amp; 20 &middot; SEATTLE, USA
+			NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
 		</div>
 	</div>
 
