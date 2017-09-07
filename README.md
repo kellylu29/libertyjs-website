@@ -11,3 +11,4 @@ theme design by Gary Murray.
 4. Type `gulp watch` to build and then watch
 5. Type `gulp imagemin` to optimize images
 6. Type `gulp updatefontawesome` to update font-awesome after an npm install
+7. Sit back and watch the magic
