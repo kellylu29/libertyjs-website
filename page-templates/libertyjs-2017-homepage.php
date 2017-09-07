@@ -91,6 +91,10 @@ Template Name: Homepage
 		<div class="ljs2017-keynotes__heading">
 			<h2>KEYNOTE</h2>
 		</div>
+		<div class="ljs2017-grid__heading-all">
+			<a href="/speakers">VIEW SPEAKER LINE UP</a>
+			<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+		</div>
 
 	</div>
 	<div class="ljs2017-keynotes__keynotes">
