@@ -209,7 +209,7 @@ span.ljs2017-template-schedule__date-active {
 .ljs2017-template-schedule__more-toggle-icon {
 	cursor: pointer;
 	font-size: 2vw;
-	transform: rotate( 0deg ) ;
+	transform: rotate( 0deg );
 	transition: transform 1s;
 
 	@media only screen and (max-width: 750px) {
@@ -244,13 +244,13 @@ span.ljs2017-template-schedule__date-active {
 	font-size: 1vw;
 	line-height: 1.5vw;
 	margin: 1vw 0 0;
-	padding: 1vw .5vw 0vw 0;
+	padding: 1vw 0.5vw 0 0;
 
 	@media only screen and (max-width: 750px) {
 		font-size: 3vw;
 		line-height: 4vw;
 		margin: 2vw 0 0;
-		padding: 2vw 1vw 0vw 0;
+		padding: 2vw 1vw 0 0;
 	}
 }
 
