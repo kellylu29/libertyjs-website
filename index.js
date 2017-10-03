@@ -92,8 +92,10 @@
 			var ticketAdd = document.querySelector(
 				'.ljs2017-template-checkout__ticket-add-remove'
 			);
-			ticketQuantity.classList.add( 'ljs2017-template-checkout__hidden' );
-			ticketAdd.classList.add( 'ljs2017-template-checkout__hidden' );
+			if ( ticketQuantity && ticketAdd ) {
+				ticketQuantity.classList.add( 'ljs2017-template-checkout__hidden' );
+				ticketAdd.classList.add( 'ljs2017-template-checkout__hidden' );
+			}
 		}
 		if ( title ) {
 			title.innerText = titleText;
@@ -142,3 +144,33 @@
 
 	document.addEventListener( 'DOMContentLoaded', init );
 }( jQuery ) );
+
+// Toggle open close on schedule page
+( function() {
+	function init() {
+		addScheduleListener();
+	}
+
+	function addScheduleListener() {
+		var toggles = Array.prototype.slice.call(
+			document.querySelectorAll( '.ljs2017-template-schedule__more-toggle-icon' )
+		);
+		if ( ! toggles.length ) {
+			return;
+		}
+		toggles.forEach( function( toggle ) {
+			toggle.addEventListener( 'click', toggleSpeaker );
+		} );
+	}
+
+	function toggleSpeaker( e ) {
+		var speaker = e.target.parentElement.parentElement.parentElement;
+		if ( speaker.classList.contains( 'ljs2017-template-schedule__speaker-show' ) ) {
+			speaker.classList.remove( 'ljs2017-template-schedule__speaker-show' );
+		} else {
+			speaker.classList.add( 'ljs2017-template-schedule__speaker-show' );
+		}
+	}
+
+	document.addEventListener( 'DOMContentLoaded', init );
+}() );
