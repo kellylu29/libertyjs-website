@@ -211,7 +211,7 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						src=""
+						src="https://libertyjs.com/wp-content/uploads/2017/10/john-riviello.jpg"
 						alt="John + Chris">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">03:20 - 04:00</span>
