@@ -9,6 +9,9 @@ get_header();
 .ljs2017-template-schedule__more-toggle {
 	display: none;
 }
+.ljs2017-template-schedule__speaker-one img {
+    visibility: hidden;
+}
 </style>
 
 <h1 class="ljs2017-template-info__heading">
