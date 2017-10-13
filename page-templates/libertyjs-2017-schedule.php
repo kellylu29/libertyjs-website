@@ -308,7 +308,7 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						src="https://libertyjs.com/wp-content/uploads/2017/10/sarah-polansky.jpg"
+						src="https://libertyjs.com/wp-content/uploads/2017/10/kathryn-stracquatanio-e1507127514412.jpeg"
 						alt="Kathryn Stracquatanio + Sarah Polansky">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">10:25 - 11:05</span>
