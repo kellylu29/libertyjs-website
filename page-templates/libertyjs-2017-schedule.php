@@ -9,6 +9,9 @@ get_header();
 .ljs2017-template-schedule__more-toggle {
 	display: none;
 }
+.ljs2017-template-schedule__speaker-one img {
+    visibility: hidden;
+}
 </style>
 
 <h1 class="ljs2017-template-info__heading">
@@ -211,7 +214,7 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						src=""
+						src="https://libertyjs.com/wp-content/uploads/2017/10/john-riviello.jpg"
 						alt="John + Chris">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">03:20 - 04:00</span>
@@ -308,7 +311,7 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						src="https://libertyjs.com/wp-content/uploads/2017/10/sarah-polansky.jpg"
+						src="https://libertyjs.com/wp-content/uploads/2017/10/kathryn-stracquatanio-e1507127514412.jpeg"
 						alt="Kathryn Stracquatanio + Sarah Polansky">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">10:25 - 11:05</span>
