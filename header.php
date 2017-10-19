@@ -52,6 +52,7 @@
 				id="ljs2017-menu__menu-menu">
 				<ul>
 					<li><a href="/speakers">Speakers</a></li>
+					<li><a href="/schedule">Schedule</a></li>
 					<li><a href="/sponsor">Sponsor</a></li>
 					<li><a href="/#buy-a-ticket">Buy a Ticket</a></li>
 					<li><a href="/#venue">Venue</a></li>
