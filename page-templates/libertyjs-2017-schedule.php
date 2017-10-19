@@ -10,7 +10,7 @@ get_header();
 	display: none;
 }
 .ljs2017-template-schedule__speaker-one img {
-    visibility: hidden;
+	visibility: hidden;
 }
 </style>
 
