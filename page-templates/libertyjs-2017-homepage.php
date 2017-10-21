@@ -425,6 +425,12 @@ Template Name: Homepage
 					Yes!
 				</p>
 			</div>
+			<div class="ljs2017-faq__question">
+				<h3>How can I contact the organizers of LibertyJS?</h3>
+				<p>
+					<a href="mailto:libertyjsconf@gmail.com">Get in touch!</a>
+				</p>
+			</div>
 		</div>
 	</div>
 	<div class="ljs2017-faq__blurb-container">
