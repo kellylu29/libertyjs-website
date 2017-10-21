@@ -258,12 +258,14 @@ Template Name: Homepage
 		</div>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
-		<div class="ljs2017-sponsors__sponsor-large">
-			<img
-				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
-				alt="Urbn Logo">
-		</div>
+		<a href="http://www.urbn.com/">
+			<div class="ljs2017-sponsors__sponsor-large">
+				<img
+					class="ljs2017-sponsors__logo"
+					src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
+					alt="Urbn Logo">
+			</div>
+		</a>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block">
 		<div class="ljs2017-sponsors__sponsor-empty">
