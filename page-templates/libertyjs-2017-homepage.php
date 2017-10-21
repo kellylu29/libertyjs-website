@@ -159,16 +159,11 @@ Template Name: Homepage
 				experiences.
 			</p>
 	</div>
-	<div class="ljs2017-sponsors-mobile__sponsor-large">
+	<div class="ljs2017-sponsors-mobile__sponsor-large ljs2017-sponsors__show-block">
 		<img
 			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Pressable Logo">
-		<h3>SOME KIND OF SPONSOR TEXT</h3>
-		<p>
-			With some additional marketing copy here giving this sponsor
-			some extra mileage becuase they paid the big bucks
-		</p>
+			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
+			alt="Urbn Logo">
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
 		<img
@@ -262,17 +257,12 @@ Template Name: Homepage
 				alt="Pressable Logo">
 		</div>
 	</div>
-	<div class="ljs2017-sponsors__sponsor-block">
+	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
 		<div class="ljs2017-sponsors__sponsor-large">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
-			<h3>SOME KIND OF SPONSOR TEXT</h3>
-			<p>
-				With some additional marketing copy here giving this sponsor
-				some extra mileage becuase they paid the big bucks
-			</p>
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
+				alt="Urbn Logo">
 		</div>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block">
