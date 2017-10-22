@@ -148,58 +148,74 @@ Template Name: Homepage
 </div>
 <div class="ljs2017-sponsors-mobile__container">
 	<div class="ljs2017-sponsors-mobile__sponsor-large ljs2017-sponsors__show-block">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Comcast Logo">
+		<a href="http://my.xfinity.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
+				alt="Comcast Logo">
 			<h3>Comcast</h3>
 			<p>
 				Comcast brings together the best in media and technology. We drive
 				innovation to create the world's best entertainment and online
 				experiences.
 			</p>
+		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor-large ljs2017-sponsors__show-block">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
-			alt="Urbn Logo">
+		<a href="http://www.urbn.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
+				alt="Urbn Logo">
+		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
-			alt="Vistar Logo">
+		<a href="http://www.vistarmedia.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
+				alt="Vistar Logo">
+		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-scala-logo.png"
-			alt="Scala Logo">
+		<a href="https://scala.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-scala-logo.png"
+				alt="Scala Logo">
+		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-jornaya-logo.jpg"
-			alt="Jornaya Logo">
+		<a href="https://www.jornaya.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-jornaya-logo.jpg"
+				alt="Jornaya Logo">
+		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Pressable Logo">
+		<a href="#" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
+		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Pressable Logo">
+		<a href="#" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
+		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
-		<img
-			class="ljs2017-sponsors-mobile__logo"
-			src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-			alt="Pressable Logo">
+		<a href="#" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
+		</a>
 	</div>
 </div>
 <div class="ljs2017-sponsors__container">
@@ -210,21 +226,30 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor-empty">
 
 		</div>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__show">
+		<a
+			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
+			href="https://www.jornaya.com/"
+			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-jornaya-logo.jpg"
 				alt="Jornaya Logo">
-		</div>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__show">
+		</a>
+		<a
+			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
+			href="https://scala.com/"
+			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-scala-logo.png"
 				alt="Scala Logo">
-		</div>
+		</a>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
-		<div class="ljs2017-sponsors__sponsor-large">
+		<a
+			class="ljs2017-sponsors__sponsor-large"
+			href="http://my.xfinity.com/"
+			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
@@ -233,38 +258,39 @@ Template Name: Homepage
 			<p>
 				Comcast brings together the best in media and technology. We drive innovation to create the world's best entertainment and online experiences.
 			</p>
-		</div>
+		</a>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
-		<div class="ljs2017-sponsors__sponsor">
+		<a
+			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
+			href="http://www.vistarmedia.com/"
+			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
 				alt="Vistar Logo">
-		</div>
+		</a>
 		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
 		</div>
 		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
-		<a href="http://www.urbn.com/">
-			<div class="ljs2017-sponsors__sponsor-large">
-				<img
-					class="ljs2017-sponsors__logo"
-					src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
-					alt="Urbn Logo">
-			</div>
+		<a href="http://www.urbn.com/" class="ljs2017-sponsors__sponsor-large">
+			<img
+				class="ljs2017-sponsors__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
+				alt="Urbn Logo">
 		</a>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block">
@@ -274,8 +300,8 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
 
@@ -288,26 +314,26 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block">
@@ -316,22 +342,22 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
-				alt="Pressable Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				alt="Foo Logo">
 		</div>
 	</div>
 </div>
