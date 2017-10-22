@@ -9,6 +9,12 @@
 	}
 }
 
+.ljs2017-sponsors-mobile__container a,
+.ljs2017-sponsors__container a {
+	color: #333333;
+	text-decoration: none;
+}
+
 .ljs2017-sponsors-mobile__sponsor-large {
 	margin: 6vw auto;
 	padding: 0 15vw;
