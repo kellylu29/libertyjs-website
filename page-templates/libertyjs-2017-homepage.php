@@ -217,6 +217,14 @@ Template Name: Homepage
 				alt="Linode Logo">
 		</a>
 	</div>
+	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
+		<a href="https://neo4j.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-neo4j-logo.jpg"
+				alt="Neo4j Logo">
+		</a>
+	</div>
 </div>
 <div class="ljs2017-sponsors__container">
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
@@ -319,26 +327,29 @@ Template Name: Homepage
 
 		</div>
 	</div>
-	<div class="ljs2017-sponsors__sponsor-block">
-		<div class="ljs2017-sponsors__sponsor">
+	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
+		<a
+			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
+			href="https://neo4j.com/"
+			target="_blank">
+			<img
+				class="ljs2017-sponsors__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-neo4j-logo.jpg"
+				alt="Neo4j Logo">
+		</a>
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
 				alt="Foo Logo">
 		</div>
-		<div class="ljs2017-sponsors__sponsor">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
 				alt="Foo Logo">
 		</div>
-		<div class="ljs2017-sponsors__sponsor">
-			<img
-				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
-				alt="Foo Logo">
-		</div>
-		<div class="ljs2017-sponsors__sponsor">
+		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
 			<img
 				class="ljs2017-sponsors__logo"
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
