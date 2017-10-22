@@ -193,12 +193,12 @@ Template Name: Homepage
 				alt="Jornaya Logo">
 		</a>
 	</div>
-	<div class="ljs2017-sponsors-mobile__sponsor">
-		<a href="#" target="_blank">
+	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
+		<a href="https://www.judge.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
-				alt="Foo Logo">
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-judge-logo.jpg"
+				alt="Judge Group Logo">
 		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor">
@@ -270,12 +270,15 @@ Template Name: Homepage
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
 				alt="Vistar Logo">
 		</a>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
+		<a
+			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
+			href="https://www.judge.com/"
+			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
-				alt="Foo Logo">
-		</div>
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-judge-logo.jpg"
+				alt="Judge Group Logo">
+		</a>
 		<div class="ljs2017-sponsors__sponsor-empty">
 		</div>
 		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
