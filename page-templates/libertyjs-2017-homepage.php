@@ -209,6 +209,14 @@ Template Name: Homepage
 				alt="Chariot Solutions Logo">
 		</a>
 	</div>
+	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
+		<a href="https://www.linode.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-linode-logo.jpg"
+				alt="Linode Logo">
+		</a>
+	</div>
 </div>
 <div class="ljs2017-sponsors__container">
 	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
@@ -291,16 +299,19 @@ Template Name: Homepage
 				alt="Urbn Logo">
 		</a>
 	</div>
-	<div class="ljs2017-sponsors__sponsor-block">
+	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
 		<div class="ljs2017-sponsors__sponsor-empty">
 
 		</div>
-		<div class="ljs2017-sponsors__sponsor">
+		<a
+			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
+			href="https://www.linode.com/"
+			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
-				alt="Foo Logo">
-		</div>
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-linode-logo.jpg"
+				alt="Linode Logo">
+		</a>
 		<div class="ljs2017-sponsors__sponsor-empty">
 
 		</div>
