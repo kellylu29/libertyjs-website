@@ -388,7 +388,7 @@ get_header();
 						alt="Hao Lou">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">01:30 - 02:10</span>
-						<span class="ljs2017-template-schedule__name">Hao Lou</span>
+						<span class="ljs2017-template-schedule__name">Hao Luo</span>
 						<span class="ljs2017-template-schedule__title">Understanding Async Await in Javascript</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
