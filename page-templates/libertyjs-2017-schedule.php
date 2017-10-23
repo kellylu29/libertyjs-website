@@ -9,7 +9,7 @@ get_header();
 .ljs2017-template-schedule__more-toggle {
 	display: none;
 }
-.ljs2017-template-schedule__speaker-one img {
+.invisible {
 	visibility: hidden;
 }
 </style>
@@ -54,12 +54,12 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						src=""
-						alt="TBA">
+						src="https://libertyjs.com/wp-content/uploads/2017/10/brian-gantick-e1508722844685.jpg"
+						alt="Brian Gantick">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">10:25 - 12:00</span>
-						<span class="ljs2017-template-schedule__name">TBA</span>
-						<span class="ljs2017-template-schedule__title">Workshop</span>
+						<span class="ljs2017-template-schedule__name">Brian Gantick + Austin Starin</span>
+						<span class="ljs2017-template-schedule__title">A Vue (app) from the top - Introduction to Vue.js Workshop</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
@@ -124,12 +124,12 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						src=""
-						alt="TBA">
+						src="TB://libertyjs.com/wp-content/uploads/2017/10/matt-morgis-e1508722870623.jpeg"
+						alt="Matt Morgis">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">01:30 - 03:05</span>
-						<span class="ljs2017-template-schedule__name">TBA</span>
-						<span class="ljs2017-template-schedule__title">Workshop</span>
+						<span class="ljs2017-template-schedule__name">Matt Morgis</span>
+						<span class="ljs2017-template-schedule__title">Pair Programming with TDD and Jest</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
@@ -191,12 +191,13 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
+						class="invisible"
 						src=""
-						alt="TBA">
+						alt="Martin Snyder">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">03:20 - 4:55</span>
-						<span class="ljs2017-template-schedule__name">TBA</span>
-						<span class="ljs2017-template-schedule__title">Workshop</span>
+						<span class="ljs2017-template-schedule__name">Martin Snyder</span>
+						<span class="ljs2017-template-schedule__title">Functional Programming in JavaScript Workshop</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
@@ -288,6 +289,7 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
+						class="invisible"
 						src=""
 						alt="TBA">
 					<div class="ljs2017-template-schedule__speaker-info">
@@ -358,12 +360,13 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
+						class="invisible"
 						src=""
-						alt="TBA">
+						alt="Brian Douglas">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">01:30 - 03:05</span>
-						<span class="ljs2017-template-schedule__name">TBA</span>
-						<span class="ljs2017-template-schedule__title">Workshop</span>
+						<span class="ljs2017-template-schedule__name">Brian Douglas</span>
+						<span class="ljs2017-template-schedule__title">Zero to Webpack</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
