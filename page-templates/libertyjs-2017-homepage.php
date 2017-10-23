@@ -151,7 +151,7 @@ Template Name: Homepage
 		<a href="http://my.xfinity.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast-logo.png"
 				alt="Comcast Logo">
 			<h3>Comcast</h3>
 			<p>
@@ -159,6 +159,14 @@ Template Name: Homepage
 				innovation to create the world's best entertainment and online
 				experiences.
 			</p>
+		</a>
+	</div>
+	<div class="ljs2017-sponsors-mobile__sponsor-large ljs2017-sponsors__show-block">
+		<a href="https://www.elsevier.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-elsevier-logo.png"
+				alt="Elsevier Logo">
 		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor-large ljs2017-sponsors__show-block">
@@ -260,7 +268,7 @@ Template Name: Homepage
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast_logo.png"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast-logo.png"
 				alt="Comcast Logo">
 				<h3>Comcast</h3>
 			<p>
@@ -323,11 +331,6 @@ Template Name: Homepage
 		<div class="ljs2017-sponsors__sponsor-empty">
 
 		</div>
-		<div class="ljs2017-sponsors__sponsor-empty">
-
-		</div>
-	</div>
-	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
 		<a
 			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
 			href="https://neo4j.com/"
@@ -337,24 +340,14 @@ Template Name: Homepage
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-neo4j-logo.jpg"
 				alt="Neo4j Logo">
 		</a>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
+	</div>
+	<div class="ljs2017-sponsors__sponsor-block ljs2017-sponsors__show">
+		<a href="https://www.elsevier.com/" class="ljs2017-sponsors__sponsor-large">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
-				alt="Foo Logo">
-		</div>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
-			<img
-				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
-				alt="Foo Logo">
-		</div>
-		<div class="ljs2017-sponsors__sponsor ljs2017-sponsors__hide">
-			<img
-				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
-				alt="Foo Logo">
-		</div>
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-elsevier-logo.png"
+				alt="Elsevier Logo">
+		</a>
 	</div>
 	<div class="ljs2017-sponsors__sponsor-block">
 	</div>
