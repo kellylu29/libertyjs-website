@@ -140,8 +140,8 @@
 }
 
 /*Hack for Urbn Logo*/
-a.ljs2017-sponsors__sponsor-large[href="http://www.urbn.com/"] img {
-    height: 12vw;
+a.ljs2017-sponsors__sponsor-large[href='http://www.urbn.com/'] img {
+	height: 12vw;
 }
 
 /*FLAG: No Sponsors*/
