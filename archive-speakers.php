@@ -10,6 +10,12 @@ $args = array(
 );
 $query = new WP_Query( $args );
 
+$workshop_args = array(
+	'post_type' => 'workshop-leaders',
+	'posts_per_page' => -1,
+);
+$workshop_query = new WP_Query( $workshop_args );
+
 function output_speaker( $id ) {
 	$facebook = get_post_meta( $id, 'facebook', true );
 	$image = get_post_meta( $id, 'image', true );
@@ -64,6 +70,22 @@ function output_speaker( $id ) {
 		<?php if ( $query->have_posts() ) : ?>
 			<?php while ( $query->have_posts() ) : ?>
 				<?php $query->the_post(); ?>
+				<?php output_speaker( $post->ID ); ?>
+			<?php endwhile; ?>
+		<?php endif; ?>
+	</div>
+</div>
+
+<div class="ljs2017-grid__container" id="gridItems">
+	<div class="ljs2017-grid__heading-container">
+		<div class="ljs2017-grid__heading" id="keynotes">
+			<h2>WORKSHOP LEADERS</h2>
+		</div>
+	</div>
+	<div class="ljs2017-grid__items">
+		<?php if ( $workshop_query->have_posts() ) : ?>
+			<?php while ( $workshop_query->have_posts() ) : ?>
+				<?php $workshop_query->the_post(); ?>
 				<?php output_speaker( $post->ID ); ?>
 			<?php endwhile; ?>
 		<?php endif; ?>
