@@ -76,21 +76,21 @@ function output_speaker( $id ) {
 	</div>
 </div>
 
-<div class="ljs2017-grid__container" id="gridItems">
-	<div class="ljs2017-grid__heading-container">
-		<div class="ljs2017-grid__heading" id="keynotes">
-			<h2>WORKSHOP LEADERS</h2>
-		</div>
-	</div>
-	<div class="ljs2017-grid__items">
-		<?php if ( $workshop_query->have_posts() ) : ?>
-			<?php while ( $workshop_query->have_posts() ) : ?>
-				<?php $workshop_query->the_post(); ?>
-				<?php output_speaker( $post->ID ); ?>
-			<?php endwhile; ?>
-		<?php endif; ?>
-	</div>
-</div>
+<?php if ( $workshop_query->have_posts() ) : ?>
+  <div class="ljs2017-grid__container" id="gridItems">
+    <div class="ljs2017-grid__heading-container">
+      <div class="ljs2017-grid__heading" id="keynotes">
+        <h2>WORKSHOP LEADERS</h2>
+      </div>
+    </div>
+    <div class="ljs2017-grid__items">
+      <?php while ( $workshop_query->have_posts() ) : ?>
+        <?php $workshop_query->the_post(); ?>
+        <?php output_speaker( $post->ID ); ?>
+      <?php endwhile; ?>
+    </div>
+  </div>
+<?php endif; ?>
 
 <?php
 
