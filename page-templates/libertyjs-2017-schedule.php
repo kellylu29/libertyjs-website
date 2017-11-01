@@ -291,11 +291,11 @@ get_header();
 					<img
 						class="invisible"
 						src=""
-						alt="TBA">
+						alt="Eric Andrew Lewis">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">10:25 - 12:00</span>
-						<span class="ljs2017-template-schedule__name">TBA</span>
-						<span class="ljs2017-template-schedule__title">Workshop</span>
+						<span class="ljs2017-template-schedule__name">Eric Andrew Lewis</span>
+						<span class="ljs2017-template-schedule__title">Intro to React Workshop</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
