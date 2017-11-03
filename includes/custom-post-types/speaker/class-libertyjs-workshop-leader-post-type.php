@@ -113,7 +113,7 @@ if ( ! class_exists( 'Libertyjs_Workshop_Leader_Post_Type' ) ) {
 			$labels = array(
 				'name'                => _x( 'Workshop Leaders', 'Post Type General Name', 'twentythirteen' ),
 				'singular_name'       => _x( 'Workshop Leader', 'Post Type Singular Name', 'twentythirteen' ),
-        'menu_name'           => __( 'Workshop Leaders', 'libertyjs-2017' ),
+				'menu_name'           => __( 'Workshop Leaders', 'libertyjs-2017' ),
 				'parent_item_colon'   => __( 'Parent Movie', 'libertyjs-2017' ),
 				'all_items'           => __( 'All Workshop Leaders', 'libertyjs-2017' ),
 				'view_item'           => __( 'View Workshop Leader', 'libertyjs-2017' ),
