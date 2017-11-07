@@ -318,7 +318,7 @@ get_header();
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">10:25 - 11:05</span>
 						<span class="ljs2017-template-schedule__name">Kathryn Stracquatanio + Sarah Polansky</span>
-						<span class="ljs2017-template-schedule__title">Touch Me: Creating Applications for Museums</span>
+						<span class="ljs2017-template-schedule__title">Please Touch: Creating Applications for Museums</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
