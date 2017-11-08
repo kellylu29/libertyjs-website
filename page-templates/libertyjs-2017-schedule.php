@@ -464,7 +464,7 @@ get_header();
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
 					<p>
-						TBA
+						The Serverless Revolution
 					</p>
 
 				</div>
