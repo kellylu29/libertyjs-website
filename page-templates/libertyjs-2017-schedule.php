@@ -191,8 +191,7 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						class="invisible"
-						src=""
+						src="https://libertyjs.com/wp-content/uploads/2017/11/martin-snyder-e1510112322868.jpeg"
 						alt="Martin Snyder">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">03:20 - 4:55</span>
@@ -289,12 +288,11 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						class="invisible"
-						src=""
-						alt="Eric Andrew Lewis">
+						src="https://libertyjs.com/wp-content/uploads/2017/11/eric-lewis.jpg"
+						alt="Eric Lewis">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">10:25 - 12:00</span>
-						<span class="ljs2017-template-schedule__name">Eric Andrew Lewis</span>
+						<span class="ljs2017-template-schedule__name">Eric Lewis</span>
 						<span class="ljs2017-template-schedule__title">Intro to React Workshop</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
