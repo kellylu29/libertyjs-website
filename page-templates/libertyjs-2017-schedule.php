@@ -54,8 +54,8 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						src="https://libertyjs.com/wp-content/uploads/2017/10/brian-gantick-e1508722844685.jpg"
-						alt="Brian Gantick">
+						src="https://libertyjs.com/wp-content/uploads/2017/11/brian-and-austin-e1510422905145.jpg"
+						alt="Brian Gantick and Austin Starin">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">10:25 - 12:00</span>
 						<span class="ljs2017-template-schedule__name">Brian Gantick + Austin Starin</span>
