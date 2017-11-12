@@ -25,7 +25,9 @@ get_header();
 			<p><span class="ljs2017-template-schedule__date-active">DAY 1</span> / <a href="#ljs2017-template-schedule__day2">DAY 2</a></p>
 		</div>
 		<div class="ljs2017-template-schedule__speakers">
-
+			<div class="ljs2017-template-schedule__divider">
+				<div>Registration 08:30 am</div>
+			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-three">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<div class="ljs2017-template-schedule__speaker-info">
