@@ -90,6 +90,7 @@ span.ljs2017-template-schedule__date-active {
 
 .ljs2017-template-schedule__speaker .ljs2017-template-schedule__time,
 .ljs2017-template-schedule__speaker .ljs2017-template-schedule__name,
+.ljs2017-template-schedule__speaker .ljs2017-template-schedule__link,
 .ljs2017-template-schedule__speaker .ljs2017-template-schedule__title {
 	color: #ffffff;
 }

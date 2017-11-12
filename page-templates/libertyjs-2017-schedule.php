@@ -484,8 +484,22 @@ get_header();
 
 				</div>
 			</div>
-			<div class="ljs2017-template-schedule__divider">
-				<div>Party!</div>
+			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-three">
+				<div class="ljs2017-template-schedule__speaker-body">
+					<div class="ljs2017-template-schedule__speaker-info">
+						<span class="ljs2017-template-schedule__time">08:30 - 09:20</span>
+						<span class="ljs2017-template-schedule__name">
+							Afterparty at
+							<a
+								class="ljs2017-template-schedule__link"
+								href="http://jjbootleggers.com/"
+								target="_blank">
+								JJ Bootleggers
+							</a>
+						</span>
+						<span class="ljs2017-template-schedule__title"></span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
