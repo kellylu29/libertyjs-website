@@ -26,8 +26,14 @@ get_header();
 		</div>
 		<div class="ljs2017-template-schedule__speakers">
 
-			<div class="ljs2017-template-schedule__divider">
-				<div>Registration 9:00 am</div>
+			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-three">
+				<div class="ljs2017-template-schedule__speaker-body">
+					<div class="ljs2017-template-schedule__speaker-info">
+						<span class="ljs2017-template-schedule__time">08:30 - 09:30</span>
+						<span class="ljs2017-template-schedule__name">Breakfast and Registration</span>
+						<span class="ljs2017-template-schedule__title"></span>
+					</div>
+				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-three">
 				<div class="ljs2017-template-schedule__speaker-body">
