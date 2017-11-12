@@ -210,6 +210,14 @@ Template Name: Homepage
 		</a>
 	</div>
 	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
+		<a href="http://testdouble.com/" target="_blank">
+			<img
+				class="ljs2017-sponsors-mobile__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-testdouble-logo.png"
+				alt="Test Double Logo">
+		</a>
+	</div>
+	<div class="ljs2017-sponsors-mobile__sponsor ljs2017-sponsors__show">
 		<a href="https://chariotsolutions.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
@@ -295,8 +303,15 @@ Template Name: Homepage
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-judge-logo.jpg"
 				alt="Judge Group Logo">
 		</a>
-		<div class="ljs2017-sponsors__sponsor-empty">
-		</div>
+		<a
+			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
+			href="http://testdouble.com/"
+			target="_blank">
+			<img
+				class="ljs2017-sponsors__logo"
+				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-testdouble-logo.png"
+				alt="Test Double Logo">
+		</a>
 		<a
 			class="ljs2017-sponsors__sponsor ljs2017-sponsors__show"
 			href="https://chariotsolutions.com/"
