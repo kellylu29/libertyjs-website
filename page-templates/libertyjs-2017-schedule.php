@@ -236,7 +236,7 @@ get_header();
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">03:20 - 04:00</span>
 						<span class="ljs2017-template-schedule__name">John Riviello + Chris Lorenzo</span>
-						<span class="ljs2017-template-schedule__title">Simplifying with Google Polymer</span>
+						<span class="ljs2017-template-schedule__title">Web Components: The Future of Web Development is Here</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
