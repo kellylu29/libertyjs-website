@@ -447,7 +447,7 @@ get_header();
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">03:20 - 04:00</span>
 						<span class="ljs2017-template-schedule__name">Tierney Cyren</span>
-						<span class="ljs2017-template-schedule__title"></span>
+						<span class="ljs2017-template-schedule__title">Building the Foundations of the Node.js Community</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
