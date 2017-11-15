@@ -52,7 +52,7 @@ get_header();
 						src="https://libertyjs.com/wp-content/uploads/2017/09/ernie-turner-e1506383735651.jpg"
 						alt="Ernie Turner">
 					<div class="ljs2017-template-schedule__speaker-info">
-						<span class="ljs2017-template-schedule__time">11:20 - 12:00</span>
+						<span class="ljs2017-template-schedule__time">09:30 - 10:10</span>
 						<span class="ljs2017-template-schedule__name">Ernie Turner</span>
 						<span class="ljs2017-template-schedule__title">Dodging Web Crypto API Landmines</span>
 					</div>
@@ -119,7 +119,7 @@ get_header();
 						src="https://libertyjs.com/wp-content/uploads/2017/08/hassan-bazzi-e1506046083786.jpg"
 						alt="Hassan Bazzi">
 					<div class="ljs2017-template-schedule__speaker-info">
-						<span class="ljs2017-template-schedule__time">09:30 - 10:10</span>
+						<span class="ljs2017-template-schedule__time">11:20 - 12:00</span>
 						<span class="ljs2017-template-schedule__name">Hassan Bazzi</span>
 						<span class="ljs2017-template-schedule__title">Building Light-weight PWAs with Speeeeed</span>
 					</div>
