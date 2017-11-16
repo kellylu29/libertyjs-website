@@ -54,9 +54,11 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>"This talk will teach attendees how to use the Web Crypto API within a production application. The talk will focus on the practical implementation of cryptography and not on cryptography generalities. I won't be covering the breadth of the Web Crypto API, as it contains much more functionality than most developers need.</p>
+					<p>I'll start out with a very brief intro to some basic cryptography concepts (random number generators, symmetric keys, IVs/nonces), but only enough to be able to use the terminology throughout the talk. I don't expect any of the attendees to have much/any prior knowledge of cryptography, but they also won't come out of the talk as cryptography experts either.</p>
+					<p>In my example, I'll show how to take a single piece of data and encrypt it using AES with a key derived from a user provided password. As all of the Web Crypto API operations use Promises, I'll show how to chain them together to make a nice encryption and decryption workflow. In addition, because of the slower performance of these operations, I'll show how to use WebWorkers to do the cryptography processing in a separate thread and how to pass data between these threads quickly and securely.</p>
+					<p>During each of these sections, I'll also cover browser support for each operation and what is/isn't available in major browsers. In situations where support is not fully available, I'll show which 3rd party libraries can be used as polyfills.</p>
+					<p>In the end, I hope to show attendees that cryptography isn't as scary a concept as they might think. As long as they follow a few rules when encrypting data, it can be a very useful tool to understand."</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
@@ -76,10 +78,9 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
-
+					<p>"Since its initial release in February of 2014, Vue.js has rapidly become one of the top open-source progressive JavaScript frameworks. Approaching 63k stars on GitHub, Vue is one of the most popular open source projects ever and the second most popular JavaScript library after React, surpassing popular libraries and frameworks such as Angular, Backbone, Polymer, Ember, and even jQuery.</p>
+					<p>Vue's popularity is due in large part to the ability to incrementally adopt the framework into existing projects and approachability for developers new to working with front-end frameworks. Since it is mostly an interface layer, Vue tends to be less opinionated than other frameworks, which makes it easier to learn and suitable as a drop-in library that can be used in existing projects to add interactivity or provide a declarative, HTML based template syntax. Beyond the drop-in use case, Vue can also be scaled up to be used as a full-blown application framework.</p>
+					<p>In this workshop, we'll go over the basics of getting started with Vue, from getting your development environment setup using Vue CLI to deploying a completed application and debugging it using Vue dev tools. We'll run through how Vue can quickly and simply solve common front-end problem sets including how to create reactive and easily maintained UI through reusable components, as well as how to use more advanced features like mixins, filters, and custom directives. You'll also learn the basics of setting up Vue Router and how Vuex can help you manage state in larger applications, all while building a custom image gallery application."</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -99,9 +100,9 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>Conveniences we love in JavaScript are discouraging us from writing concise, descriptive code. In-line objects and anonymous functions deprive us of descriptive domain names for the actions we are performing and the objects we use to perform them. They add noise that distracts from the purpose of a function.</p>
+					<p>This is especially true in tests, which should help us feel the code we write. These conveniences encourage us to create functions that do too much and require complex test setup.</p>
+					<p>"JavaScript is Too Convenient" will encourage you to write more focused code with good names. We can make our code nicer for new team members, and our future selves by examining the purpose of our code, amplifying the signal, and reducing the noise."</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -204,9 +205,18 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>Particle Systems for Fun and Profit</p>
+					<p>Particle systems are most commonly used in games and physical simulations, but needn't be complex in order to reap many of their benefits. Using just a handful of patterns borrowed mostly from game programming, we can build a particle system that is easy to reason about and that has excellent performance characteristics. This combination of reason-about-ability and performance will enable rapid iteration over a number of possible uses and implementations of such a system.</p>
+					<h5>This talk will be broken up into 4 sections:</h5>
+					<p>1. Overview of the patterns we'll be using: command, game loop, component, and object pool. (10 minutes)</p>
+					<p>2. Simple app scaffolding using Webpack 3 and Babel 6 (maybe 7). (5 minutes)</p>
+					<p>3. The patterns applied/building up the particle system. (10 minutes)</p>
+					<p>4. Implementations, ""live"" coding, demos and Q&amp;A. (15 minutes)</p>
+					<h5>Some possible demos may include (but are not limited to):</h5>
+					<p>- Explosions/fireworks (using canvas)</p>
+					<p>- ""Metaballs"" (using SVG, maybe React)</p>
+					<p>- Infinite scroll (using DOM, maybe React)</p>
+					<p>Come for the explosions, stay for the infinite scroll!</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
