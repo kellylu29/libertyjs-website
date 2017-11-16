@@ -116,7 +116,8 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<img
-						class="invisible">
+						src="https://libertyjs.com/wp-content/uploads/2017/11/connor-skiro-e1510843978336.png"
+						alt="Connor Skiro">
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">11:20 - 12:00</span>
 						<span class="ljs2017-template-schedule__name">Connor Skiro</span>
