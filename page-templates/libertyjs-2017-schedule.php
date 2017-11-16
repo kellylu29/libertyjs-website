@@ -487,7 +487,7 @@ get_header();
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-three">
 				<div class="ljs2017-template-schedule__speaker-body">
 					<div class="ljs2017-template-schedule__speaker-info">
-						<span class="ljs2017-template-schedule__time">05:30 - 08:30</span>
+						<span class="ljs2017-template-schedule__time">05:00 - 07:00</span>
 						<span class="ljs2017-template-schedule__name">
 							Afterparty at
 							<a
