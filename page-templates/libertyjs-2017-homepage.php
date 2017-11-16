@@ -8,20 +8,6 @@ Template Name: Homepage
 
 <div class="ljs2017-header-cta__container">
 	<div class="ljs2017-header-cta__countdown-container">
-		<div id="clockdiv">
-			<span class="ljs2017-header-cta__countdown-days"></span>
-			<span class="ljs2017-header-cta__countdown-smalltext">Days</span>
-
-			<span class="ljs2017-header-cta__countdown-hours"></span>
-			<span class="ljs2017-header-cta__countdown-smalltext">Hrs</span>
-
-			<span class="ljs2017-header-cta__countdown-minutes"></span>
-			<span class="ljs2017-header-cta__countdown-smalltext">Min</span>
-
-			<span class="ljs2017-header-cta__countdown-seconds"></span>
-			<span class="ljs2017-header-cta__countdown-smalltext">Sec</span>
-
-		</div>
 	</div>
 	<div class="ljs2017-header-cta__cta-container">
 		<p>
