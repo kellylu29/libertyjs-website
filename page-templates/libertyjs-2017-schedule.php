@@ -5,15 +5,6 @@ Template Name: Schedule
 get_header();
 ?>
 
-<style>
-.ljs2017-template-schedule__more-toggle {
-	display: none;
-}
-.invisible {
-	visibility: hidden;
-}
-</style>
-
 <h1 class="ljs2017-template-info__heading">
 	<?php echo esc_html( get_the_title() ); ?>
 </h1>
@@ -155,10 +146,17 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
-
+					<p>Customers value two things about software: how well it works, and the ease with which it can be changed. If you compromise either of those two values, the software will diminish in real value to the customer.</p>
+					<p>If you have been a programmer for more than two or three years, you have probably been significantly slowed down by -someone else's- messy code. Have you ever waded through a mess so grave that it took weeks to do what should have taken hours? Have you seen what should have been a one-line change, made instead in hundreds of different modules?</p>
+					<p>We've all been there.</p>
+					<p>The degree of slowdown from messy code can be significant. Over the span of a year or two, teams that were moving very fast at the beginning of a project can find themselves moving at a snail's pace. Every change they make to the code breaks two or three other parts of the code. No change is trivial. **Every addition or modification to the system requires that the tangles, twists, and knots be understood so that more tangles, twists, and knots can be understood.</p>
+					<p>So why does this happen to code? Why does good code rot so quickly into bad code? We always have lots of explanations for it, but perhaps the best: **The software should be easy to change,** but it often isn't.</p>
+					<p>We complain the requirements changed in ways that thwart the original design. The truth is the business should not find it expensive add a new or change requirements. The business shouldn't be slowed down by wanting to change or adapt the system.</p>
+					<p>What has worked at our small agency and at large international enterprise companies is practicing pair programming and TDD. Implementing these have lead to flexible software, shared team values and attitude towards the codebase, and most importantly happy customers. TDD is often thought of as an _individual_ practice. Yet, more software is built by teams. Teams that don't enjoy a shared set of values become unstable over time. Pair programming is a dialog between two people that can help break down these barriers and help teams conform on a shared set of values. </p>
+					<p>When you first learn TDD, it sounds simple and easy. However, if you're like us, you may have had a typical TDD novice experience which lead to giving it up within the first couple weeks. We will demonstrate symptoms of test-design problems, and how to identify and overcome them.</p>
+					<p>We will address some of the challenges we faced when implementing these practices. For example, that pairing doesn't mean you that can't think alone. If you need to work on an idea alone, go do it. When you're done exploring, bring the resulting _idea_, not the code, back to the team. With a partner, you'll reimplement it quickly. The results will be more widely understood, benefitting the project as a whole.</p>
+					<p>Another challenge we will address out of the gate is how to start using TDD on a legacy code base that was not originally written with tests a frequent question that arises after basic intro TDD exercises. Using the workshop format, we will demonstrate adding a feature to an existing web app not currently under test. The two of us will pair program on the full-stack feature and use TDD as we go. We'll also be using the latest and greatest Javascript frameworks and tools: including React and Redux on the front end, Node.js and Express to build an API end point, and Jest as our test runner.</p>
+					<p>After the brief demonstration, the audience will be given a TDD exercise to complete on their own or with a pair (encouraged) where tests are provided and one-by-one the pairs will work to make them all pass. Attendees will know TDD by the end of the session.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -178,9 +176,15 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+				</p>"Full-stack developers need to choose the right tools for building complex web applications. The stack of tools they choose needs to ensure developer productivity for building highly scalable applications using production ready tools that have integrations to ensure they work together nicely. In this presentation, we explore application development using the GRAND stack (GraphQL, React, Apollo, Neo4j) for building web applications backed by a graph database.</p>
+				</p>We will explore building a movie recommendations web application using:</p>
+				</p>* GraphQL - a query language for APIs that has been called ‰ÛÏREST 2.0‰Û as it offers many advantages over REST, also developed at Facebook</p>
+				</p>* React - a leading frontend JavaScript framework developed for use at Facebook</p>
+				</p>* Apollo - the most popular GraphQL client that glues together React components and GraphQL</p>
+				</p>* Neo4j - the open source graph database that allows for modeling, storing, and querying data in real time, using the property graph data model and the Cypher query language</p>
+				</p>We will learn just enough of each component to build a simple web application, including how to build a React component, an introduction to JSX, an overview of GraphQL and why it is a game-changer for front-end development, and we'll learn how to model, store, and query data in the Neo4j graph database using GraphQL to power our web application.</p>
+				</p>After this talk you‰Ûªll have an understanding of the role each component plays in the stack, but especially why GraphQL is even more powerful when combined with a graph database such as Neo4j. Using graphs on the backend as well as the frontend allows for removing the mapping and translation layer, simplifying development and allows the developer to leverage the power of graphs for expressing complex data models as well as the power of graph database queries that can be used for (in this example) generating real-time personalized recommendations.</p>
+				</p>No experience with GraphQL or graph databases is necessary to benefit from this talk, but some familiarity with JavaScript will be helpful."</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
