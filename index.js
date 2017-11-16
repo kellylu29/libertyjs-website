@@ -164,7 +164,7 @@
 	}
 
 	function toggleSpeaker( e ) {
-		var speaker = e.target.parentElement.parentElement.parentElement;
+		var speaker = e.currentTarget;
 		if ( speaker.classList.contains( 'ljs2017-template-schedule__speaker-show' ) ) {
 			speaker.classList.remove( 'ljs2017-template-schedule__speaker-show' );
 		} else {
