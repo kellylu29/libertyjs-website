@@ -258,7 +258,7 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>With the updates to iOS and Android phones released earlier this year, Web Components are now supported natively. With libraries such as Polymer that are built on top of Web Components, it is now possible to easily create fast Progressive Web Apps (PWAs) without the overhead of a framework. In this workshop, we'll begin with a brief introduction to Web Components and Polymer, and then dive into hands-on experiences with the core aspects of Web Components: the <template> tag, Custom Elements, and the Shadow DOM.</p>
+					<p>With the updates to iOS and Android phones released earlier this year, Web Components are now supported natively. With libraries such as Polymer that are built on top of Web Components, it is now possible to easily create fast Progressive Web Apps (PWAs) without the overhead of a framework. In this workshop, we'll begin with a brief introduction to Web Components and Polymer, and then dive into hands-on experiences with the core aspects of Web Components: the "template" tag, Custom Elements, and the Shadow DOM.</p>
 					<p>This talk assumes an understanding of HTML, CSS & JavaScript. No prior experience with Web Components, Polymer, or any library or framework (Web Components or otherwise) is required.</p>
 				</div>
 			</div>
