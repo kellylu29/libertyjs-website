@@ -236,10 +236,9 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
-
+					<p>Applied functional programming can be a challenge for many developers. Sure, you might have learned some of that in school, but little of that translates into building real-world applications. Doing exercises and numeric computations is nice and all, but at some point the rubber has to meet the world, and you have to deal with the complexity of managing state mutations in an otherwise immutable world.</p>
+					<p>This workshop explores just that boundary, and discusses how to decide what changes where and how to represent things.</p>
+					<p>There are up to 5 hours of material that can be explored in this workshop, but we only have two. We'll meander through this world and switch back and forth between composing answers ourselves (bring your laptop) and looking at parts of the already-written answer so that we can skip ahead as the groupthink decides.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -259,9 +258,8 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>With the updates to iOS and Android phones released earlier this year, Web Components are now supported natively. With libraries such as Polymer that are built on top of Web Components, it is now possible to easily create fast Progressive Web Apps (PWAs) without the overhead of a framework. In this workshop, we'll begin with a brief introduction to Web Components and Polymer, and then dive into hands-on experiences with the core aspects of Web Components: the <template> tag, Custom Elements, and the Shadow DOM.</p>
+					<p>This talk assumes an understanding of HTML, CSS & JavaScript. No prior experience with Web Components, Polymer, or any library or framework (Web Components or otherwise) is required.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -281,9 +279,22 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>The Dr. Seuss Guide to Code Craftsmanship</p>
+					<p>I have a two-year-old daughter who adores Dr. Seuss. And as I was reading Cat in the Hat for the 214th time, I realized Dr. Seuss had it all figured out.</p>
+					<p>His words are odd. The cadence confusing. But there's a gem hidden in all his children's rhymes.</p>
+					<p>You see, Dr. Seuss would have made an excellent engineer.</p>
+					<p>Because great code isn't about choosing the perfect method name or building out 95% test coverage. All that is great, but it doesn't make great code.</p>
+					<p>YOU DO.</p>
+					<p>It likely never feels that way. There's a rhythm to software development that goes something like this:</p>
+					<p>1. "Easy. I've got this."</p>
+					<p>2. "Uhhh, maybe not."</p>
+					<p>3. "HALP! I have no idea what I'm doing."</p>
+					<p>4. "How did I not think of that before?!"</p>
+					<p>5. "I AM A GOD."</p>
+					<p>This process is okay if you're comfortable having a mild psychotic break every sprint. I'm not.</p>
+					<p>We're going about it all wrong. Putting ourselves ‰ÛÓ our egos ‰ÛÓ above our code. No judgement. I do it too. We're human. It's okay.</p>
+					<p>But I think we can bypass our egos and the emotional ups and downs it produces. This talk will focus on common pitfalls along the development lifecycle and distill Dr. Seuss's excellent advice into concise steps developers can take before they write a single line of code.</p>
+					<p>In the words of Dr. Seuss: You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And YOU are the guy who'll decide where to go."</p>
 				</div>
 			</div>
 		</div>
@@ -311,9 +322,8 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>Functional programming confers many benefits that can help us write clean code. And much of the power of functional programming is available to us in vanilla JavaScript.</p>
+					<p>In this session, we'll explore what functional programming concepts are and how they help us clean up our JavaScript code, as well as looking at FP libraries like Ramda.js.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-one">
@@ -333,10 +343,12 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
-
+					<p>We'll work through exercises to learn about:</p>
+					<p>- The JSX syntax for building React component trees</p>
+					<p>- Building React components</p>
+					<p>- Using component props and state to hold data</p>
+					<p>- DOM event handling in React</p>
+					<p>- Using Create React App as a good base configuration</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -356,9 +368,8 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>Touchscreen interactives are not usually in the vocabulary of a web developer. These applications are typically saved for those with software or computer engineering degrees. But recently, javascript has been helping to produce fast and slick interfaces that can be used anywhere</p>
+					<p>At Bluecadet, we have explored the opportunities of using javascript from traditional websites to multi-screen and multi-touch applications found in museums around the country. This talk will cover our journey with javascript and delve into the tools that helped along the way.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -378,9 +389,9 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>If we insist on being religious with our JavaScript, perhaps it's time to use religious tools to improve it enter _exegesis_.</p>
+					<p>Do you know where "arrow functions" came from, before they were introduced in ES2015? How about let/const? Or async/await? Better still, what was the "cultural context" of these language features originally, and of their specifications now? Why did the authors of these languages introduce the feature in the first place, and to what audience? These questions and more are wrapped up in this process of textual criticism (or ""hermeneutics"", for my philosophy nerds out there), and they provide a framework for understanding The New JavaScript‰ã¢ better, making us better as programmers along the way.</p>
+					<p>This talk is about the process of exegesis, applied to some exciting new and forthcoming features of JavaScript, and the nuance we can glean from those storied origins.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__divider">
@@ -403,10 +414,10 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
-
+					<p>Before module bundlers, JavaScript and CSS were inserted onto the page via the index.html. Now bundlers like webpack can modularize your assets into these chunks to improves speed and decrease the size of your application.</p>
+					<p>I will first talk through the history of how we got from adding script tags to now using bundle tools, like webpack to dynamically replace those script tags. I then talk through the basic concepts of webpack and how the use of loaders and plugins get bundles into your output and place into the index.html. This will be summarized showing the steps to get Webpack up and running from the ground up for a React application.</p>
+					<p>Finally, I will walk through examples of using different plugins to manage your build size. I will weigh the benefits as well as the limitations for each plugin. This will all be analyzed showing comparisons from the webpack-bundle-size-analyzer tool.</p>
+					<p>At the end of this talk, the listener will have a better understanding of why they are using webpack and how to be confident enough to update their configuration to better suit the needs of their app.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -426,9 +437,8 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>Javascript traditionally relied on callback functions to handle asynchronous operations. As your Javascript application grows, you would encounter "Callback Hell", which makes your code unreadable and application error-prone. There are now several ways to combat callback hell, and make your application development experience more enjoyable.</p>
+					<p>The presentation will quickly go over the shortcomings of callback functions. It will also provide a thorough walk-through of Promises, and Generators, and combine the two paradigms to explain the new ES2016 feature async/await.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-two">
@@ -448,9 +458,9 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>Redux is the community standard for state- and transaction-management in React applications, but it leaves a lot to be desired when it comes to implementation guidance. As a result, you're left to cobble together a set of redux-* packages for each new app you write. What's more, there's little consensus on how to manage complicated, multi-step async transactions — redux-saga is the closest thing to a standard, but it is needlessly abstract and boilerplate-heavy.</p>
+					<p>Taking inspiration from the Elm language & architecture, I've created an Open Source framework that provides a succinct, elegant API for managing state and side-effects. Its integrated tooling allows developers to iterate with unprecedented speed, and combines hot reloading with time-travel debugging to maintain state across the save/reload cycle, replay requests, snapshot for future replays, and even live-mirror across machines for collaborative development & debugging.</p>
+					<p>I've been writing JavaScript for over 20 years, and I consider this the pinnacle of my work. I fully anticipate that this will replace Redux as the standard for building React (or equivalent virtual DOM library)-based applications.</p>
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-three">
@@ -470,9 +480,24 @@ get_header();
 					</div>
 				</div>
 				<div class="ljs2017-template-schedule__speaker-more">
-					<p>
-						TBA
-					</p>
+					<p>"Node.js is an amazing project in terms of code - it's evolved rapidly to cover an immense landscape, from web apps, desktop apps, APIs, IoT, robotics, and beyond. There's something else that Node has also been absolutely killer with, though: the community.</p>
+					<p> When the _community_ split off of the core Node project into io.js, things changed **dramatically**. Suddenly, the community was in charge - of everything. The project wasn't under the control of a small few, but rather it adapted to enable the project to be entirely controlled by the community.</p>
+					<p> Great - Node.js is governed by its community. But how does the Node community grow? How should it communicate? How can it encourage people to stop by and give Node.js a try - and hopefully not get thrown into a catch()?</p>
+					<p> One really awesome thing is that the Node.js community has an established community for building the Node community. How meta is that? The Node.js project is sectioned off into different Working Groups (WGs) with that are tasked with different objectives - the one that was tasked with building the community was the Evangelism WG.</p>
+					<p>Now, we're seeing step two in process of building the Community for the Community: The Node.js Community Committee.</p>
+					<p>There have been several new developments, such as...</p>
+					<p>* Scaffolding out processes for the community to become technical editors to The Node.js Collection (https://medium.com/the-node-js-collection)</p>
+					<p>* Moving community education efforts like nodejs/education and NodeTogether into a central place</p>
+					<p>* Developing the documentation around the Community Committee to enable the Community to develop and grow naturally</p>
+					<p>These are the buds of momentum that is building for new community-based content that we're seeing a need for as Node.js is growing, spreading, and diversifying.</p>
+					<p>All that said, there's a transition happening. The Evangelism WG planted the seed of the grassroots Node.js Community efforts. Now, the Community Committee has taken this a step further and is mobilizing to start exploding the awareness and understanding of Node and its diverse ecosystem.</p>
+					<p>To succeed with this effort around enabling the Node.js community, we're going to need help.</p>
+					<p>We're going to need help.</p>
+					<p>We're going to need ideas.</p>
+					<p>We're going to need feedback.</p>
+					<p>We're going to need people.</p>
+					<p>We're going to _need_ the community.</p>
+					<p>We need **you**."
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__keynote">
@@ -483,7 +508,7 @@ get_header();
 					<div class="ljs2017-template-schedule__speaker-info">
 						<span class="ljs2017-template-schedule__time">04:15 - 4:55 (KEYNOTE SPEAKER)</span>
 						<span class="ljs2017-template-schedule__name">Pam Selle</span>
-						<span class="ljs2017-template-schedule__title">TBA</span>
+						<span class="ljs2017-template-schedule__title">The Serverless Revolution</span>
 					</div>
 					<div class="ljs2017-template-schedule__more-toggle">
 						<i
@@ -495,7 +520,6 @@ get_header();
 					<p>
 						The Serverless Revolution
 					</p>
-
 				</div>
 			</div>
 			<div class="ljs2017-template-schedule__speaker ljs2017-template-schedule__speaker-three">
