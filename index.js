@@ -153,7 +153,7 @@
 
 	function addScheduleListener() {
 		var toggles = Array.prototype.slice.call(
-			document.querySelectorAll( '.ljs2017-template-schedule__more-toggle-icon' )
+			document.querySelectorAll( '.ljs2017-template-schedule__speaker' )
 		);
 		if ( ! toggles.length ) {
 			return;
