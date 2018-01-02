@@ -11,12 +11,7 @@ Template Name: Homepage
 	</div>
 	<div class="ljs2017-header-cta__cta-container">
 		<p>
-			<strong>Get your ticket before they sell out!</strong>
-			<a
-				class="ljs2017-header-cta__ticket-purchase"
-				href="/product/ticket/">
-				Purchase
-			</a>
+			<strong>It was fun, see you next year!</strong>
 		</p>
 	</div>
 </div>
