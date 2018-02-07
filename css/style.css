@@ -51,26 +51,6 @@ input {
 	padding: 0;
 }
 
-.wc2017-hidden {
-	display: none;
-}
-
-/*FLAG: No Sponsors*/
-.wc2017-sponsors__container,
-.wc2017-sponsors-mobile__container {
-	display: none;
-}
-.wc2017-lastyear__container {
-	margin-top: 20vw;
-}
-/*END FLAG: No SPonsors*/
-
-/*FLAG: No All Speakers Link*/
-.wc2017-keynotes__heading-all {
-	display: none;
-}
-/*END FLAG: No All Speakers Link*/
-
 @font-face {
 	font-family: 'FontAwesome';
 	src: url('fonts/fontawesome-webfont.eot?v=4.7.0');

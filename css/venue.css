@@ -1,4 +1,4 @@
-.ljs2017-venue__container {
+.ljs2018-venue__container {
 	background-color: #249fcc;
 	height: 40.5vw;
 	margin-top: -8vw;
@@ -14,7 +14,7 @@
 	}
 }
 
-.ljs2017-venue__container h2 {
+.ljs2018-venue__container h2 {
 	color: #ffffff;
 	font-size: 10vw;
 	font-weight: 900;
@@ -30,7 +30,7 @@
 	}
 }
 
-.ljs2017-venue__container img {
+.ljs2018-venue__container img {
 	display: inline-block;
 	width: 50vw;
 
@@ -41,7 +41,7 @@
 	}
 }
 
-.ljs2017-venue__info-container {
+.ljs2018-venue__info-container {
 	display: inline-block;
 	margin: 5.5vw 0 0 17.5vw;
 	vertical-align: top;
@@ -54,7 +54,7 @@
 	}
 }
 
-.ljs2017-venue__info-container h3 {
+.ljs2018-venue__info-container h3 {
 	color: #255a8b;
 	font-size: 1.65vw;
 
@@ -64,7 +64,7 @@
 	}
 }
 
-.ljs2017-venue__info-container p {
+.ljs2018-venue__info-container p {
 	color: #255a8b;
 	font-size: 1.3vw;
 	line-height: 1.6;
@@ -77,7 +77,7 @@
 	}
 }
 
-.ljs2017-venue__info-container a {
+.ljs2018-venue__info-container a {
 	padding-right: 1vw;
 
 	@media only screen and (max-width: 750px) {
@@ -85,8 +85,8 @@
 	}
 }
 
-.ljs2017-venue__info-container a,
-.ljs2017-venue__info-container i {
+.ljs2018-venue__info-container a,
+.ljs2018-venue__info-container i {
 	color: #255a8b;
 	font-size: 1.35vw;
 	font-weight: 600;

@@ -1,4 +1,4 @@
-h1.ljs2017-template-info__heading {
+h1.ljs2018-template-info__heading {
 	color: #255a8b;
 	font-size: 13.9vw;
 	font-weight: 700;
@@ -15,7 +15,7 @@ h1.ljs2017-template-info__heading {
 	}
 }
 
-.ljs2017-template-info__content h2 {
+.ljs2018-template-info__content h2 {
 	font-weight: 900;
 	font-size: 3vw;
 	line-height: 1;
@@ -30,7 +30,7 @@ h1.ljs2017-template-info__heading {
 	}
 }
 
-.ljs2017-template-info__content p {
+.ljs2018-template-info__content p {
 	padding: 0.25vw 0;
 
 	@media only screen and (max-width: 750px) {
@@ -38,12 +38,12 @@ h1.ljs2017-template-info__heading {
 	}
 }
 
-.ljs2017-template-info__content a,
-.ljs2017-template-info__content a:visited {
+.ljs2018-template-info__content a,
+.ljs2018-template-info__content a:visited {
 	color: #255a8b;
 }
 
-.ljs2017-template-info__content {
+.ljs2018-template-info__content {
 	color: #255a8b;
 	font-size: 1.3vw;
 	line-height: 1.6;
@@ -55,7 +55,7 @@ h1.ljs2017-template-info__heading {
 	}
 }
 
-.ljs2017-template-info__image {
+.ljs2018-template-info__image {
 	margin: -35vw 0 0 48vw;
 	position: absolute;
 	width: 28vw;

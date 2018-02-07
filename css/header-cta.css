@@ -1,4 +1,4 @@
-.ljs2017-header__container-overlay {
+.ljs2018-header__container-overlay {
 	margin-top: 8vw;
 
 	@media only screen and (max-width: 750px) {
@@ -6,7 +6,7 @@
 	}
 }
 
-.ljs2017-header-cta__container {
+.ljs2018-header-cta__container {
 	background-color: #3c3c3c;
 	color: #fff;
 	display: flex;
@@ -25,7 +25,7 @@
 	}
 }
 
-.ljs2017-header-cta__countdown-container {
+.ljs2018-header-cta__countdown-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -36,17 +36,17 @@
 	}
 }
 
-.ljs2017-header-cta__countdown-smalltext {
+.ljs2018-header-cta__countdown-smalltext {
 	font-size: 1.2vw;
 	font-weight: 200;
 	line-height: 3vw;
 	padding-right: 0.6vw;
 	text-transform: uppercase;
 }
-.ljs2017-header-cta__countdown-days,
-.ljs2017-header-cta__countdown-hours,
-.ljs2017-header-cta__countdown-minutes,
-.ljs2017-header-cta__countdown-seconds {
+.ljs2018-header-cta__countdown-days,
+.ljs2018-header-cta__countdown-hours,
+.ljs2018-header-cta__countdown-minutes,
+.ljs2018-header-cta__countdown-seconds {
 	background-color: #585858;
 	font-size: 2vw;
 	font-weight: 800;
@@ -54,7 +54,7 @@
 	vertical-align: top;
 }
 
-.ljs2017-header-cta__cta-container {
+.ljs2018-header-cta__cta-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -65,7 +65,7 @@
 	}
 }
 
-.ljs2017-header-cta__cta-container p {
+.ljs2018-header-cta__cta-container p {
 	font-size: 1.3vw;
 	text-align: center;
 
@@ -74,7 +74,7 @@
 	}
 }
 
-.ljs2017-header-cta__ticket-purchase {
+.ljs2018-header-cta__ticket-purchase {
 	background-color: #a36696;
 	border-style: none;
 	border-radius: 10vw;
