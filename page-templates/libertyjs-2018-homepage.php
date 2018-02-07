@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage 2017
+Template Name: Homepage
 */
 ?>
 <?php get_header(); ?>
