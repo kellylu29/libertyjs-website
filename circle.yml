@@ -3,7 +3,7 @@ machine:
     USER_NAME: libertyjs-machine
     USER_EMAIL: belcherj+libertyjs@gmail.com
   node:
-    version: 6.11.1
+    version: 8.9.3
 test:
   override:
     - ./bin/circle-validation.sh
