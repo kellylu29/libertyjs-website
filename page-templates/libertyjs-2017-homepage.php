@@ -24,7 +24,7 @@ Template Name: Homepage
 				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-primary-logo-white-yellow.png"
 				alt="LibertyJS Logo">
 			<div class="ljs2017-header__info-location">
-				NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
+				OCTOBER 2018 - PHILADELPHIA, USA
 			</div>
 		</div>
 	</div>
