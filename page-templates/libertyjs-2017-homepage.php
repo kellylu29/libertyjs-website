@@ -6,7 +6,7 @@ Template Name: Homepage
 <?php get_header(); ?>
 
 
-<div class="ljs2017-header-cta__container">
+<!-- <div class="ljs2017-header-cta__container">
 	<div class="ljs2017-header-cta__countdown-container">
 	</div>
 	<div class="ljs2017-header-cta__cta-container">
@@ -14,7 +14,7 @@ Template Name: Homepage
 			<strong>It was fun, see you next year!</strong>
 		</p>
 	</div>
-</div>
+</div> -->
 
 <div class="ljs2017-header__container-overlay">
 	<div class="ljs2017-header__container">
