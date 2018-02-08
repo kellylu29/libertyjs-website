@@ -21,7 +21,7 @@ Template Name: Homepage 2017
 		<div class="ljs2017-header__info-container">
 			<img
 				class="ljs2017-header__info-logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-primary-logo-white-yellow.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-primary-logo-white-yellow.png"
 				alt="LibertyJS Logo">
 			<div class="ljs2017-header__info-location">
 				NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
@@ -84,7 +84,7 @@ Template Name: Homepage 2017
 			<div class="ljs2017-keynotes__keynote-jobtitle">Software Engineering Lead &amp; Technology Leader</div>
 			<img
 				class="ljs2017-keynotes__keynote-image"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-keynote-pam-selle.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-keynote-pam-selle.jpg"
 				alt="Pam Selle Image">
 		</div>
 	</div>
@@ -105,7 +105,7 @@ Template Name: Homepage 2017
 	<h2>Venue</h2>
 	<img
 		class="ljs2017-venue__venue-image"
-		src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-venue.png"
+		src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-venue.png"
 		alt="Venue Image">
 	<div class="ljs2017-venue__info-container">
 		<h3 id="venue">
@@ -132,7 +132,7 @@ Template Name: Homepage 2017
 		<a href="http://my.xfinity.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-comcast-logo.png"
 				alt="Comcast Logo">
 			<h3>Comcast</h3>
 			<p>
@@ -146,7 +146,7 @@ Template Name: Homepage 2017
 		<a href="https://www.elsevier.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-elsevier-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-elsevier-logo.png"
 				alt="Elsevier Logo">
 		</a>
 	</div>
@@ -154,7 +154,7 @@ Template Name: Homepage 2017
 		<a href="http://www.urbn.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-urbn-logo.png"
 				alt="Urbn Logo">
 		</a>
 	</div>
@@ -162,7 +162,7 @@ Template Name: Homepage 2017
 		<a href="http://www.vistarmedia.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-vistar-logo.png"
 				alt="Vistar Logo">
 		</a>
 	</div>
@@ -170,7 +170,7 @@ Template Name: Homepage 2017
 		<a href="https://scala.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-scala-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-scala-logo.png"
 				alt="Scala Logo">
 		</a>
 	</div>
@@ -178,7 +178,7 @@ Template Name: Homepage 2017
 		<a href="https://www.jornaya.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-jornaya-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-jornaya-logo.jpg"
 				alt="Jornaya Logo">
 		</a>
 	</div>
@@ -186,7 +186,7 @@ Template Name: Homepage 2017
 		<a href="https://www.judge.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-judge-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-judge-logo.jpg"
 				alt="Judge Group Logo">
 		</a>
 	</div>
@@ -194,7 +194,7 @@ Template Name: Homepage 2017
 		<a href="http://testdouble.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-testdouble-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-testdouble-logo.png"
 				alt="Test Double Logo">
 		</a>
 	</div>
@@ -202,7 +202,7 @@ Template Name: Homepage 2017
 		<a href="https://chariotsolutions.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-chariot-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-chariot-logo.jpg"
 				alt="Chariot Solutions Logo">
 		</a>
 	</div>
@@ -210,7 +210,7 @@ Template Name: Homepage 2017
 		<a href="https://www.linode.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-linode-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-linode-logo.jpg"
 				alt="Linode Logo">
 		</a>
 	</div>
@@ -218,7 +218,7 @@ Template Name: Homepage 2017
 		<a href="https://neo4j.com/" target="_blank">
 			<img
 				class="ljs2017-sponsors-mobile__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-neo4j-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-neo4j-logo.jpg"
 				alt="Neo4j Logo">
 		</a>
 	</div>
@@ -237,7 +237,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-jornaya-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-jornaya-logo.jpg"
 				alt="Jornaya Logo">
 		</a>
 		<a
@@ -246,7 +246,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-scala-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-scala-logo.png"
 				alt="Scala Logo">
 		</a>
 	</div>
@@ -257,7 +257,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-comcast-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-comcast-logo.png"
 				alt="Comcast Logo">
 				<h3>Comcast</h3>
 			<p>
@@ -272,7 +272,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-vistar-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-vistar-logo.png"
 				alt="Vistar Logo">
 		</a>
 		<a
@@ -281,7 +281,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-judge-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-judge-logo.jpg"
 				alt="Judge Group Logo">
 		</a>
 		<a
@@ -290,7 +290,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-testdouble-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-testdouble-logo.png"
 				alt="Test Double Logo">
 		</a>
 		<a
@@ -299,7 +299,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-chariot-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-chariot-logo.jpg"
 				alt="Chariot Solutions Logo">
 		</a>
 	</div>
@@ -307,7 +307,7 @@ Template Name: Homepage 2017
 		<a href="http://www.urbn.com/" class="ljs2017-sponsors__sponsor-large">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-urbn-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-urbn-logo.png"
 				alt="Urbn Logo">
 		</a>
 	</div>
@@ -321,7 +321,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-linode-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-linode-logo.jpg"
 				alt="Linode Logo">
 		</a>
 		<div class="ljs2017-sponsors__sponsor-empty">
@@ -333,7 +333,7 @@ Template Name: Homepage 2017
 			target="_blank">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-neo4j-logo.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-neo4j-logo.jpg"
 				alt="Neo4j Logo">
 		</a>
 	</div>
@@ -341,7 +341,7 @@ Template Name: Homepage 2017
 		<a href="https://www.elsevier.com/" class="ljs2017-sponsors__sponsor-large">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-elsevier-logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-elsevier-logo.png"
 				alt="Elsevier Logo">
 		</a>
 	</div>
@@ -351,13 +351,13 @@ Template Name: Homepage 2017
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017_logo.png"
 				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017_logo.png"
 				alt="Foo Logo">
 		</div>
 		<div class="ljs2017-sponsors__sponsor-empty">
@@ -365,7 +365,7 @@ Template Name: Homepage 2017
 		<div class="ljs2017-sponsors__sponsor">
 			<img
 				class="ljs2017-sponsors__logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017_logo.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017_logo.png"
 				alt="Foo Logo">
 		</div>
 	</div>
@@ -376,19 +376,19 @@ Template Name: Homepage 2017
 		<div class="ljs2017-lastyear__images">
 			<img
 				class="ljs2017-lastyear__image-large"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-1.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-lastyear-1.jpg"
 				alt="LibertyJS 2016">
 			<img
 				class="ljs2017-lastyear__image-small"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-2.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-lastyear-2.jpg"
 				alt="LibertyJS 2016">
 			<img
 				class="ljs2017-lastyear__image-small"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-3.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-lastyear-3.jpg"
 				alt="LibertyJS 2016">
 			<img
 				class="ljs2017-lastyear__image-small"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2017-lastyear-4.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/ljs2017-lastyear-4.jpg"
 				alt="LibertyJS 2016">
 		</div>
 		<div class="ljs2017-lastyear__watch-container">

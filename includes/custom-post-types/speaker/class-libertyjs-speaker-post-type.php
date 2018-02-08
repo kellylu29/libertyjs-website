@@ -22,8 +22,8 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 		 */
 		protected function __construct() {
 			add_action( 'add_meta_boxes', array( $this, 'add_speaker_metabox' ) );
-			add_action( 'init', array( $this, 'add_speaker_post_type' ), 0 );
 			add_action( 'save_post', array( $this, 'save_speaker_custom_fields' ) );
+			add_action( 'init', array( $this, 'add_speaker_post_type' ), 0 );
 		}
 
 		/**
@@ -43,7 +43,6 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 		public function add_speaker_custom_fields() {
 			global $post;
 			$custom = get_post_custom( $post->ID );
-
 			?>
 			<style>.width99 { width: 99%; }</style>
 			<p>
@@ -98,10 +97,11 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 				<input
 					type="text"
 					name="twitter"
-					value="<?php echo $custom['twitter'][0]; ?>"
+					value="<?php echo esc_attr( $custom['twitter'][0] ); ?>"
 					class="width99" />
 			</p>
 			<?php
+			wp_nonce_field( 'speaker_' . $post->ID );
 		}
 
 		/**
@@ -111,19 +111,19 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 		 */
 		public function add_speaker_post_type() {
 			$labels = array(
-				'name'                => _x( 'Speakers', 'Post Type General Name', 'twentythirteen' ),
-				'singular_name'       => _x( 'Speaker', 'Post Type Singular Name', 'twentythirteen' ),
-				'menu_name'           => __( 'Speakers', 'libertyjs-2017' ),
-				'parent_item_colon'   => __( 'Parent Movie', 'libertyjs-2017' ),
-				'all_items'           => __( 'All Speakers', 'libertyjs-2017' ),
-				'view_item'           => __( 'View Speaker', 'libertyjs-2017' ),
-				'add_new_item'        => __( 'Add New Speaker', 'libertyjs-2017' ),
-				'add_new'             => __( 'Add New', 'libertyjs-2017' ),
-				'edit_item'           => __( 'Edit Speaker', 'libertyjs-2017' ),
-				'update_item'         => __( 'Update Speaker', 'libertyjs-2017' ),
-				'search_items'        => __( 'Search Speaker', 'libertyjs-2017' ),
-				'not_found'           => __( 'Not Found', 'libertyjs-2017' ),
-				'not_found_in_trash'  => __( 'Not found in Trash', 'libertyjs-2017' ),
+				'name'               => _x( 'Speakers', 'Post Type General Name', 'twentythirteen' ),
+				'singular_name'      => _x( 'Speaker', 'Post Type Singular Name', 'twentythirteen' ),
+				'menu_name'          => __( 'Speakers', 'libertyjs-2017' ),
+				'parent_item_colon'  => __( 'Parent Movie', 'libertyjs-2017' ),
+				'all_items'          => __( 'All Speakers', 'libertyjs-2017' ),
+				'view_item'          => __( 'View Speaker', 'libertyjs-2017' ),
+				'add_new_item'       => __( 'Add New Speaker', 'libertyjs-2017' ),
+				'add_new'            => __( 'Add New', 'libertyjs-2017' ),
+				'edit_item'          => __( 'Edit Speaker', 'libertyjs-2017' ),
+				'update_item'        => __( 'Update Speaker', 'libertyjs-2017' ),
+				'search_items'       => __( 'Search Speaker', 'libertyjs-2017' ),
+				'not_found'          => __( 'Not Found', 'libertyjs-2017' ),
+				'not_found_in_trash' => __( 'Not found in Trash', 'libertyjs-2017' ),
 			);
 
 			$args = array(
@@ -156,6 +156,9 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 		 */
 		public function save_speaker_custom_fields() {
 			global $post;
+			if ( get_post_type() !== 'speakers' || ! check_admin_referer( 'speaker_' . $post->ID ) ) {
+				return;
+			}
 			if ( $post ) {
 				update_post_meta( $post->ID, 'facebook', $_POST['facebook'] );
 				update_post_meta( $post->ID, 'image', $_POST['image'] );

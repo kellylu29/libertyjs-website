@@ -15,13 +15,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 *
 	 * @hooked wc_print_notices - 10
 	 */
-	 do_action( 'woocommerce_before_single_product' );
+	do_action( 'woocommerce_before_single_product' );
 ?>
 
 <div class="ljs2017-template-checkout__container">
 	<div
 		itemscope
-		itemtype="<?php echo woocommerce_get_product_schema(); ?>"
+		itemtype="<?php echo esc_attr( woocommerce_get_product_schema() ); ?>"
 		id="product-<?php the_ID(); ?>"
 		<?php post_class(); ?>>
 

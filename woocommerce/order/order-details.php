@@ -28,14 +28,14 @@ $show_customer_details = is_user_logged_in() && $order->get_user_id() === get_cu
 
 <section class="ljs2017-order__container">
 	<div class="ljs2017-order__container-left">
-		<h2 class="woocommerce-order-details__title"><?php _e( 'Order details', 'woocommerce' ); ?></h2>
+		<h2 class="woocommerce-order-details__title"><?php esc_html_e( 'Order details', 'woocommerce' ); ?></h2>
 
 		<table class="woocommerce-table woocommerce-table--order-details shop_table order_details">
 
 			<thead>
 				<tr>
-					<th class="woocommerce-table__product-name product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
-					<th class="woocommerce-table__product-table product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
+					<th class="woocommerce-table__product-name product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
+					<th class="woocommerce-table__product-table product-total"><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
 				</tr>
 			</thead>
 
@@ -45,12 +45,12 @@ $show_customer_details = is_user_logged_in() && $order->get_user_id() === get_cu
 					$product = apply_filters( 'woocommerce_order_item_product', $item->get_product(), $item );
 
 					wc_get_template( 'order/order-details-item.php', array(
-						'order' => $order,
-						'item_id' => $item_id,
-						'item' => $item,
+						'order'              => $order,
+						'item_id'            => $item_id,
+						'item'               => $item,
 						'show_purchase_note' => $show_purchase_note,
-						'purchase_note' => $product ? $product->get_purchase_note() : '',
-						'product' => $product,
+						'purchase_note'      => $product ? $product->get_purchase_note() : '',
+						'product'            => $product,
 					) );
 				}
 				?>
@@ -62,8 +62,8 @@ $show_customer_details = is_user_logged_in() && $order->get_user_id() === get_cu
 				foreach ( $order->get_order_item_totals() as $key => $total ) {
 					?>
 					<tr>
-						<th scope="row"><?php echo $total['label']; ?></th>
-						<td><?php echo $total['value']; ?></td>
+						<th scope="row"><?php echo esc_html( $total['label'] ); ?></th>
+						<td><?php echo esc_html( $total['value'] ); ?></td>
 					</tr>
 					<?php
 				}

@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <div class="woocommerce-billing-fields">
 
-	<h3><?php _e( 'Billing details', 'woocommerce' ); ?></h3>
+	<h3><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h3>
 
 	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
 

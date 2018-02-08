@@ -21,7 +21,7 @@ Template Name: Homepage
 		<div class="ljs2018-header__info-container">
 			<img
 				class="ljs2018-header__info-logo"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2018-primary-logo-white-yellow.png"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/ljs2017-primary-logo-white-yellow.png' ); ?>"
 				alt="LibertyJS Logo">
 			<div class="ljs2018-header__info-location">
 				OCTOBER 2018 - PHILADELPHIA, USA
@@ -73,19 +73,19 @@ Template Name: Homepage
 		<div class="ljs2018-lastyear__images">
 			<img
 				class="ljs2018-lastyear__image-large"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2018-lastyear-1.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/ljs2017-lastyear-1.jpg' ); ?>"
 				alt="LibertyJS 2016">
 			<img
 				class="ljs2018-lastyear__image-small"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2018-lastyear-2.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/ljs2017-lastyear-2.jpg' ); ?>"
 				alt="LibertyJS 2016">
 			<img
 				class="ljs2018-lastyear__image-small"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2018-lastyear-3.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/ljs2017-lastyear-3.jpg' ); ?>"
 				alt="LibertyJS 2016">
 			<img
 				class="ljs2018-lastyear__image-small"
-				src="<?php echo get_stylesheet_directory_uri(); ?>/img/ljs2018-lastyear-4.jpg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/ljs2017-lastyear-4.jpg' ); ?>"
 				alt="LibertyJS 2016">
 		</div>
 		<div class="ljs2018-lastyear__watch-container">

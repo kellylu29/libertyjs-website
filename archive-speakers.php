@@ -4,26 +4,25 @@ Template Name: Speakers
 */
 get_header();
 
-$args = array(
-	'post_type' => 'speakers',
+$args           = array(
+	'post_type'      => 'speakers',
 	'posts_per_page' => -1,
 );
-$query = new WP_Query( $args );
-
-$workshop_args = array(
-	'post_type' => 'workshop-leaders',
+$query          = new WP_Query( $args );
+$workshop_args  = array(
+	'post_type'      => 'workshop-leaders',
 	'posts_per_page' => -1,
 );
 $workshop_query = new WP_Query( $workshop_args );
 
 function output_speaker( $id ) {
-	$facebook = get_post_meta( $id, 'facebook', true );
-	$image = get_post_meta( $id, 'image', true );
+	$facebook  = get_post_meta( $id, 'facebook', true );
+	$image     = get_post_meta( $id, 'image', true );
 	$instagram = get_post_meta( $id, 'instagram', true );
-	$linkedin = get_post_meta( $id, 'linkedin', true );
-	$name = get_post_meta( $id, 'name', true );
+	$linkedin  = get_post_meta( $id, 'linkedin', true );
+	$name      = get_post_meta( $id, 'name', true );
 	$secondary = get_post_meta( $id, 'secondary', true );
-	$twitter = get_post_meta( $id, 'twitter', true );
+	$twitter   = get_post_meta( $id, 'twitter', true );
 	?>
 
 	<div class="ljs2017-grid__item">

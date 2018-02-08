@@ -1,4 +1,4 @@
-<?php echo $before_field; ?>
+<?php echo esc_html( $before_field ); ?>
 	<select name="<?php echo esc_attr( $name ); ?>" id="<?php echo esc_attr( $id ); ?>" <?php disabled( $disabled ); ?>>
 		<option value="" disabled selected hidden>
 			<?php echo esc_html( $label ); ?>
@@ -7,4 +7,4 @@
 		<option <?php selected( $option, $value ); ?> value="<?php echo esc_attr( $option ); ?>"><?php echo esc_html( $option ); ?></option>
 	<?php endforeach; ?>
 	</select>
-<?php echo $after_field; ?>
+<?php echo esc_html( $after_field ); ?>

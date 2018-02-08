@@ -14,7 +14,7 @@ if ( ! $product->is_purchasable() ) {
 
 do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
-<noscript><?php _e( 'Your browser must support JavaScript in order to purchase ticket(s).', 'woocommerce-box-office' ); ?></noscript>
+<noscript><?php esc_html_e( 'Your browser must support JavaScript in order to purchase ticket(s).', 'woocommerce-box-office' ); ?></noscript>
 
 <div class="wc-box-office-ticket-form">
 
@@ -23,7 +23,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 	<div class="wc-box-office-ticket-fields" data-index="0" style="display: none">
 		<h3 class="wc-box-office-ticket-fields-title">
 			<a href="#">
-				<?php _e( 'Ticket #1', 'woocommerce-box-office' ); ?>
+				<?php esc_html_e( 'Ticket #1', 'woocommerce-box-office' ); ?>
 			</a>
 		</h3>
 		<div class="ljs2017-template-checkout__ticket-add-remove">

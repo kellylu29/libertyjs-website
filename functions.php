@@ -7,6 +7,7 @@ add_filter( 'jetpack_sso_bypass_login_forward_wpcom', '__return_true' );
  * Enqueue scripts and styles.
  */
 function libertyjs_2017_styles() {
+	wp_enqueue_style( 'source-sans-font', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' );
 	wp_enqueue_style( 'libertyjs-2017-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_script( 'libertyjs-2017-scripts', get_template_directory_uri() . '/index.js' );
 }

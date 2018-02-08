@@ -1,4 +1,4 @@
-<?php echo $before_field; ?>
+<?php echo esc_html( $before_field ); ?>
 	<input
 		type="<?php echo esc_attr( $type ); ?>"
 		class="<?php echo esc_attr( $input_class ); ?>"
@@ -7,4 +7,4 @@
 		id="<?php echo esc_attr( $id ); ?>"<?php disabled( $disabled ); ?>
 		<?php echo $required ? 'required' : ''; ?>
 		/>
-<?php echo $after_field; ?>
+<?php echo esc_html( $after_field ); ?>

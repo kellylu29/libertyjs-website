@@ -2,7 +2,7 @@
   "name": "libertyjs/libertyjs2017",
   "description": "LibertyJS.com",
   "require": {
-    "wp-coding-standards/wpcs": "dev-master"
+    "wp-coding-standards/wpcs": "^0.14.0"
   },
   "scripts": {
     "post-install-cmd": [

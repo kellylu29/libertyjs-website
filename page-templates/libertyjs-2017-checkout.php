@@ -2,15 +2,19 @@
 /*
 Template Name: Checkout
 */
-
-get_header();
-
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 ?>
-
-<div class="ljs2017-template-checkout__container">
-	<?php echo apply_filters( 'the_content', $post->post_content ); ?>
-</div>
-
-<?php
-
-get_footer();
+<?php get_header(); ?>
+	<?php if ( have_posts() ) : ?>
+		<?php $count = 0; ?>
+		<?php while ( have_posts() ) : ?>
+			<?php the_post(); ?>
+			<?php $count++; ?>
+			<?php the_content(); ?>
+		<?php endwhile; ?>
+	<?php else : ?>
+		<p>Sorry, no posts matched your criteria.</p>
+	<?php endif; ?>
+<?php get_footer(); ?>
