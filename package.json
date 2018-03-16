@@ -10,7 +10,7 @@
     "eslint": "eslint **/*.js",
     "lint": "npm run check-node-version && npm run stylelint && npm run eslint && npm run phplint",
     "phplint": "./vendor/bin/phpcs --standard=phpcs.xml $(git ls-files | grep .php$)",
-    "start": "npm run check-node-version && npm install && composer update && npm run hooks && gulp watch",
+    "start": "npm run check-node-version && npm run hooks && gulp watch",
     "stylelint": "stylelint css/*.css -q"
   },
   "engines": {

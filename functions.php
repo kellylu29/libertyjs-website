@@ -29,3 +29,5 @@ function woocommerce_support() {
 
 require_once 'includes/custom-post-types/speaker/class-libertyjs-speaker-post-type.php';
 require_once 'includes/custom-post-types/speaker/class-libertyjs-workshop-leader-post-type.php';
+
+show_admin_bar( false );
