@@ -51,7 +51,7 @@
 				id="ljs2018-menu__menu-menu">
 				<ul>
 					<li><a href="/speakers">Speakers</a></li>
-					<li><a href="/schedule">2017 Schedule</a></li>
+					<li><a href="/code-of-conduct">Code of Conduct</a></li>
 					<li><a href="/sponsor">Sponsor</a></li>
 					<li><a href="/volunteer">Volunteer</a></li>
 					<li><a href="/#2016">#2016</a></li>
