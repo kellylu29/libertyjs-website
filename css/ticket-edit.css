@@ -2,7 +2,7 @@
 	display: none;
 }
 
-.ljs2018-ticket-edit__container {
+.ljs-ticket-edit__container {
 	display: flex;
 	justify-content: center;
 	margin-top: 9vw;
@@ -14,15 +14,15 @@
 	}
 }
 
-.ljs2018-ticket-edit__container h1.product_title.entry-title {
+.ljs-ticket-edit__container h1.product_title.entry-title {
 	padding-bottom: 2vw;
 }
 
-.ljs2018-ticket-edit__container label:first-child {
+.ljs-ticket-edit__container label:first-child {
 	font-weight: 700;
 }
 
-.ljs2018-ticket-edit__container label {
+.ljs-ticket-edit__container label {
 	font-size: 1.3vw;
 
 	@media only screen and (max-width: 750px) {
@@ -30,20 +30,20 @@
 	}
 }
 
-.ljs2018-ticket-edit__container input[type=checkbox] {
+.ljs-ticket-edit__container input[type=checkbox] {
 	margin-right: 1vw;
 }
 
-.ljs2018-ticket-edit__container input:not( [type='checkbox'] ) {
+.ljs-ticket-edit__container input:not( [type='checkbox'] ) {
 	-webkit-appearance: none;
 }
 
-.ljs2018-ticket-edit__container select {
+.ljs-ticket-edit__container select {
 	appearance: none;
 }
 
-.ljs2018-ticket-edit__container input:not( [type='checkbox'] ),
-.ljs2018-ticket-edit__container select {
+.ljs-ticket-edit__container input:not( [type='checkbox'] ),
+.ljs-ticket-edit__container select {
 	background: none;
 	border-color: #8a8a8a;
 	border-radius: 10vw;
@@ -69,7 +69,7 @@
 	}
 }
 
-.ljs2018-ticket-edit__container input[type='submit'] {
+.ljs-ticket-edit__container input[type='submit'] {
 	background-color: #a36696;
 	border-style: none;
 	border-radius: 10vw;
@@ -95,7 +95,7 @@
 	}
 }
 
-.ljs2018-ticket-edit__container-left {
+.ljs-ticket-edit__container-left {
 	background-color: #eeeff0;
 	box-sizing: border-box;
 	padding: 6vw;
@@ -106,7 +106,7 @@
 	}
 }
 
-.ljs2018-ticket-edit__container-right {
+.ljs-ticket-edit__container-right {
 	background-color: #3c3c3c;
 	box-sizing: border-box;
 	padding-top: 16vw;
@@ -120,7 +120,7 @@
 	}
 }
 
-.ljs2018-ticket-edit__container-right i {
+.ljs-ticket-edit__container-right i {
 	font-size: 7vw;
 
 	@media only screen and (max-width: 750px) {
@@ -128,7 +128,7 @@
 	}
 }
 
-.ljs2018-ticket-edit__container-right i,
-.ljs2018-ticket-edit__container-right span {
+.ljs-ticket-edit__container-right i,
+.ljs-ticket-edit__container-right span {
 	color: #ffffff;
 }

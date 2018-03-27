@@ -1,9 +1,9 @@
-<div class="ljs2018-footer__container">
+<div class="ljs-footer__container">
 	<img
-		class="ljs2018-footer__logo"
-		src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/ljs2017-primary-logo-black-yellow.png' ); ?>"
+		class="ljs-footer__logo"
+		src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/2018/ljs-primary-logo-black-yellow.png' ); ?>"
 		alt="LibertyJS Logo">
-	<div class="ljs2018-footer__info-location">
+	<div class="ljs-footer__info-location">
 		NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
 	</div>
 </div>

@@ -27,10 +27,10 @@
 
 	function initializeClock( id, endtime ) {
 		var clock = document.getElementById( id );
-		var daysSpan = clock.querySelector( '.ljs2018-header-cta__countdown-days' );
-		var hoursSpan = clock.querySelector( '.ljs2018-header-cta__countdown-hours' );
-		var minutesSpan = clock.querySelector( '.ljs2018-header-cta__countdown-minutes' );
-		var secondsSpan = clock.querySelector( '.ljs2018-header-cta__countdown-seconds' );
+		var daysSpan = clock.querySelector( '.ljs-header-cta__countdown-days' );
+		var hoursSpan = clock.querySelector( '.ljs-header-cta__countdown-hours' );
+		var minutesSpan = clock.querySelector( '.ljs-header-cta__countdown-minutes' );
+		var secondsSpan = clock.querySelector( '.ljs-header-cta__countdown-seconds' );
 		var timeinterval;
 
 		function updateClock() {
@@ -59,20 +59,20 @@
 	}
 
 	function addMenuListener() {
-		var toggle = document.getElementById( 'ljs2018-menu__menu-toggle' );
+		var toggle = document.getElementById( 'ljs-menu__menu-toggle' );
 		toggle.addEventListener( 'click', function() {
 			toggleMenu();
 		} );
-		var menu = document.getElementById( 'ljs2018-menu__menu-menu' );
+		var menu = document.getElementById( 'ljs-menu__menu-menu' );
 		menu.addEventListener( 'click', function() {
 			toggleMenu();
 		} );
 	}
 
 	function toggleMenu() {
-		var container = document.getElementById( 'ljs2018-menu__container' );
-		container.classList.toggle( 'ljs2018-menu__menu-open' );
-		container.classList.toggle( 'ljs2018-menu__menu-close' );
+		var container = document.getElementById( 'ljs-menu__container' );
+		container.classList.toggle( 'ljs-menu__menu-open' );
+		container.classList.toggle( 'ljs-menu__menu-close' );
 	}
 
 	document.addEventListener( 'DOMContentLoaded', init );
@@ -90,11 +90,11 @@
 			titleText = 'Sponsor Details';
 			var ticketQuantity = document.querySelector( '.wc-box-office-ticket-fields-title' );
 			var ticketAdd = document.querySelector(
-				'.ljs2018-template-checkout__ticket-add-remove'
+				'.ljs-template-checkout__ticket-add-remove'
 			);
 			if ( ticketQuantity && ticketAdd ) {
-				ticketQuantity.classList.add( 'ljs2018-template-checkout__hidden' );
-				ticketAdd.classList.add( 'ljs2018-template-checkout__hidden' );
+				ticketQuantity.classList.add( 'ljs-template-checkout__hidden' );
+				ticketAdd.classList.add( 'ljs-template-checkout__hidden' );
 			}
 		}
 		if ( title ) {
@@ -125,8 +125,8 @@
 	function handleTicketFormClick( e ) {
 		var srcElement = e.srcElement;
 		var classListValue = srcElement.classList.value;
-		var addClass = 'ljs2018-template-checkout__add-ticket';
-		var removeClass = 'ljs2018-template-checkout__remove-ticket';
+		var addClass = 'ljs-template-checkout__add-ticket';
+		var removeClass = 'ljs-template-checkout__remove-ticket';
 		var isAdd = classListValue.indexOf( addClass ) > -1;
 		var isRemove = classListValue.indexOf( removeClass ) > -1;
 		if ( isAdd || isRemove ) {
@@ -153,7 +153,7 @@
 
 	function addScheduleListener() {
 		var toggles = Array.prototype.slice.call(
-			document.querySelectorAll( '.ljs2018-template-schedule__speaker' )
+			document.querySelectorAll( '.ljs-template-schedule__speaker' )
 		);
 		if ( ! toggles.length ) {
 			return;
@@ -165,10 +165,10 @@
 
 	function toggleSpeaker( e ) {
 		var speaker = e.currentTarget;
-		if ( speaker.classList.contains( 'ljs2018-template-schedule__speaker-show' ) ) {
-			speaker.classList.remove( 'ljs2018-template-schedule__speaker-show' );
+		if ( speaker.classList.contains( 'ljs-template-schedule__speaker-show' ) ) {
+			speaker.classList.remove( 'ljs-template-schedule__speaker-show' );
 		} else {
-			speaker.classList.add( 'ljs2018-template-schedule__speaker-show' );
+			speaker.classList.add( 'ljs-template-schedule__speaker-show' );
 		}
 	}
 

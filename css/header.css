@@ -1,4 +1,4 @@
-.ljs2018-header__container-overlay {
+.ljs-header__container-overlay {
 	background-color: rgba( 0, 0, 0, 0.9 );
 	height: 58vw;
 	margin-top: 0;
@@ -8,8 +8,8 @@
 	}
 }
 
-.ljs2018-header__container {
-	background-image: url( 'img/ljs2017-2017hero-dark_optimized.jpg' );
+.ljs-header__container {
+	background-image: url( 'img/2018/ljs-hero-dark.png' );
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -24,7 +24,7 @@
 	}
 }
 
-.ljs2018-header__info-container {
+.ljs-header__info-container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 30vw;
@@ -34,12 +34,12 @@
 	}
 }
 
-.ljs2018-header__info-logo {
+.ljs-header__info-logo {
 	width: 100%;
 }
 
-.ljs2018-header__info-location,
-.ljs2018-header__info-recap {
+.ljs-header__info-location,
+.ljs-header__info-recap {
 	border-color: #ffffff;
 	color: #ffffff;
 	font-size: 1.4vw;
@@ -55,17 +55,17 @@
 	}
 }
 
-.ljs2018-header__info-recap {
+.ljs-header__info-recap {
 	margin-top: 2vw;
 }
 
-.ljs2018-header__info-recap a {
+.ljs-header__info-recap a {
 	color: #ffffff;
 	text-decoration: none;
 	vertical-align: bottom;
 }
 
-.ljs2018-header__info-recap a::before {
+.ljs-header__info-recap a::before {
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 0.2vw;
@@ -87,7 +87,7 @@
 	}
 }
 
-.ljs2018-header__info-recap a:hover {
+.ljs-header__info-recap a:hover {
 	border-color: #cccccc;
 	color: #cccccc;
 }

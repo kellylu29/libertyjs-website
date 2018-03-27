@@ -1,4 +1,4 @@
-.ljs2018-social__container {
+.ljs-social__container {
 	display: flex;
 	margin-top: 20vw;
 
@@ -7,9 +7,9 @@
 	}
 }
 
-.ljs2018-social__facebook,
-.ljs2018-social__twitter,
-.ljs2018-social__instagram {
+.ljs-social__facebook,
+.ljs-social__twitter,
+.ljs-social__instagram {
 	display: flex;
 	flex-direction: column;
 	height: 14vw;
@@ -23,15 +23,15 @@
 	}
 }
 
-.ljs2018-social__facebook a,
-.ljs2018-social__twitter a,
-.ljs2018-social__instagram a {
+.ljs-social__facebook a,
+.ljs-social__twitter a,
+.ljs-social__instagram a {
 	margin: auto;
 }
 
-.ljs2018-social__facebook i,
-.ljs2018-social__twitter i,
-.ljs2018-social__instagram i {
+.ljs-social__facebook i,
+.ljs-social__twitter i,
+.ljs-social__instagram i {
 	color: #ffffff;
 	font-size: 6vw;
 
@@ -40,14 +40,14 @@
 	}
 }
 
-.ljs2018-social__facebook {
+.ljs-social__facebook {
 	background-color: #255a8b;
 }
 
-.ljs2018-social__twitter {
+.ljs-social__twitter {
 	background-color: #42a2ce;
 }
 
-.ljs2018-social__instagram {
+.ljs-social__instagram {
 	background-color: #f4b01a;
 }

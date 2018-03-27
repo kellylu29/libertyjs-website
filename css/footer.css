@@ -1,9 +1,9 @@
-.ljs2018-footer__container {
+.ljs-footer__container {
 	text-align: center;
 	margin: 7vw;
 }
 
-.ljs2018-footer__info-location {
+.ljs-footer__info-location {
 	font-size: 1.2vw;
 	font-weight: 200;
 	line-height: 4vw;
@@ -14,7 +14,7 @@
 	}
 }
 
-.ljs2018-footer__logo {
+.ljs-footer__logo {
 	width: 14vw;
 
 	@media only screen and (max-width: 750px) {
@@ -22,7 +22,7 @@
 	}
 }
 
-.ljs2018-footer__divider {
+.ljs-footer__divider {
 	border-color: #979797;
 	border-top-width: 0.1vw;
 	border-top-style: solid;
@@ -30,7 +30,7 @@
 	margin: 2vw auto;
 }
 
-img.ljs2018-footer__woocommerce-logo {
+img.ljs-footer__woocommerce-logo {
 	height: 2vw;
 	margin-bottom: -0.8vw;
 
@@ -39,7 +39,7 @@ img.ljs2018-footer__woocommerce-logo {
 	}
 }
 
-.ljs2018-footer__container span {
+.ljs-footer__container span {
 	font-size: 1.2vw;
 
 	@media only screen and (max-width: 750px) {

@@ -10,9 +10,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php if ( have_posts() ) : ?>
 		<?php $count = 0; ?>
 		<?php while ( have_posts() ) : ?>
-			<?php the_post(); ?>
-			<?php $count++; ?>
-			<?php the_content(); ?>
+			<h1 class="ljs-template-info__heading">
+				<?php echo esc_html( get_the_title() ); ?>
+			</h1>
+			<div class="ljs-template-info__content">
+				<?php the_post(); ?>
+				<?php $count++; ?>
+				<?php the_content(); ?>
+			</div>
 		<?php endwhile; ?>
 	<?php else : ?>
 		<p>Sorry, no posts matched your criteria.</p>

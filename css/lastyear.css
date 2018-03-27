@@ -1,4 +1,4 @@
-.ljs2018-lastyear__heading h2 {
+.ljs-lastyear__heading h2 {
 	color: #255a8b;
 	font-size: 13.9vw;
 	font-weight: 900;
@@ -12,7 +12,7 @@
 	}
 }
 
-.ljs2018-lastyear__images {
+.ljs-lastyear__images {
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
@@ -24,7 +24,7 @@
 	}
 }
 
-.ljs2018-lastyear__image-large {
+.ljs-lastyear__image-large {
 	align-self: baseline;
 	margin: 2vw 2.2vw 0 0;
 	width: 60vw;
@@ -35,19 +35,19 @@
 	}
 }
 
-.ljs2018-lastyear__image-small {
+.ljs-lastyear__image-small {
 	align-self: flex-start;
 	margin: 2vw 2.2vw 0 0;
 	width: 29vw;
 }
 
-.ljs2018-lastyear__image-small {
+.ljs-lastyear__image-small {
 	@media only screen and (max-width: 750px) {
 		display: none;
 	}
 }
 
-.ljs2018-lastyear__watch-container {
+.ljs-lastyear__watch-container {
 	background-color: #249fcc;
 	height: 35vw;
 	margin: -43vw 0 0 50vw;
@@ -63,15 +63,15 @@
 	}
 }
 
-.ljs2018-lastyear__watch-play,
-.ljs2018-lastyear__watch-container h3,
-.ljs2018-lastyear__watch-container p,
-.ljs2018-lastyear__watch-container a,
-.ljs2018-lastyear__watch-container i {
+.ljs-lastyear__watch-play,
+.ljs-lastyear__watch-container h3,
+.ljs-lastyear__watch-container p,
+.ljs-lastyear__watch-container a,
+.ljs-lastyear__watch-container i {
 	color: #ffffff;
 }
 
-.ljs2018-lastyear__watch-play::before {
+.ljs-lastyear__watch-play::before {
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 0.2vw;
@@ -96,15 +96,15 @@
 	}
 }
 
-.ljs2018-lastyear__watch-play a,
-.ljs2018-lastyear__watch-play i {
+.ljs-lastyear__watch-play a,
+.ljs-lastyear__watch-play i {
 	color: #ffffff;
 	font-size: 1.3vw;
 	font-weight: 600;
 	margin-right: 0.9vw;
 }
 
-.ljs2018-lastyear__watch-container h3 {
+.ljs-lastyear__watch-container h3 {
 	font-size: 1.6vw;
 	line-height: 2vw;
 	padding-top: 2vw;
@@ -116,7 +116,7 @@
 	}
 }
 
-.ljs2018-lastyear__watch-container p {
+.ljs-lastyear__watch-container p {
 	font-size: 1.3vw;
 	line-height: 1.6;
 	padding: 2.7vw 13vw 0 0;
@@ -128,7 +128,7 @@
 	}
 }
 
-.ljs2018-lastyear__watch-container a {
+.ljs-lastyear__watch-container a {
 	font-size: 1.35vw;
 	line-height: 6vw;
 
@@ -139,7 +139,7 @@
 	}
 }
 
-.ljs2018-lastyear__watch-container i {
+.ljs-lastyear__watch-container i {
 	font-size: 1.3vw;
 	font-weight: 600;
 	padding-left: 1vw;
