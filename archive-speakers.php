@@ -25,14 +25,14 @@ function output_speaker( $id ) {
 	$twitter   = get_post_meta( $id, 'twitter', true );
 	?>
 
-	<div class="ljs2017-grid__item">
-		<div class="ljs2017-grid__item-name"><?php echo esc_html( $name ); ?></div>
-		<div class="ljs2017-grid__item-jobtitle"><?php echo esc_html( $secondary ); ?></div>
+	<div class="ljs-grid__item">
+		<div class="ljs-grid__item-name"><?php echo esc_html( $name ); ?></div>
+		<div class="ljs-grid__item-jobtitle"><?php echo esc_html( $secondary ); ?></div>
 		<img
-			class="ljs2017-grid__item-image"
+			class="ljs-grid__item-image"
 			src="<?php echo esc_attr( $image ); ?>"
 			alt="<?php echo esc_attr( $name ); ?>">
-		<div class="ljs2017-grid__item-social-container">
+		<div class="ljs-grid__item-social-container">
 			<?php if ( $facebook ) : ?>
 				<a href="<?php echo esc_url( $facebook ); ?>" target="_blank">
 					<i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -59,13 +59,13 @@ function output_speaker( $id ) {
 }
 ?>
 
-<div class="ljs2017-grid__container" id="gridItems">
-	<div class="ljs2017-grid__heading-container">
-		<div class="ljs2017-grid__heading" id="keynotes">
+<div class="ljs-grid__container" id="gridItems">
+	<div class="ljs-grid__heading-container">
+		<div class="ljs-grid__heading" id="keynotes">
 			<h2>SPEAKERS</h2>
 		</div>
 	</div>
-	<div class="ljs2017-grid__items">
+	<div class="ljs-grid__items">
 		<?php if ( $query->have_posts() ) : ?>
 			<?php while ( $query->have_posts() ) : ?>
 				<?php $query->the_post(); ?>
@@ -76,13 +76,13 @@ function output_speaker( $id ) {
 </div>
 
 <?php if ( $workshop_query->have_posts() ) : ?>
-	<div class="ljs2017-grid__container" id="gridItems">
-		<div class="ljs2017-grid__heading-container">
-			<div class="ljs2017-grid__heading" id="keynotes">
+	<div class="ljs-grid__container" id="gridItems">
+		<div class="ljs-grid__heading-container">
+			<div class="ljs-grid__heading" id="keynotes">
 				<h2>WORKSHOP LEADERS</h2>
 			</div>
 		</div>
-		<div class="ljs2017-grid__items">
+		<div class="ljs-grid__items">
 			<?php while ( $workshop_query->have_posts() ) : ?>
 				<?php $workshop_query->the_post(); ?>
 				<?php output_speaker( $post->ID ); ?>
