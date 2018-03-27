@@ -1,4 +1,4 @@
-.ljs2018-sponsors-mobile__container {
+.ljs-sponsors-mobile__container {
 	display: none;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -9,45 +9,45 @@
 	}
 }
 
-.ljs2018-sponsors-mobile__container a,
-.ljs2018-sponsors__container a {
+.ljs-sponsors-mobile__container a,
+.ljs-sponsors__container a {
 	color: #333333;
 	text-decoration: none;
 }
 
-.ljs2018-sponsors-mobile__sponsor-large {
+.ljs-sponsors-mobile__sponsor-large {
 	margin: 6vw auto;
 	padding: 0 15vw;
 	text-align: center;
 	width: 100vw;
 }
 
-.ljs2018-sponsors-mobile__sponsor-large .ljs2018-sponsors-mobile__logo {
+.ljs-sponsors-mobile__sponsor-large .ljs-sponsors-mobile__logo {
 	margin: 10vw auto 3vw;
 	width: 44vw;
 }
 
-.ljs2018-sponsors-mobile__sponsor-large h3 {
+.ljs-sponsors-mobile__sponsor-large h3 {
 	font-size: 4.4vw;
 	padding: 4vw 0 0;
 }
 
-.ljs2018-sponsors-mobile__sponsor-large p {
+.ljs-sponsors-mobile__sponsor-large p {
 	font-size: 3.9vw;
 	line-height: 1.5;
 }
 
-.ljs2018-sponsors-mobile__sponsor {
+.ljs-sponsors-mobile__sponsor {
 	text-align: center;
 	width: 50vw;
 }
 
-.ljs2018-sponsors-mobile__sponsor .ljs2018-sponsors-mobile__logo {
+.ljs-sponsors-mobile__sponsor .ljs-sponsors-mobile__logo {
 	margin: 8vw auto 3vw;
 	width: 23vw;
 }
 
-.ljs2018-sponsors__container {
+.ljs-sponsors__container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -58,15 +58,15 @@
 	}
 }
 
-.ljs2018-sponsors__sponsor-large,
-.ljs2018-sponsors__sponsor {
+.ljs-sponsors__sponsor-large,
+.ljs-sponsors__sponsor {
 	border-color: #f7f7f7;
 	border-style: solid;
 	border-width: 1px;
 	margin: -1px;
 }
 
-.ljs2018-sponsors__sponsor-block {
+.ljs-sponsors__sponsor-block {
 	display: flex;
 	height: 22.4vw;
 	flex-direction: row;
@@ -74,7 +74,7 @@
 	width: 50vw;
 }
 
-.ljs2018-sponsors__sponsor-large {
+.ljs-sponsors__sponsor-large {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -84,26 +84,26 @@
 	width: 50vw;
 }
 
-.ljs2018-sponsors__sponsor-large h3 {
+.ljs-sponsors__sponsor-large h3 {
 	font-size: 1.4vw;
 }
 
-.ljs2018-sponsors__sponsor-large p {
+.ljs-sponsors__sponsor-large p {
 	font-size: 0.9vw;
 }
 
-.ljs2018-sponsors__sponsor-large .ljs2018-sponsors__logo {
+.ljs-sponsors__sponsor-large .ljs-sponsors__logo {
 	margin: 0 auto 2vw;
 	position: relative;
 	height: 8vw;
 }
 
-.ljs2018-sponsors__sponsor-empty {
+.ljs-sponsors__sponsor-empty {
 	height: 11.2vw;
 	width: 25vw;
 }
 
-.ljs2018-sponsors__sponsor {
+.ljs-sponsors__sponsor {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -111,7 +111,7 @@
 	width: 25vw;
 }
 
-.ljs2018-sponsors__sponsor .ljs2018-sponsors__logo {
+.ljs-sponsors__sponsor .ljs-sponsors__logo {
 	margin: auto;
 	position: relative;
 	width: 10vw;
@@ -140,18 +140,18 @@
 }
 
 /*Hack for Urbn Logo*/
-a.ljs2018-sponsors__sponsor-large[href='http://www.urbn.com/'] img {
+a.ljs-sponsors__sponsor-large[href='http://www.urbn.com/'] img {
 	height: 12vw;
 }
 
 /*FLAG: No Sponsors*/
-.ljs2018-sponsors-mobile__sponsor-large,
-.ljs2018-sponsors-mobile__sponsor,
-.ljs2018-sponsors__sponsor-block {
+.ljs-sponsors-mobile__sponsor-large,
+.ljs-sponsors-mobile__sponsor,
+.ljs-sponsors__sponsor-block {
 	display: none;
 }
 
-.ljs2018-sponsors__show {
+.ljs-sponsors__show {
 	display: inherit;
 
 	@media only screen and (max-width: 750px) {
@@ -159,15 +159,15 @@ a.ljs2018-sponsors__sponsor-large[href='http://www.urbn.com/'] img {
 	}
 }
 
-.ljs2018-sponsors__show-block {
+.ljs-sponsors__show-block {
 	display: block;
 }
 
-.ljs2018-sponsors__hide {
+.ljs-sponsors__hide {
 	display: none;
 }
 
-.ljs2018-lastyear__container {
+.ljs-lastyear__container {
 	margin-top: 4vw;
 }
 /*END FLAG: No SPonsors*/

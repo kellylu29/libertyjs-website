@@ -25,11 +25,11 @@
 <body <?php body_class(); ?>>
 
 	<div
-		class="ljs2018-menu__container ljs2018-menu__menu-close"
-		id="ljs2018-menu__container">
+		class="ljs-menu__container ljs-menu__menu-close"
+		id="ljs-menu__container">
 		<div
-			class="ljs2018-menu__menu-toggle"
-			id="ljs2018-menu__menu-toggle">
+			class="ljs-menu__menu-toggle"
+			id="ljs-menu__menu-toggle">
 			<i
 				class="fa fa-bars"
 				aria-hidden="true"></i>
@@ -38,17 +38,17 @@
 				aria-hidden="true"></i>
 		</div>
 		<div
-			class="ljs2018-menu__menu-container">
+			class="ljs-menu__menu-container">
 			<a href="/">
 				<img
-					class="ljs2018-menu__logo"
-					src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/ljs2017-secondary-logo-black-blue.png' ); ?>"
+					class="ljs-menu__logo"
+					src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/2018/ljs-secondary-logo-black-blue.png' ); ?>"
 					alt="LibertyJS Logo">
 			</a>
-			<div class="ljs2018-menu__menu-logo"></div>
+			<div class="ljs-menu__menu-logo"></div>
 			<div
-				class="ljs2018-menu__menu-menu"
-				id="ljs2018-menu__menu-menu">
+				class="ljs-menu__menu-menu"
+				id="ljs-menu__menu-menu">
 				<ul>
 					<li><a href="/speakers">Speakers</a></li>
 					<li><a href="/schedule">2017 Schedule</a></li>

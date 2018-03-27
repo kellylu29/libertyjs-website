@@ -18,7 +18,7 @@ gulp.task( 'watch', () => {
 } );
 
 gulp.task( 'imagemin', () => {
-	gulp.src( 'img/src/ljs2017*.*' )
+	gulp.src( 'img/src/**/*.*' )
 		.pipe( imagemin() )
 		.pipe( gulp.dest( 'img' ) );
 } );

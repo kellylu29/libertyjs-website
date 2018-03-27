@@ -3,11 +3,11 @@
 	display: none;
 }
 
-.ljs2018-template-checkout__container .woocommerce {
+.ljs-template-checkout__container .woocommerce {
 	width: 100%;
 }
 
-.ljs2018-order__container {
+.ljs-order__container {
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -18,7 +18,7 @@
 	}
 }
 
-.ljs2018-order__container-left {
+.ljs-order__container-left {
 	background-color: #eeeff0;
 	box-sizing: border-box;
 	padding: 6vw;
@@ -29,11 +29,11 @@
 	}
 }
 
-.ljs2018-order__container-left a {
+.ljs-order__container-left a {
 	color: #255a8b;
 }
 
-.ljs2018-order__container-right {
+.ljs-order__container-right {
 	background-color: #3c3c3c;
 	box-sizing: border-box;
 	padding-top: 16vw;
@@ -48,7 +48,7 @@
 }
 
 .woocommerce-order .woocommerce-order-details__title,
-.ljs2018-order__container-left h2 {
+.ljs-order__container-left h2 {
 	display: inline-block;
 	font-size: 2.3vw;
 	font-weight: 900;
@@ -156,7 +156,7 @@
 	border: none;
 }
 
-.ljs2018-order__container-left .ticket-list-description {
+.ljs-order__container-left .ticket-list-description {
 	font-size: 1.3vw;
 	padding: 1vw 0 1.8vw;
 
@@ -166,7 +166,7 @@
 	}
 }
 
-.ljs2018-order__container-left .purchased-tickets a {
+.ljs-order__container-left .purchased-tickets a {
 	color: #255a8b;
 	font-size: 1.2vw;
 
@@ -175,11 +175,11 @@
 	}
 }
 
-.ljs2018-order__container-left .purchased-tickets dd {
+.ljs-order__container-left .purchased-tickets dd {
 	margin: 0;
 }
 
-.ljs2018-order__container-left .purchased-tickets ul {
+.ljs-order__container-left .purchased-tickets ul {
 	padding-left: 1.5vw;
 
 	@media only screen and (max-width: 750px) {
@@ -187,7 +187,7 @@
 	}
 }
 
-.ljs2018-order__container-left .purchased-tickets li {
+.ljs-order__container-left .purchased-tickets li {
 	font-size: 1.2vw;
 	font-style: normal;
 	padding-bottom: 1vw;
@@ -198,7 +198,7 @@
 	}
 }
 
-.ljs2018-order__container-right i {
+.ljs-order__container-right i {
 	font-size: 7vw;
 
 	@media only screen and (max-width: 750px) {
@@ -206,12 +206,12 @@
 	}
 }
 
-.ljs2018-order__container-right i,
-.ljs2018-order__container-right span {
+.ljs-order__container-right i,
+.ljs-order__container-right span {
 	color: #ffffff;
 }
 
-.ljs2018-order__headline {
+.ljs-order__headline {
 	margin-top: 2vw;
 
 	@media only screen and (max-width: 750px) {
@@ -219,7 +219,7 @@
 	}
 }
 
-.ljs2018-order__headline h1 {
+.ljs-order__headline h1 {
 	color: #ffffff;
 	font-size: 3.5vw;
 	font-weight: 900;
@@ -233,7 +233,7 @@
 	}
 }
 
-.ljs2018-order__speakers {
+.ljs-order__speakers {
 	color: #f6f6f6;
 	font-size: 1vw;
 	letter-spacing: 0.15vw;
@@ -248,7 +248,7 @@
 	}
 }
 
-.ljs2018-order__info-location {
+.ljs-order__info-location {
 	color: #f6f6f6;
 	font-size: 1.2vw;
 
