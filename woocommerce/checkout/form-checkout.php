@@ -72,7 +72,7 @@ do_action( 'woocommerce_before_checkout_form', $checkout );
 		</div>
 		<div class="ljs2017-footer__divider"></div>
 		<div class="ljs2017-template-checkout__info-location">
-			NOVEMBER 16 &amp; 17 &middot; PHILADELPHIA, USA
+			OCTOBER 2018 &middot; PHILADELPHIA, USA
 		</div>
 	</div>
 </div>
