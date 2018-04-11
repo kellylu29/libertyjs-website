@@ -120,12 +120,12 @@
 }
 
 .ljs-menu__menu-open .ljs-menu__menu-menu {
-	height: 40vw;
+	height: 47vw;
 	transition-duration: 0.5s;
 	width: 50vw;
 
 	@media only screen and (max-width: 750px) {
-		height: 80vw;
+		height: 90vw;
 		width: 84vw;
 	}
 }
