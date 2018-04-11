@@ -69,7 +69,7 @@ Template Name: Homepage
 </div>
 <div class="ljs-lastyear__container" id="2016">
 	<div class="ljs-lastyear__heading">
-		<h2>#2016</h2>
+		<h2>#PREVIOUS YEARS</h2>
 		<div class="ljs-lastyear__images">
 			<img
 				class="ljs-lastyear__image-large"
@@ -89,23 +89,14 @@ Template Name: Homepage
 				alt="LibertyJS 2016">
 		</div>
 		<div class="ljs-lastyear__watch-container">
-			<a href="https://www.youtube.com/channel/UCbbeyEpxDT53afqFUqG-KJQ" target="_blank">
-				<div class="ljs-lastyear__watch-play"></div>
-			</a>
+
 			<h3>
-				Missed out on 2016<br>
-				or want to relive the event?
+				LibertyJS has been held annually in Philadelhia since 2013.
+				Take a look at the details of previous years!
 			</h3>
-
-			<p>
-				Catch up on all the presentations and speakers from LibertyJS
-				2016.
-			</p>
-
 			<a
-				href="https://www.youtube.com/channel/UCbbeyEpxDT53afqFUqG-KJQ"
-				target="_blank">
-				WATCH NOW
+				href="/previous-years/">
+				PREVIOUS YEARS
 			</a>
 			<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 		</div>
