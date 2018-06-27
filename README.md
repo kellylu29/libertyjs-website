@@ -12,7 +12,7 @@ theme design by Gary Murray.
 4. Goto the wp-admin, button for this in Local but probably https://libertyjs.local
 5. Click `Plugins` in left menu
 6. Install WooCommerce and WooCommerce Box Office
-7. Click on `Appearance->Themes`
+7. Click on `Appearance->Themes` (you need to follow the installation settings below and run`gulp` to build the files before the theme will appear)
 8. Activate the LibertyJS theme
 9. Most things should work, I will work on a DB dump that will make it all work when I have time (JB)
 
