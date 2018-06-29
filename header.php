@@ -50,12 +50,12 @@
 				class="ljs-menu__menu-menu"
 				id="ljs-menu__menu-menu">
 				<ul>
-					<li><a href="/speakers">Speakers</a></li>
-					<li><a href="/code-of-conduct">Code of Conduct</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="https://www.papercall.io/">Speak</a></li>
 					<li><a href="/sponsor">Sponsor</a></li>
 					<li><a href="/volunteer">Volunteer</a></li>
-					<li><a href="/#2016">#2016</a></li>
-					<li><a href="/#faqs">FAQs</a></li>
+					<li><a href="/previous-years">Previous Years</a></li>
+					<li><a href="/code-of-conduct">Code of Conduct</a></li>
 				</ul>
 			</div>
 		</div>

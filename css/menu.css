@@ -105,11 +105,11 @@
 	font-weight: 900;
 	line-height: 5vw;
 	list-style: none;
-	padding: 3vw 13vw 0 0;
+	padding: 3vw 4vw 0 0;
 	text-align: right;
 
 	@media only screen and (max-width: 750px) {
-		font-size: 10vw;
+		font-size: 9.4vw;
 		line-height: 11vw;
 	}
 }
@@ -119,17 +119,13 @@
 	text-decoration: none;
 }
 
-.ljs-menu__menu-open .ljs-menu__menu-menu ul {
-	padding: 3vw 13vw 0 0;
-}
-
 .ljs-menu__menu-open .ljs-menu__menu-menu {
-	height: 50vw;
+	height: 47vw;
 	transition-duration: 0.5s;
 	width: 50vw;
 
 	@media only screen and (max-width: 750px) {
-		height: 100vw;
+		height: 90vw;
 		width: 84vw;
 	}
 }

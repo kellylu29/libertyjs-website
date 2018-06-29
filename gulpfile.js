@@ -1,4 +1,5 @@
 /* global require:true */
+
 const gulp = require( 'gulp' );
 const imagemin = require( 'gulp-imagemin' );
 const postcss = require( 'gulp-postcss' );
