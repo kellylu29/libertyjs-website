@@ -83,8 +83,11 @@
 		$( '.showlogin' ).parent().hide();
 		$( '.wc-forward' ).parent().hide();
 		var title = document.querySelector( 'h1.product_title.entry-title' );
-		var isTicket = document.querySelector( '.postid-181' ) ||
-			document.querySelector( '.postid-9' );
+		var isTicket = document.querySelector( '.postid-733' ) ||
+			document.querySelector( '.postid-734' ) ||
+			document.querySelector( '.postid-735' ) ||
+			document.querySelector( '.postid-736' ) ||
+			document.querySelector( '.postid-737' );
 		var titleText = 'Ticket Details';
 		if ( ! isTicket ) {
 			titleText = 'Sponsor Details';

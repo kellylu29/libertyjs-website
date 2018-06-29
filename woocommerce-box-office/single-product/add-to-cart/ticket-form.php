@@ -26,10 +26,10 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 				<?php esc_html_e( 'Ticket #1', 'woocommerce-box-office' ); ?>
 			</a>
 		</h3>
-		<div class="ljs2017-template-checkout__ticket-add-remove">
-			<a class="ljs2017-template-checkout__add-ticket">Add a ticket</a>
+		<div class="ljs-template-checkout__ticket-add-remove">
+			<a class="ljs-template-checkout__add-ticket">Add a ticket</a>
 			<span> | </span>
-			<a class="ljs2017-template-checkout__remove-ticket" class="">Remove ticket</a>
+			<a class="ljs-template-checkout__remove-ticket" class="">Remove ticket</a>
 		</div>
 		<div class="wc-box-office-ticket-fields-body">
 			<?php

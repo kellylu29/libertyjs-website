@@ -26,8 +26,8 @@ do_action( 'woocommerce_before_checkout_form', $checkout );
 
 ?>
 
-<div class="ljs2017-template-checkout__container">
-	<div class="ljs2017-template-checkout__checkout-container">
+<div class="ljs-template-checkout__container">
+	<div class="ljs-template-checkout__checkout-container">
 		<form name="checkout" method="post" class="checkout woocommerce-checkout" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
 
 			<?php if ( $checkout->get_checkout_fields() ) : ?>
@@ -46,7 +46,7 @@ do_action( 'woocommerce_before_checkout_form', $checkout );
 
 			<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 
-			<h3 class="ljs2017-template-checkout__heading-payment">Payment Details</h3>
+			<h3 class="ljs-template-checkout__heading-payment">Payment Details</h3>
 
 			<div id="order_review" class="woocommerce-checkout-review-order">
 				<?php do_action( 'woocommerce_checkout_order_review' ); ?>
@@ -59,19 +59,19 @@ do_action( 'woocommerce_before_checkout_form', $checkout );
 		<?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
 	</div>
 
-	<div class="ljs2017-template-checkout__details-container">
+	<div class="ljs-template-checkout__details-container">
 		<i
 			class="fa fa-ticket"
 			aria-hidden="true"></i>
-		<div class="ljs2017-template-checkout__headline">
+		<div class="ljs-template-checkout__headline">
 			<h1>TWO DAYS<br> GREAT WORKSHOPS<br> AWESOME SPEAKERS</h1>
 		</div>
-		<div class="ljs2017-template-checkout__speakers">
+		<!-- <div class="ljs-template-checkout__speakers">
 			<p>Keynote Speaker</p>
 			<p>Pam Selle</p>
-		</div>
-		<div class="ljs2017-footer__divider"></div>
-		<div class="ljs2017-template-checkout__info-location">
+		</div> -->
+		<div class="ljs-footer__divider"></div>
+		<div class="ljs-template-checkout__info-location">
 			NOVEMBER 1-2 2018 &middot; PHILADELPHIA, USA
 		</div>
 	</div>

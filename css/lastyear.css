@@ -1,9 +1,13 @@
+.ljs-lastyear__container {
+	margin-top: 16vw;
+}
+
 .ljs-lastyear__heading h2 {
 	color: #255a8b;
 	font-size: 13.9vw;
 	font-weight: 900;
 	letter-spacing: 0;
-	line-height: 9vw;
+	line-height: 12vw;
 	margin: 1vw 0 0;
 
 	@media only screen and (max-width: 750px) {
@@ -56,9 +60,9 @@
 	width: 41vw;
 
 	@media only screen and (max-width: 750px) {
-		height: 119vw;
+		height: 71vw;
 		margin: 0 0 55vw;
-		padding: 24.5vw 8vw 0;
+		padding: 10vw 8vw 0;
 		width: 84vw;
 	}
 }

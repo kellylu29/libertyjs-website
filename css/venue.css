@@ -1,8 +1,8 @@
 .ljs-venue__container {
 	background-color: #249fcc;
 	height: 40.5vw;
-	margin-top: -8vw;
-	padding-top: 18vw;
+	margin-top: -13vw;
+	padding-top: 17vw;
 	width: 100vw;
 
 	@media only screen and (max-width: 750px) {
