@@ -51,7 +51,7 @@
 				id="ljs-menu__menu-menu">
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="https://www.papercall.io/">Speak</a></li>
+					<li><a href="https://www.papercall.io/libertyjs-2018">Speak</a></li>
 					<li><a href="/sponsor">Sponsor</a></li>
 					<li><a href="/volunteer">Volunteer</a></li>
 					<li><a href="/previous-years">Previous Years</a></li>
