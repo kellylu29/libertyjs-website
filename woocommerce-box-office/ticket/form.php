@@ -1,5 +1,5 @@
-<div class="ljs2017-ticket-edit__container">
-	<form name="edit-ticket" action="" method="post" class="edit-ticket ljs2017-ticket-edit__container-left">
+<div class="ljs-ticket-edit__container">
+	<form name="edit-ticket" action="" method="post" class="edit-ticket ljs-ticket-edit__container-left">
 		<h1 class="product_title entry-title">Edit Ticket</h1>
 
 		<?php $ticket_form->render(); ?>
@@ -20,19 +20,19 @@
 		<?php wp_nonce_field( 'woocommerce-box-office_update_ticket' ); ?>
 	</form>
 
-	<div class="ljs2017-ticket-edit__container-right">
+	<div class="ljs-ticket-edit__container-right">
 		<i
 			class="fa fa-ticket"
 			aria-hidden="true"></i>
-		<div class="ljs2017-template-checkout__headline">
+		<div class="ljs-template-checkout__headline">
 			<h1>TWO DAYS<br> GREAT WORKSHOPS<br> AWESOME SPEAKERS</h1>
 		</div>
-		<div class="ljs2017-template-checkout__speakers">
+		<!-- <div class="ljs-template-checkout__speakers">
 			<p>Keynote Speakers</p>
 			<p>Pam Selle</p>
-		</div>
-		<div class="ljs2017-footer__divider"></div>
-		<div class="ljs2017-template-checkout__info-location">
+		</div> -->
+		<div class="ljs-footer__divider"></div>
+		<div class="ljs-template-checkout__info-location">
 			NOVEMBER 1-2 2018 &middot; PHILADELPHIA, USA
 		</div>
 	</div>

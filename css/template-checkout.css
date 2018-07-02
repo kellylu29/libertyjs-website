@@ -1,3 +1,8 @@
+.related.products,
+.product_meta {
+	display: none !important;
+}
+
 #sidebar,
 .woocommerce-breadcrumb {
 	display: none;
@@ -82,13 +87,6 @@ body > .ljs-template-checkout__container {
 	padding-top: 0;
 }
 
-.woocommerce-billing-fields__field-wrapper .form-row:first-child,
-.woocommerce-billing-fields__field-wrapper .form-row:nth-child( 2 ),
-.wc-box-office-ticket-fields .form-row:first-child,
-.wc-box-office-ticket-fields .form-row:nth-child( 2 ) {
-	display: inline-block;
-}
-
 .woocommerce-billing-fields {
 	width: 34vw;
 
@@ -99,18 +97,6 @@ body > .ljs-template-checkout__container {
 
 .woocommerce-billing-fields__field-wrapper .form-row.form-row {
 	width: inherit;
-}
-
-.ljs-template-checkout__container input[placeholder='First Name'],
-.ljs-template-checkout__container input[placeholder='Last Name'],
-.ljs-template-checkout__container input[placeholder='First name'],
-.ljs-template-checkout__container input[placeholder='Last name'] {
-	display: inline-block;
-	width: 16.3vw !important;
-
-	@media only screen and (max-width: 750px) {
-		width: 32.6vw !important;
-	}
 }
 
 .woocommerce .ljs-template-checkout__container form .form-row label {
@@ -159,7 +145,7 @@ body > .ljs-template-checkout__container {
 	height: 5vw;
 	margin-top: 0.9vw;
 	padding-left: 2vw;
-	width: 36.8vw;
+	width: 33.8vw;
 
 	@media only screen and (max-width: 750px) {
 		border-radius: 20vw;
@@ -168,7 +154,7 @@ body > .ljs-template-checkout__container {
 		height: 10vw;
 		margin-top: 1.8vw;
 		padding-left: 4vw;
-		width: 73.6vw;
+		width: 67.6vw;
 	}
 }
 
@@ -656,4 +642,9 @@ a.button.wc-forward {
 
 .ljs-template-checkout__hidden {
 	display: none !important;
+}
+
+.woocommerce form .form-row-first,.woocommerce-page form .form-row-first,
+.woocommerce form .form-row-last,.woocommerce-page form .form-row-last {
+	float: none !important;
 }

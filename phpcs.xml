@@ -3,5 +3,7 @@
 	<description>PHP coding standards for LibertyJS.com.</description>
 	<config name="installed_paths" value="vendor/wp-coding-standards/wpcs/"/>
 	<rule ref="WordPress-Core"></rule>
-	<rule ref="WordPress-Extra"></rule>
+	<rule ref="WordPress-Extra">
+		<exclude name="WordPress.XSS.EscapeOutput.OutputNotEscaped"/>
+	</rule>
 </ruleset>

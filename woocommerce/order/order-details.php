@@ -26,8 +26,8 @@ $show_purchase_note    = $order->has_status( apply_filters( 'woocommerce_purchas
 $show_customer_details = is_user_logged_in() && $order->get_user_id() === get_current_user_id();
 ?>
 
-<section class="ljs2017-order__container">
-	<div class="ljs2017-order__container-left">
+<section class="ljs-order__container">
+	<div class="ljs-order__container-left">
 		<h2 class="woocommerce-order-details__title"><?php esc_html_e( 'Order details', 'woocommerce' ); ?></h2>
 
 		<table class="woocommerce-table woocommerce-table--order-details shop_table order_details">
@@ -74,19 +74,19 @@ $show_customer_details = is_user_logged_in() && $order->get_user_id() === get_cu
 
 		<?php do_action( 'woocommerce_order_details_after_order_table', $order ); ?>
 	</div>
-	<div class="ljs2017-order__container-right">
+	<div class="ljs-order__container-right">
 		<i
 			class="fa fa-heart"
 			aria-hidden="true"></i>
-		<div class="ljs2017-order__headline">
+		<div class="ljs-order__headline">
 			<h1>Thank you!<br>your order has<br>been received</h1>
 		</div>
-		<div class="ljs2017-order__speakers">
+		<!-- <div class="ljs-order__speakers">
 			<p>Keynote Speaker</p>
 			<p>Pam Selle</p>
-		</div>
-		<div class="ljs2017-footer__divider"></div>
-		<div class="ljs2017-order__info-location">
+		</div> -->
+		<div class="ljs-footer__divider"></div>
+		<div class="ljs-order__info-location">
 			NOVEMBER 1-2 2018 &middot; PHILADELPHIA, USA
 		</div>
 

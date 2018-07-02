@@ -67,6 +67,44 @@ Template Name: Homepage
 		</p>
 	</div>
 </div>
+<div class="ljs-cta__container" id="buy-a-ticket">
+	<h2>Secure Your Spot</h2>
+
+	<div class="ljs-cta__ticket">
+		<div class="ljs-cta__ticket-labels">
+			<h3>Early Bird - $199</h3>
+		</div>
+		<a
+			class="ljs-cta__ticket-purchase"
+			href="/2018-early-bird-ticket/">Purchase</a>
+	</div>
+</div>
+<div class="ljs-venue__container" id="venue">
+	<h2>Venue</h2>
+	<img
+		class="ljs-venue__venue-image"
+		src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-venue.png"
+		alt="Venue Image">
+	<div class="ljs-venue__info-container">
+		<h3 id="venue">
+			Science History Institute Philadelphia, Pennsylvania
+		</h3>
+		<p>
+			SHI's staff and fellows study the past in order to understand the present
+			and inform the future. SHI focuses on the sciences and technologies of
+			matter and materials and their effect on our modern world, in territory
+			ranging from the physical sciences and industries, through the chemical
+			sciences and engineering, to the life sciences and technologies.
+		</p>
+		<a
+			href="https://goo.gl/maps/8XbBF5uC7P62"
+			target="_blank"
+			title="Google Map for Science History Institute">
+			WHERE IS IT?
+		</a>
+		<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+	</div>
+</div>
 <div class="ljs-lastyear__container" id="2016">
 	<div class="ljs-lastyear__heading">
 		<h2>#PREVIOUS YEARS</h2>
