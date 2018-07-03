@@ -84,6 +84,7 @@
 		$( '.wc-forward' ).parent().hide();
 		var title = document.querySelector( 'h1.product_title.entry-title' );
 		var isTicket = document.querySelector( '.postid-733' ) ||
+			document.querySelector( '.postid-75' ) ||
 			document.querySelector( '.postid-734' ) ||
 			document.querySelector( '.postid-735' ) ||
 			document.querySelector( '.postid-736' ) ||
