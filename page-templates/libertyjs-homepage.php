@@ -129,7 +129,7 @@ Template Name: Homepage
 		<div class="ljs-lastyear__watch-container">
 
 			<h3>
-				LibertyJS has been held annually in Philadelhia since 2013.
+				LibertyJS has been held annually in Philadelphia since 2013.
 				Take a look at the details of previous years!
 			</h3>
 			<a
