@@ -72,11 +72,11 @@ Template Name: Homepage
 
 	<div class="ljs-cta__ticket">
 		<div class="ljs-cta__ticket-labels">
-			<h3>Early Bird - $199</h3>
+			<h3>Ticket - $299</h3>
 		</div>
 		<a
 			class="ljs-cta__ticket-purchase"
-			href="/2018-early-bird-ticket/">Purchase</a>
+			href="/2018-ticket/">Purchase</a>
 	</div>
 </div>
 <div class="ljs-venue__container" id="venue">
