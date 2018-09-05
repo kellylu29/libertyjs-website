@@ -32,6 +32,6 @@ git push -f $ORIGIN_URL build-production
 # Move back to previous branch.
 git checkout -
 
-echo "Deployed Successfully!"
+echo "Deployed Successfully!!"
 
 exit 0
