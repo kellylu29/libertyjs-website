@@ -15,8 +15,8 @@
     "stylelint": "stylelint css/*.css -q"
   },
   "engines": {
-    "node": ">=8.9.3",
-    "npm": ">=5.5.1"
+    "node": ">=10.8.0",
+    "npm": ">=6.2.0"
   },
   "repository": {
     "type": "git",
@@ -30,19 +30,19 @@
   "homepage": "https://github.com/LibertyJS/libertyjs2017",
   "devDependencies": {
     "check-node-version": "3.2.0",
-    "cssnano": "3.10.0",
-    "eslint": "4.17.0",
-    "eslint-config-wpcalypso": "2.0.0",
-    "eslint-plugin-wpcalypso": "4.0.1",
+    "cssnano": "4.1.0",
+    "eslint": "5.5.0",
+    "eslint-config-wpcalypso": "4.0.0",
+    "eslint-plugin-wpcalypso": "4.0.2",
     "gulp": "3.9.1",
     "gulp-imagemin": "4.1.0",
-    "gulp-postcss": "7.0.1",
+    "gulp-postcss": "8.0.0",
     "gulp-sourcemaps": "2.6.4",
-    "gulp-watch": "5.0.0",
-    "postcss": "6.0.17",
+    "gulp-watch": "5.0.1",
+    "postcss": "7.0.2",
     "postcss-cssnext": "3.1.0",
-    "postcss-import": "11.0.0",
-    "stylelint": "8.4.0"
+    "postcss-import": "12.0.0",
+    "stylelint": "9.5.0"
   },
   "browserslist": [
     "> 1%",
