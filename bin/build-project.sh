@@ -11,9 +11,9 @@ echo "Started deploying"
 # Checkout deploy branch.
 if [ 'git branch | grep build-production' ]
 then
-  git branch -D 'build-production'
+  git branch -D build-production
 fi
-git checkout -b 'build-production'
+git checkout -b build-production
 
 # Build site.
 npm run build
@@ -27,7 +27,7 @@ git config user.email "$USER_EMAIL"
 
 git add -fA
 git commit --allow-empty -m "Build: build-production [ci skip]"
-git push -f $ORIGIN_URL 'build-production'
+git push -f $ORIGIN_URL build-production
 
 # Move back to previous branch.
 git checkout -
