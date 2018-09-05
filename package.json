@@ -1,7 +1,7 @@
 {
-  "name": "libertyjs-2017",
+  "name": "libertyjs",
   "version": "1.0.0",
-  "description": "LibertyJS 2017 WordPress Template",
+  "description": "LibertyJS WordPress Template",
   "main": "index.js",
   "scripts": {
     "build": "npm run check-node-version && gulp",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:LibertyJS/libertyjs2017.git"
+    "url": "git+https://github.com:LibertyJS/libertyjs-website.git"
   },
   "author": "Jonathan Belcher",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/LibertyJS/libertyjs2017/issues"
+    "url": "https://github.com/LibertyJS/libertyjs-website/issues"
   },
-  "homepage": "https://github.com/LibertyJS/libertyjs2017",
+  "homepage": "https://github.com/LibertyJS/libertyjs-website",
   "devDependencies": {
     "check-node-version": "3.2.0",
     "cssnano": "4.1.0",
