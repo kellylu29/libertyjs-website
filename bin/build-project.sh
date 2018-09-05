@@ -3,26 +3,19 @@
 # Exit if any subcommand fails.
 set -e
 
-if [ -z "$1" ]
-then
-    echo "Usage: ./bin/build-project.sh <deploy-branch-name>"
-    exit 1
-fi
-
 # Variables
 ORIGIN_URL=`git config --get remote.origin.url`
 
 echo "Started deploying"
 
 # Checkout deploy branch.
-if [ `git branch | grep $1` ]
+if [ 'git branch | grep build-production' ]
 then
-  git branch -D $1
+  git branch -D 'build-production'
 fi
-git checkout -b $1
+git checkout -b 'build-production'
 
 # Build site.
-npm install --production
 npm run build
 
 # Delete and move files.
@@ -33,8 +26,8 @@ git config user.name "$USER_NAME"
 git config user.email "$USER_EMAIL"
 
 git add -fA
-git commit --allow-empty -m "Build: $1 [ci skip]"
-git push -f $ORIGIN_URL $1
+git commit --allow-empty -m "Build: build-production [ci skip]"
+git push -f $ORIGIN_URL 'build-production'
 
 # Move back to previous branch.
 git checkout -
