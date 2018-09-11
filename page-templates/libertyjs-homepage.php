@@ -6,15 +6,28 @@ Template Name: Homepage
 <?php get_header(); ?>
 
 
-<!-- <div class="ljs-header-cta__container">
+<div class="ljs-header-cta__container">
 	<div class="ljs-header-cta__countdown-container">
+		<div id="clockdiv">
+			<span class="ljs-header-cta__countdown-days"></span>
+			<span class="ljs-header-cta__countdown-smalltext">Days</span>
+			<span class="ljs-header-cta__countdown-hours"></span>
+			<span class="ljs-header-cta__countdown-smalltext">Hrs</span>
+			<span class="ljs-header-cta__countdown-minutes"></span>
+			<span class="ljs-header-cta__countdown-smalltext">Min</span>
+			<span class="ljs-header-cta__countdown-seconds"></span>
+			<span class="ljs-header-cta__countdown-smalltext">Sec</span>
+		</div>
 	</div>
 	<div class="ljs-header-cta__cta-container">
-		<p>
-			<strong>It was fun, see you next year!</strong>
-		</p>
+		<strong>Get your ticket before they sell out!</strong>
+		<a
+			class="ljs-header-cta__ticket-purchase"
+			href="/product/2018-ticket/">
+			Purchase
+		</a>
 	</div>
-</div> -->
+</div>
 
 <div class="ljs-header__container-overlay">
 	<div class="ljs-header__container">
