@@ -83,7 +83,7 @@ Template Name: Homepage
 	<h2>Venue</h2>
 	<img
 		class="ljs-venue__venue-image"
-		src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-venue.png"
+		src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-venue.jpg"
 		alt="Venue Image">
 	<div class="ljs-venue__info-container">
 		<h3 id="venue">
