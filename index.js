@@ -1,7 +1,7 @@
 /* global clearInterval:true, document:true, jQuery:true, setInterval:true */
 // Countdown! Borrowed heavily from https://codepen.io/SitePoint/pen/MwNPVq
 ( function() {
-	var deadline = new Date( 2017, 11, 1 );
+	var deadline = new Date( 2018, 11, 1 );
 
 	function getTimeRemaining( endtime ) {
 		var t = Date.parse( endtime ) - Date.parse( new Date() );
