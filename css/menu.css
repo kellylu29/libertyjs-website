@@ -134,10 +134,10 @@
 	transition-duration: 0.5s;
 }
 
-.page-template-libertyjs-2017-homepage .ljs-menu__menu-toggle,
-.page-template-libertyjs-2017-homepage .ljs-menu__menu-container,
-.page-template-libertyjs-2017-homepage .ljs-menu__menu-logo,
-.page-template-libertyjs-2017-homepage .ljs-menu__menu-menu {
+.page-template-libertyjs-homepage .ljs-menu__menu-toggle,
+.page-template-libertyjs-homepage .ljs-menu__menu-container,
+.page-template-libertyjs-homepage .ljs-menu__menu-logo,
+.page-template-libertyjs-homepage .ljs-menu__menu-menu {
 	top: var( --ljs-menu__home-top-value );
 	@media only screen and (max-width: 750px) {
 		top: var( --ljs-menu__home-top-value-mobile );
