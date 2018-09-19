@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<?php the_post(); ?>
 				<h3>
 					<a href="<?php echo esc_url( get_permalink() ); ?>">
-						<?php the_title() ?>
+						<?php the_title(); ?>
 					</a>
 				</h3>
 				<?php the_content(); ?>
