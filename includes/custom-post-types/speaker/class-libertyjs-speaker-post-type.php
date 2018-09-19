@@ -101,7 +101,7 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 					class="width99" />
 			</p>
 			<?php
-			wp_nonce_field( 'speaker_' . $post->ID );
+			wp_nonce_field( 'save_speaker', 'speaker_' . $post->ID );
 		}
 
 		/**
@@ -113,27 +113,28 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 			$labels = array(
 				'name'               => _x( 'Speakers', 'Post Type General Name', 'twentythirteen' ),
 				'singular_name'      => _x( 'Speaker', 'Post Type Singular Name', 'twentythirteen' ),
-				'menu_name'          => __( 'Speakers', 'libertyjs-2017' ),
-				'parent_item_colon'  => __( 'Parent Movie', 'libertyjs-2017' ),
-				'all_items'          => __( 'All Speakers', 'libertyjs-2017' ),
-				'view_item'          => __( 'View Speaker', 'libertyjs-2017' ),
-				'add_new_item'       => __( 'Add New Speaker', 'libertyjs-2017' ),
-				'add_new'            => __( 'Add New', 'libertyjs-2017' ),
-				'edit_item'          => __( 'Edit Speaker', 'libertyjs-2017' ),
-				'update_item'        => __( 'Update Speaker', 'libertyjs-2017' ),
-				'search_items'       => __( 'Search Speaker', 'libertyjs-2017' ),
-				'not_found'          => __( 'Not Found', 'libertyjs-2017' ),
-				'not_found_in_trash' => __( 'Not found in Trash', 'libertyjs-2017' ),
+				'menu_name'          => __( 'Speakers', 'libertyjs' ),
+				'parent_item_colon'  => __( 'Parent Movie', 'libertyjs' ),
+				'all_items'          => __( 'All Speakers', 'libertyjs' ),
+				'view_item'          => __( 'View Speaker', 'libertyjs' ),
+				'add_new_item'       => __( 'Add New Speaker', 'libertyjs' ),
+				'add_new'            => __( 'Add New', 'libertyjs' ),
+				'edit_item'          => __( 'Edit Speaker', 'libertyjs' ),
+				'update_item'        => __( 'Update Speaker', 'libertyjs' ),
+				'search_items'       => __( 'Search Speaker', 'libertyjs' ),
+				'not_found'          => __( 'Not Found', 'libertyjs' ),
+				'not_found_in_trash' => __( 'Not found in Trash', 'libertyjs' ),
 			);
 
 			$args = array(
-				'label'               => __( 'speakers', 'libertyjs-2017' ),
-				'description'         => __( 'LibertyJS 2017 Speakers', 'libertyjs-2017' ),
+				'label'               => __( 'speakers', 'libertyjs' ),
+				'description'         => __( 'LibertyJS Speakers', 'libertyjs' ),
 				'labels'              => $labels,
 				'supports'            => array(),
 				'taxonomies'          => array( 'category', 'post_tag' ),
 				'hierarchical'        => false,
 				'public'              => true,
+				'rewrite'             => 'talks',
 				'show_ui'             => true,
 				'show_in_menu'        => true,
 				'menu_position'       => 5,
@@ -156,7 +157,10 @@ if ( ! class_exists( 'Libertyjs_Speaker_Post_Type' ) ) {
 		 */
 		public function save_speaker_custom_fields() {
 			global $post;
-			if ( get_post_type() !== 'speakers' || ! check_admin_referer( 'speaker_' . $post->ID ) ) {
+			if (
+				get_post_type() !== 'speakers' ||
+				! wp_verify_nonce( $_POST[ 'speaker_' . $post->ID ], 'save_speaker' )
+			) {
 				return;
 			}
 			if ( $post ) {

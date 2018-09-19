@@ -101,7 +101,7 @@ if ( ! class_exists( 'Libertyjs_Workshop_Leader_Post_Type' ) ) {
 					class="width99" />
 			</p>
 			<?php
-			wp_nonce_field( 'workshop-leaders_' . $post->ID );
+			wp_nonce_field( 'save_speaker', 'speaker_' . $post->ID );
 		}
 
 		/**
@@ -113,22 +113,22 @@ if ( ! class_exists( 'Libertyjs_Workshop_Leader_Post_Type' ) ) {
 			$labels = array(
 				'name'               => _x( 'Workshop Leaders', 'Post Type General Name', 'twentythirteen' ),
 				'singular_name'      => _x( 'Workshop Leader', 'Post Type Singular Name', 'twentythirteen' ),
-				'menu_name'          => __( 'Workshop Leaders', 'libertyjs-2017' ),
-				'parent_item_colon'  => __( 'Parent Movie', 'libertyjs-2017' ),
-				'all_items'          => __( 'All Workshop Leaders', 'libertyjs-2017' ),
-				'view_item'          => __( 'View Workshop Leader', 'libertyjs-2017' ),
-				'add_new_item'       => __( 'Add New Workshop Leader', 'libertyjs-2017' ),
-				'add_new'            => __( 'Add New', 'libertyjs-2017' ),
-				'edit_item'          => __( 'Edit Workshop Leader', 'libertyjs-2017' ),
-				'update_item'        => __( 'Update Workshop Leader', 'libertyjs-2017' ),
-				'search_items'       => __( 'Search Workshop Leader', 'libertyjs-2017' ),
-				'not_found'          => __( 'Not Found', 'libertyjs-2017' ),
-				'not_found_in_trash' => __( 'Not found in Trash', 'libertyjs-2017' ),
+				'menu_name'          => __( 'Workshop Leaders', 'libertyjs' ),
+				'parent_item_colon'  => __( 'Parent Movie', 'libertyjs' ),
+				'all_items'          => __( 'All Workshop Leaders', 'libertyjs' ),
+				'view_item'          => __( 'View Workshop Leader', 'libertyjs' ),
+				'add_new_item'       => __( 'Add New Workshop Leader', 'libertyjs' ),
+				'add_new'            => __( 'Add New', 'libertyjs' ),
+				'edit_item'          => __( 'Edit Workshop Leader', 'libertyjs' ),
+				'update_item'        => __( 'Update Workshop Leader', 'libertyjs' ),
+				'search_items'       => __( 'Search Workshop Leader', 'libertyjs' ),
+				'not_found'          => __( 'Not Found', 'libertyjs' ),
+				'not_found_in_trash' => __( 'Not found in Trash', 'libertyjs' ),
 			);
 
 			$args = array(
-				'label'               => __( 'workshop-leaders', 'libertyjs-2017' ),
-				'description'         => __( 'LibertyJS 2017 Workshop Leaders', 'libertyjs-2017' ),
+				'label'               => __( 'workshop-leaders', 'libertyjs' ),
+				'description'         => __( 'LibertyJS Workshop Leaders', 'libertyjs' ),
 				'labels'              => $labels,
 				'supports'            => array(),
 				'taxonomies'          => array( 'category', 'post_tag' ),
@@ -156,7 +156,10 @@ if ( ! class_exists( 'Libertyjs_Workshop_Leader_Post_Type' ) ) {
 		 */
 		public function save_workshop_leader_custom_fields() {
 			global $post;
-			if ( get_post_type() !== 'workshop-leaders' || ! check_admin_referer( 'workshop-leaders_' . $post->ID ) ) {
+			if (
+				get_post_type() !== 'workshop-leaders' ||
+				! wp_verify_nonce( $_POST[ 'speaker_' . $post->ID ], 'save_speaker' )
+			) {
 				return;
 			}
 			if ( $post ) {
