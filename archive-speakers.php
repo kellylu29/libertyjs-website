@@ -7,11 +7,13 @@ get_header();
 $args           = array(
 	'post_type'      => 'speakers',
 	'posts_per_page' => -1,
+	'tag'            => '2018',
 );
 $query          = new WP_Query( $args );
 $workshop_args  = array(
 	'post_type'      => 'workshop-leaders',
 	'posts_per_page' => -1,
+	'tag'            => '2018',
 );
 $workshop_query = new WP_Query( $workshop_args );
 
@@ -68,8 +70,8 @@ function output_speaker( $id ) {
 	<div class="ljs-grid__items">
 		<?php if ( $query->have_posts() ) : ?>
 			<?php while ( $query->have_posts() ) : ?>
-				<?php $query->the_post(); ?>
-				<?php output_speaker( $post->ID ); ?>
+				<?php $query->current_post(); ?>
+				<?php output_speaker( get_the_ID() ); ?>
 			<?php endwhile; ?>
 		<?php endif; ?>
 	</div>
@@ -85,7 +87,7 @@ function output_speaker( $id ) {
 		<div class="ljs-grid__items">
 			<?php while ( $workshop_query->have_posts() ) : ?>
 				<?php $workshop_query->the_post(); ?>
-				<?php output_speaker( $post->ID ); ?>
+				<?php output_speaker( get_the_ID() ); ?>
 			<?php endwhile; ?>
 		</div>
 	</div>
