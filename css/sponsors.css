@@ -155,7 +155,9 @@ a.ljs-sponsors__sponsor-large[href='http://www.urbn.com/'] img {
 	display: inherit;
 
 	@media only screen and (max-width: 750px) {
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 }
 

@@ -117,6 +117,112 @@ Template Name: Homepage
 		<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 	</div>
 </div>
+<div class="ljs-sponsors-mobile__container">
+	<div class="ljs-sponsors-mobile__sponsor-large ljs-sponsors__show-block">
+		<a href="https://www.linode.com/" target="_blank">
+			<img
+				class="ljs-sponsors-mobile__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-linode-logo.jpg"
+				alt="Linode Logo">
+			<h3>Linode</h3>
+		</a>
+	</div>
+	<div class="ljs-sponsors-mobile__sponsor ljs-sponsors__show">
+		<a href="http://my.xfinity.com/" target="_blank">
+			<img
+				class="ljs-sponsors-mobile__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-comcast-logo.png"
+				alt="Comcast Logo">
+		</a>
+	</div>
+	<div class="ljs-sponsors-mobile__sponsor ljs-sponsors__show">
+		<a href="https://chariotsolutions.com/" target="_blank">
+			<img
+				class="ljs-sponsors-mobile__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-chariot-logo.jpg"
+				alt="Chariot Solutions Logo">
+		</a>
+	</div>
+	<div class="ljs-sponsors-mobile__sponsor ljs-sponsors__show">
+		<a href="https://www.workarea.com/" target="_blank">
+			<img
+				class="ljs-sponsors-mobile__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-workarea-logo.svg"
+				alt="Workarea Logo">
+		</a>
+	</div>
+	<div class="ljs-sponsors-mobile__sponsor ljs-sponsors__show">
+		<a href="https://stratisiot.com/" target="_blank">
+			<img
+				class="ljs-sponsors-mobile__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-stratis-iot-logo.jpg"
+				alt="STRATIS IoT Logo">
+		</a>
+	</div>
+
+</div>
+<div class="ljs-sponsors__container">
+	<div class="ljs-sponsors__sponsor-block ljs-sponsors__show">
+		<div class="ljs-sponsors__sponsor-empty">
+
+		</div>
+		<div class="ljs-sponsors__sponsor-empty">
+
+		</div>
+		<a
+			class="ljs-sponsors__sponsor ljs-sponsors__show"
+			href="http://my.xfinity.com/"
+			target="_blank">
+			<img
+				class="ljs-sponsors__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-comcast-logo.png"
+				alt="Comcast Logo">
+		</a>
+		<a
+			class="ljs-sponsors__sponsor ljs-sponsors__show"
+			href="https://chariotsolutions.com/"
+			target="_blank">
+			<img
+				class="ljs-sponsors__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-chariot-logo.jpg"
+				alt="Chariot Solutions Logo">
+		</a>
+	</div>
+	<div class="ljs-sponsors__sponsor-block ljs-sponsors__show">
+		<a
+			class="ljs-sponsors__sponsor-large"
+			href="https://www.linode.com/"
+			target="_blank">
+			<img
+				class="ljs-sponsors__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-linode-logo.jpg"
+				alt="Linode Logo">
+			<h3>Linode</h3>
+			<p></p>
+		</a>
+
+	</div>
+	<div class="ljs-sponsors__sponsor-block ljs-sponsors__show">
+		<a
+			class="ljs-sponsors__sponsor ljs-sponsors__show"
+			href="https://www.workarea.com/"
+			target="_blank">
+			<img
+				class="ljs-sponsors__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-workarea-logo.svg"
+				alt="Workarea Logo">
+		</a>
+		<a
+			class="ljs-sponsors__sponsor ljs-sponsors__show"
+			href="https://stratisiot.com/"
+			target="_blank">
+			<img
+				class="ljs-sponsors__logo"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-stratis-iot-logo.jpg"
+				alt="STRATIS IoT Logo">
+		</a>
+	</div>
+</div>
 <div class="ljs-lastyear__container" id="2016">
 	<div class="ljs-lastyear__heading">
 		<h2>#PREVIOUS YEARS</h2>
