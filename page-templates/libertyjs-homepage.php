@@ -147,7 +147,7 @@ Template Name: Homepage
 		<a href="https://www.workarea.com/" target="_blank">
 			<img
 				class="ljs-sponsors-mobile__logo"
-				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-workarea-logo.svg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-workarea-logo.png"
 				alt="Workarea Logo">
 		</a>
 	</div>
@@ -209,7 +209,7 @@ Template Name: Homepage
 			target="_blank">
 			<img
 				class="ljs-sponsors__logo"
-				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-workarea-logo.svg"
+				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-workarea-logo.png"
 				alt="Workarea Logo">
 		</a>
 		<a
