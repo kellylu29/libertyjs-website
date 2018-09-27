@@ -71,7 +71,7 @@ function output_speaker( $id ) {
 		<?php if ( $query->have_posts() ) : ?>
 			<?php while ( $query->have_posts() ) : ?>
 				<?php $query->current_post(); ?>
-				<?php output_speaker( get_the_ID() ); ?>
+				<?php  ?>
 			<?php endwhile; ?>
 		<?php endif; ?>
 	</div>
@@ -87,7 +87,7 @@ function output_speaker( $id ) {
 		<div class="ljs-grid__items">
 			<?php while ( $workshop_query->have_posts() ) : ?>
 				<?php $workshop_query->the_post(); ?>
-				<?php output_speaker( get_the_ID() ); ?>
+				<?php  ?>
 			<?php endwhile; ?>
 		</div>
 	</div>
