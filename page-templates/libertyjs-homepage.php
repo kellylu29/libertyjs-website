@@ -124,7 +124,6 @@ Template Name: Homepage
 				class="ljs-sponsors-mobile__logo"
 				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-linode-logo.jpg"
 				alt="Linode Logo">
-			<h3>Linode</h3>
 		</a>
 	</div>
 	<div class="ljs-sponsors-mobile__sponsor ljs-sponsors__show">
@@ -197,8 +196,6 @@ Template Name: Homepage
 				class="ljs-sponsors__logo"
 				src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/img/2018/ljs-linode-logo.jpg"
 				alt="Linode Logo">
-			<h3>Linode</h3>
-			<p></p>
 		</a>
 
 	</div>
