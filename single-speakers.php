@@ -11,7 +11,7 @@ function output_speaker( $id ) {
 	$image     = get_post_meta( $id, 'image', true );
 	$instagram = get_post_meta( $id, 'instagram', true );
 	$linkedin  = get_post_meta( $id, 'linkedin', true );
-	$name      = get_post_meta( $id, 'name', true );
+	$name      = get_the_title( $id );
 	$secondary = get_post_meta( $id, 'secondary', true );
 	$twitter   = get_post_meta( $id, 'twitter', true );
 	?>
@@ -55,7 +55,7 @@ function output_speaker( $id ) {
 		<?php the_post(); ?>
 		<?php output_speaker( get_the_ID() ); ?>
 		<h1 class="ljs-speaker__heading">
-				<?php echo esc_html( get_the_title() ); ?>
+				<?php echo esc_html( get_post_meta( $id, 'name', true ) ); ?>
 		</h1>
 		<div class="ljs-speaker__content">
 			<?php the_content(); ?>

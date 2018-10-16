@@ -46,7 +46,7 @@ if ( ! class_exists( 'Libertyjs_Workshop_Leader_Post_Type' ) ) {
 			?>
 			<style>.width99 { width: 99%; }</style>
 			<p>
-				<label>Name:</label><br />
+				<label>Talk Title:</label><br />
 				<input
 					type="text"
 					name="name"
@@ -54,7 +54,7 @@ if ( ! class_exists( 'Libertyjs_Workshop_Leader_Post_Type' ) ) {
 					class="width99" />
 			</p>
 			<p>
-				<label>Secondary:</label><br />
+				<label>Company/Job Title:</label><br />
 				<input
 					type="text"
 					name="secondary"

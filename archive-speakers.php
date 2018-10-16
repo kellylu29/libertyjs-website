@@ -22,12 +22,11 @@ function output_speaker( $id ) {
 	$image     = get_post_meta( $id, 'image', true );
 	$instagram = get_post_meta( $id, 'instagram', true );
 	$linkedin  = get_post_meta( $id, 'linkedin', true );
-	$name      = get_post_meta( $id, 'name', true );
+	$name      = get_the_title( $id );
 	$secondary = get_post_meta( $id, 'secondary', true );
 	$twitter   = get_post_meta( $id, 'twitter', true );
 	$permalink = get_permalink( $id );
 	?>
-
 	<div class="ljs-grid__item">
 		<div class="ljs-grid__item-name"><a href="<?php echo esc_url( $permalink ); ?>"><?php echo esc_html( $name ); ?></a></div>
 		<div class="ljs-grid__item-jobtitle"><?php echo esc_html( $secondary ); ?></div>
