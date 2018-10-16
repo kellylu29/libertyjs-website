@@ -85,3 +85,47 @@ h1.ljs-speaker__heading {
 .ljs-speaker__content p {
 	padding: 0.5vw 0;
 }
+
+.ljs-speaker__social-container {
+	display: flex;
+	height: 21.2vw;
+	justify-content: center;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 21.2vw;
+
+	@media only screen and (max-width: 750px) {
+		height: 70vw;
+		width: 70vw;
+	}
+}
+
+.ljs-speaker__social-container:hover {
+	background-color: rgba( 204, 125, 188, 0.5 );
+	opacity: 1;
+}
+
+.ljs-speaker__social-container a {
+	color: #ffffff;
+	cursor: pointer;
+	margin: 8.5vw 1vw;
+	text-decoration: none;
+
+	@media only screen and (max-width: 750px) {
+		margin: 28vw 2vw;
+	}
+}
+
+.ljs-speaker__social-container a:hover {
+	color: #dedede;
+}
+
+.ljs-speaker__social-container a i {
+	font-size: 3vw;
+
+	@media only screen and (max-width: 750px) {
+		font-size: 12vw;
+	}
+}
