@@ -93,15 +93,23 @@
 
 .ljs-grid__item-name {
 	bottom: 0;
-	color: #255a8b;
-	font-size: 1.7vw;
-	font-weight: 800;
 	margin: 0 0 -1.8vw 0.3vw;
 	text-transform: uppercase;
 
 	@media only screen and (max-width: 750px) {
-		font-size: 4.7vw;
 		margin: 0 0 -2.8vw -0.3vw;
+	}
+}
+
+.ljs-grid__item-name a {
+	bottom: 0;
+	color: #255a8b;
+	font-size: 1.7vw;
+	font-weight: 800;
+	text-transform: uppercase;
+
+	@media only screen and (max-width: 750px) {
+		font-size: 4.7vw;
 	}
 }
 
