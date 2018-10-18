@@ -158,7 +158,7 @@ get_header();
 					<div class="ljs-template-schedule__speaker-info">
 						<span class="ljs-template-schedule__time">04:15 - 4:55</span>
 						<span class="ljs-template-schedule__name"><a href="https://libertyjs.com/speakers/adam-giese/">Adam Giese</a></span>
-						<span class="ljs-template-schedule__title">TComposing music with composed functions</span>
+						<span class="ljs-template-schedule__title">Composing music with composed functions</span>
 					</div>
 				</div>
 			</div>
