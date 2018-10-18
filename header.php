@@ -52,9 +52,9 @@
 				<ul>
 					<li><a href="/">Home</a></li>
 					<li><a href="/speakers">Speakers</a></li>
+					<li><a href="/schedule">Schedule</a></li>
 					<li><a href="/sponsor">Sponsor</a></li>
 					<li><a href="/volunteer">Volunteer</a></li>
-					<li><a href="/previous-years">Previous Years</a></li>
 					<li><a href="/code-of-conduct">Code of Conduct</a></li>
 				</ul>
 			</div>
